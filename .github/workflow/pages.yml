@@ -1,0 +1,31 @@
+# from Dustin's repo https://github.com/dabreegster/talks/tree/main/.github/workflows
+name: Deploy slides
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install quarto
+      run: |
+        wget https://github.com/quarto-dev/quarto-cli/releases/download/v0.9.4/quarto-0.9.4-linux-amd64.deb
+        sudo dpkg -i quarto-0.9.4-linux-amd64.deb
+    - name: Render
+      run: |
+        mkdir -p dist
+        for x in UA2-0_liverpool; do
+          cd $x
+          quarto render slides.md
+          cd ..
+          cp -Rv $x dist/
+        done
+    - name: Publish
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
