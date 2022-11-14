@@ -132,7 +132,6 @@ future scenario
 <br/>
       :point_down: <br/>
 <br/>
-indicator
 land use as explanatory variables
 :::
 
