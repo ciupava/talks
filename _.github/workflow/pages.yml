@@ -18,7 +18,7 @@ jobs:
     - name: Render
       run: |
         mkdir -p dist
-        for x in UA20_liverpool; do
+        for x in UA20_liverpool team_call_Dec2023_fAIr; do
           cd $x
           quarto render slides.md
           cd ..
