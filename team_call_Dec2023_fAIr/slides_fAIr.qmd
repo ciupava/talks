@@ -31,16 +31,7 @@ This presentation will show you examples of what you can do with Quarto and [Rev
 -   Over 20 syntax highlighting themes available
 -   Default theme optimized for accessibility
 
-``` r
-# Define a server for the Shiny app
-function(input, output) {
-  
-  # Fill in the spot we created for a plot
-  output$phonePlot <- renderPlot({
-    # Render a barplot
-  })
-}
-```
+
 
 ::: footer
 Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
@@ -50,21 +41,6 @@ Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-co
 
 -   Over 20 syntax highlighting themes available
 -   Default theme optimized for accessibility
-
-``` r
-# Define a server for the Shiny app
-function(input, output) {
-  
-  # Fill in the spot we created for a plot
-  output$phonePlot <- renderPlot({
-    # Render a barplot
-    barplot(WorldPhones[,input$region]*1000, 
-            main=input$region,
-            ylab="Number of Telephones",
-            xlab="Year")
-  })
-}
-```
 
 ::: footer
 Learn more: [Code Animations](https://quarto.org/docs/presentations/revealjs/advanced.html#code-animations)
@@ -92,64 +68,8 @@ plt.show()
 Learn more: [Line Highlighting](https://quarto.org/docs/presentations/revealjs/#line-highlighting)
 :::
 
-## Executable Code
 
-```{r}
-#| echo: true
-#| fig-width: 10
-#| fig-height: 4.5
-library(ggplot2)
-ggplot(mtcars, aes(hp, mpg, color = am)) +
-  geom_point() +
-  geom_smooth(formula = y ~ x, method = "loess")
-```
 
-::: footer
-Learn more: [Executable Code](https://quarto.org/docs/presentations/revealjs/#executable-code)
-:::
-
-## LaTeX Equations
-
-[MathJax](https://www.mathjax.org/) rendering of equations to HTML
-
-::: columns
-::: {.column width="40%"}
-``` tex
-\begin{gather*}
-a_1=b_1+c_1\\
-a_2=b_2+c_2-d_2+e_2
-\end{gather*}
-
-\begin{align}
-a_{11}& =b_{11}&
-  a_{12}& =b_{12}\\
-a_{21}& =b_{21}&
-  a_{22}& =b_{22}+c_{22}
-\end{align}
-```
-:::
-
-::: {.column width="60%"}
-```{=tex}
-\begin{gather*}
-a_1=b_1+c_1\\
-a_2=b_2+c_2-d_2+e_2
-\end{gather*}
-```
-```{=tex}
-\begin{align}
-a_{11}& =b_{11}&
-  a_{12}& =b_{12}\\
-a_{21}& =b_{21}&
-  a_{22}& =b_{22}+c_{22}
-\end{align}
-```
-:::
-:::
-
-::: footer
-Learn more: [LaTeX Equations](https://quarto.org/docs/authoring/markdown-basics.html#equations)
-:::
 
 ## Column Layout {.smaller}
 
@@ -166,9 +86,7 @@ The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel
 :::
 
 ::: {.column width="62%"}
-```{r}
-knitr::kable(head(mtcars)[,c("mpg",	"cyl", "disp", "hp", "wt")])
-```
+
 :::
 :::
 
@@ -326,70 +244,17 @@ Learn more: [Slide Transitions](https://quarto.org/docs/presentations/revealjs/a
 ## Tabsets {.smaller .scrollable transition="slide"}
 
 ::: panel-tabset
-### Plot
 
-```{r}
-library(ggplot2)
-ggplot(mtcars, aes(hp, mpg, color = am)) +
-  geom_point() +
-  geom_smooth(formula = y ~ x, method = "loess")
-```
 
-### Data
 
-```{r}
-knitr::kable(mtcars)
-```
-:::
-
-::: footer
-Learn more: [Tabsets](https://quarto.org/docs/presentations/revealjs/#tabsets)
-:::
-
-## Interactive Slides {.smaller transition="slide"}
-
-Include Jupyter widgets and htmlwidgets in your presentations
-
-```{r}
-#| echo: false
-#| fig-height: 5
-library(leaflet)
-leaflet() %>%
-  addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
-```
-
-::: footer
-Learn more: [Jupyter widgets](https://quarto.org/docs/interactive/widgets/jupyter.html), [htmlwidgets](https://quarto.org/docs/interactive/widgets/htmlwidgets.html)
-:::
 
 ## Interactive Slides {.smaller transition="slide"}
 
 Turn presentations into applications with Observable and Shiny. Use component layout to position inputs and outputs.
 
-```{r}
-ojs_define(actors = data.frame(
-  x = rnorm(100),
-  y = rnorm(100)
-))
-```
 
-```{ojs}
-//| panel: sidebar
-viewof talentWeight = Inputs.range([-2, 2], { value: 0.7, step: 0.01, label: "talent weight" })
-viewof looksWeight = Inputs.range([-2, 2], { value: 0.7, step: 0.01, label: "looks weight" })
-viewof minimum = Inputs.range([-2, 2], { value: 1, step: 0.01, label: "min fame" })
-```
 
-```{ojs}
-//| panel: fill
-import { plotActors } from './actors.js';
-plotActors(actors, talentWeight, looksWeight, minimum)
-```
 
-::: footer
-Learn more: [Observable](https://quarto.org/docs/interactive/ojs/), [Shiny](https://quarto.org/docs/interactive/shiny/), [Component Layout](https://quarto.org/docs/interactive/layout.html)
-:::
 
 ## Preview Links
 
@@ -501,15 +366,7 @@ Live side-by-side preview for any notebook or text editor including Jupyter and 
 Learn more: [Jupyter](https://quarto.org/docs/tools/jupyter-lab.html), [VS Code](https://quarto.org/docs/tools/vscode.html), [Text Editors](https://quarto.org/docs/tools/text-editors.html)
 :::
 
-## Authoring Tools {.smaller}
 
-RStudio includes an integrated presentation preview pane
-
-![](images/rstudio.png){.border width="900"}
-
-::: footer
-Learn more: [RStudio](https://quarto.org/docs/tools/rstudio.html)
-:::
 
 ## And More...
 
