@@ -14,62 +14,35 @@ format:
 
 ---
 
+## Introduction
 
-
-## Hello, There
-
-This presentation will show you examples of what you can do with Quarto and [Reveal.js](https://revealjs.com), including:
-
--   Presenting code and LaTeX equations
--   Including computations in slide output
--   Image, video, and iframe backgrounds
--   Fancy transitions and animations
--   Printing to PDF
-
-...and much more
-
-## Pretty Code {auto-animate="true"}
-
--   Over 20 syntax highlighting themes available
--   Default theme optimized for accessibility
-
-
-
-::: footer
-Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
+::: {.fragment .fade-in-then-semi-out}
+Presenting HOT and fAIr
+:::
+::: {.fragment .fade-in-then-semi-out}
+Demo
+:::
+::: {.fragment .fade-in-then-semi-out}
+Computer Vision
+:::
+::: {.fragment .fade-in-then-semi-out}
+State of the art in Image Segmentation
 :::
 
-## Code Animations {auto-animate="true"}
+## Introduction to HOT and fAIr
 
--   Over 20 syntax highlighting themes available
--   Default theme optimized for accessibility
+HOT
+![](mini/images/HOTlogo.png){.absolute top="170" left="30"}
 
-::: footer
-Learn more: [Code Animations](https://quarto.org/docs/presentations/revealjs/advanced.html#code-animations)
-:::
+<br/>
 
-## Line Highlighting
+## Introduction to HOT and fAIr {background="#43464B" background-image="images/fair_slide.png"}
 
--   Highlight specific lines for emphasis
--   Incrementally highlight additional lines
+fAIr
 
-``` {.python code-line-numbers="4-5|7|10"}
-import numpy as np
-import matplotlib.pyplot as plt
+## Introduction to HOT and fAIr {background="#43464B" background-image="images/fair_why.png"}
 
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-::: footer
-Learn more: [Line Highlighting](https://quarto.org/docs/presentations/revealjs/#line-highlighting)
-:::
-
+fAIr
 
 
 
