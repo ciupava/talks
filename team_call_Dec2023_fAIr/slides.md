@@ -1,6 +1,6 @@
 ---
-title: "Quarto Presentations"
-subtitle: "Create beautiful interactive slide decks with Reveal.js"
+title: "Mapping buildings with AI"
+subtitle: "Scoping the semi-automatic generation of buildings footprints for humanitarian mapping (and more)"
 format:
   revealjs: 
     slide-number: true
