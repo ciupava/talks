@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "UA20_Liverpool/slides.html#intro-1",
+    "href": "UA20_Liverpool/slides.html#intro-1",
+    "title": "Land Use Demonstrator",
+    "section": "Intro",
+    "text": "Intro\n\n\n\n\n\n\n\n\nObjective\nmodelling system to quantify features of land use in 🏢 environment\n\n\n\n\n\n\n\n\n\n\n\n\nOutput\nMap for 🇬🇧 urban areas (MSOA level)"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#intro-2",
+    "href": "UA20_Liverpool/slides.html#intro-2",
+    "title": "Land Use Demonstrator",
+    "section": "Intro",
+    "text": "Intro\n\n\n\n\n\n\n\n\nObjective\nmodelling system to quantify features of land use in 🏢 environment\n\n\n\n\n\n\n\n\n\n\n\nOutput\nMap for 🇬🇧 urban areas (MSOA level)\n\n\n\n\n\n\n\n\n\n\n\nHow\nBuilding several 🔑 indicators"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#indicators-1",
+    "href": "UA20_Liverpool/slides.html#indicators-1",
+    "title": "Land Use Demonstrator",
+    "section": "Indicators",
+    "text": "Indicators\n\n\n\nbase scenario \n\n\nfuture scenario"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#indicators-2",
+    "href": "UA20_Liverpool/slides.html#indicators-2",
+    "title": "Land Use Demonstrator",
+    "section": "Indicators",
+    "text": "Indicators\n\n\n\nbase scenario \n\n\nfuture scenario"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#indicators-3",
+    "href": "UA20_Liverpool/slides.html#indicators-3",
+    "title": "Land Use Demonstrator",
+    "section": "Indicators",
+    "text": "Indicators\n\n\n\nbase scenario \n\n\nfuture scenario"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#indicators-4",
+    "href": "UA20_Liverpool/slides.html#indicators-4",
+    "title": "Land Use Demonstrator",
+    "section": "Indicators",
+    "text": "Indicators\n\n\n\nbase scenario \n\n\nfuture scenario"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#base-scenario",
+    "href": "UA20_Liverpool/slides.html#base-scenario",
+    "title": "Land Use Demonstrator",
+    "section": "Base scenario",
+    "text": "Base scenario\n\n\n\n\n\n\nLand Use Regression         👇   land use as explanatory variables"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#base-scenario-1",
+    "href": "UA20_Liverpool/slides.html#base-scenario-1",
+    "title": "Land Use Demonstrator",
+    "section": "Base scenario",
+    "text": "Base scenario\n\n\n\n\n\n\n4 indicators  ▫️ GHG emissions 💨 ▫️ Green space       accessibility 🌳 ▫️ Jobs accessibility 👷 ▫️ House prices 🏠 💰"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#base-scenario-2",
+    "href": "UA20_Liverpool/slides.html#base-scenario-2",
+    "title": "Land Use Demonstrator",
+    "section": "Base scenario",
+    "text": "Base scenario\n\n\n\n      \n\n\n4 indicators  ▫️ GHG emissions 💨 ▫️ Green space       accessibility 🌳 ▫️ Jobs accessibility 👷 ▫️ House prices 🏠 💰"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#base-scenario-3",
+    "href": "UA20_Liverpool/slides.html#base-scenario-3",
+    "title": "Land Use Demonstrator",
+    "section": "Base scenario",
+    "text": "Base scenario\n\n\n\n Indicator  GHG emissions 💨\n\n\n Land use variables  • n. of trips  • mode of transport    🚲 🚗 🚌 🚀  • distance travelled"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#futures-scenarios",
+    "href": "UA20_Liverpool/slides.html#futures-scenarios",
+    "title": "Land Use Demonstrator",
+    "section": "Futures scenarios",
+    "text": "Futures scenarios"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#futures-scenarios-1",
+    "href": "UA20_Liverpool/slides.html#futures-scenarios-1",
+    "title": "Land Use Demonstrator",
+    "section": "Futures scenarios",
+    "text": "Futures scenarios\n\n\n\n     \n\n\n effects of targeted intervention on land use"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#futures-scenarios-2",
+    "href": "UA20_Liverpool/slides.html#futures-scenarios-2",
+    "title": "Land Use Demonstrator",
+    "section": "Futures scenarios",
+    "text": "Futures scenarios\n\n\n\n   \n\n\n AI scenario builder tool"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#conclusions-1",
+    "href": "UA20_Liverpool/slides.html#conclusions-1",
+    "title": "Land Use Demonstrator",
+    "section": "Conclusions",
+    "text": "Conclusions\n\n\n\n                👀 👂"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#conclusions-2",
+    "href": "UA20_Liverpool/slides.html#conclusions-2",
+    "title": "Land Use Demonstrator",
+    "section": "Conclusions",
+    "text": "Conclusions\n\n\n\n                👀 👂\n\n\n project name 💬"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#conclusions-3",
+    "href": "UA20_Liverpool/slides.html#conclusions-3",
+    "title": "Land Use Demonstrator",
+    "section": "Conclusions",
+    "text": "Conclusions\n\n\n\n                👀 👂\n\n\nData (MSOA level)  ▫️ GHG emissions 💨 ☑️  Green space       accessibility 🌳 ▫️ Jobs accessibility 👷 ▫️ House prices 🏠 💰"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#hello-there",
+    "href": "team_call_Dec2023_fAIr/slides.html#hello-there",
+    "title": "Quarto Presentations",
+    "section": "Hello, There",
+    "text": "Hello, There\nThis presentation will show you examples of what you can do with Quarto and Reveal.js, including:\n\nPresenting code and LaTeX equations\nIncluding computations in slide output\nImage, video, and iframe backgrounds\nFancy transitions and animations\nPrinting to PDF\n\n…and much more"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#pretty-code",
+    "href": "team_call_Dec2023_fAIr/slides.html#pretty-code",
+    "title": "Quarto Presentations",
+    "section": "Pretty Code",
+    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n\nLearn more: Syntax Highlighting"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#code-animations",
+    "href": "team_call_Dec2023_fAIr/slides.html#code-animations",
+    "title": "Quarto Presentations",
+    "section": "Code Animations",
+    "text": "Code Animations\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n\nLearn more: Code Animations"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#line-highlighting",
+    "href": "team_call_Dec2023_fAIr/slides.html#line-highlighting",
+    "title": "Quarto Presentations",
+    "section": "Line Highlighting",
+    "text": "Line Highlighting\n\nHighlight specific lines for emphasis\nIncrementally highlight additional lines\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\nLearn more: Line Highlighting"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#column-layout",
+    "href": "team_call_Dec2023_fAIr/slides.html#column-layout",
+    "title": "Quarto Presentations",
+    "section": "Column Layout",
+    "text": "Column Layout\nArrange content into columns of varying widths:\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\nLearn more: Multiple Columns"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#incremental-lists",
+    "href": "team_call_Dec2023_fAIr/slides.html#incremental-lists",
+    "title": "Quarto Presentations",
+    "section": "Incremental Lists",
+    "text": "Incremental Lists\nLists can optionally be displayed incrementally:\n\n\nFirst item\nSecond item\nThird item\n\n\n\n Insert pauses to make other types of content display incrementally.\n\nLearn more: Incremental Lists"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#fragments",
+    "href": "team_call_Dec2023_fAIr/slides.html#fragments",
+    "title": "Quarto Presentations",
+    "section": "Fragments",
+    "text": "Fragments\nIncremental text display and animation with fragments:\n\n\nFade in\n\n\nSlide up while fading in\n\n\nSlide left while fading in\n\n\nFade in then semi out\n\n\n\nStrike\n\n\nHighlight red\n\n\nLearn more: Fragments"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#slide-backgrounds",
+    "href": "team_call_Dec2023_fAIr/slides.html#slide-backgrounds",
+    "title": "Quarto Presentations",
+    "section": "Slide Backgrounds",
+    "text": "Slide Backgrounds\nSet the background attribute on a slide to change the background color (all CSS color formats are supported).\nDifferent background transitions are available via the background-transition option.\n\nLearn more: Slide Backgrounds"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#media-backgrounds",
+    "href": "team_call_Dec2023_fAIr/slides.html#media-backgrounds",
+    "title": "Quarto Presentations",
+    "section": "Media Backgrounds",
+    "text": "Media Backgrounds\nYou can also use the following as a slide background:\n\nAn image: background-image\nA video: background-video\nAn iframe: background-iframe\n\n\nLearn more: Media Backgrounds"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#absolute-position",
+    "href": "team_call_Dec2023_fAIr/slides.html#absolute-position",
+    "title": "Quarto Presentations",
+    "section": "Absolute Position",
+    "text": "Absolute Position\nPosition images or other elements at precise locations\n\n\n\n\nLearn more: Absolute Position"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#auto-animate",
+    "href": "team_call_Dec2023_fAIr/slides.html#auto-animate",
+    "title": "Quarto Presentations",
+    "section": "Auto-Animate",
+    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#auto-animate-1",
+    "href": "team_call_Dec2023_fAIr/slides.html#auto-animate-1",
+    "title": "Quarto Presentations",
+    "section": "Auto-Animate",
+    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#slide-transitions",
+    "href": "team_call_Dec2023_fAIr/slides.html#slide-transitions",
+    "title": "Quarto Presentations",
+    "section": "Slide Transitions",
+    "text": "Slide Transitions\nThe next few slides will transition using the slide transition\n\n\n\n\n\n\n\nTransition\nDescription\n\n\n\n\nnone\nNo transition (default, switch instantly)\n\n\nfade\nCross fade\n\n\nslide\nSlide horizontally\n\n\nconvex\nSlide at a convex angle\n\n\nconcave\nSlide at a concave angle\n\n\nzoom\nScale the incoming slide so it grows in from the center of the screen.\n\n\n\n\nLearn more: Slide Transitions"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#tabsets",
+    "href": "team_call_Dec2023_fAIr/slides.html#tabsets",
+    "title": "Quarto Presentations",
+    "section": "Tabsets",
+    "text": "Tabsets\n::: panel-tabset"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#interactive-slides",
+    "href": "team_call_Dec2023_fAIr/slides.html#interactive-slides",
+    "title": "Quarto Presentations",
+    "section": "Interactive Slides",
+    "text": "Interactive Slides\nTurn presentations into applications with Observable and Shiny. Use component layout to position inputs and outputs."
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#preview-links",
+    "href": "team_call_Dec2023_fAIr/slides.html#preview-links",
+    "title": "Quarto Presentations",
+    "section": "Preview Links",
+    "text": "Preview Links\nNavigate to hyperlinks without disrupting the flow of your presentation.\nUse the preview-links option to open links in an iframe on top of your slides. Try clicking the link below for a demonstration:\n\nMatplotlib: Visualization with Python\n\n\nLearn more: Preview Links"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#themes",
+    "href": "team_call_Dec2023_fAIr/slides.html#themes",
+    "title": "Quarto Presentations",
+    "section": "Themes",
+    "text": "Themes\n10 Built-in Themes (or create your own)\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Themes"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#easy-navigation",
+    "href": "team_call_Dec2023_fAIr/slides.html#easy-navigation",
+    "title": "Quarto Presentations",
+    "section": "Easy Navigation",
+    "text": "Easy Navigation\n\nQuickly jump to other parts of your presentation\n\n\n\n\n\n\n\nToggle the slide menu with the menu button (bottom left of slide) to go to other slides and access presentation tools.\n\n\n\nYou can also press m to toggle the menu open and closed.\n\nLearn more: Navigation"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#chalkboard",
+    "href": "team_call_Dec2023_fAIr/slides.html#chalkboard",
+    "title": "Quarto Presentations",
+    "section": "Chalkboard",
+    "text": "Chalkboard\n\nFree form drawing and slide annotations\n\n\n\n\n\n\n\nUse the chalkboard button at the bottom left of the slide to toggle the chalkboard.\n\n\n\n\n\n\n\n\n\nUse the notes canvas button at the bottom left of the slide to toggle drawing on top of the current slide.\n\n\n\nYou can also press b to toggle the chalkboard or c to toggle the notes canvas.\n\nLearn more: Chalkboard"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#point-of-view",
+    "href": "team_call_Dec2023_fAIr/slides.html#point-of-view",
+    "title": "Quarto Presentations",
+    "section": "Point of View",
+    "text": "Point of View\nPress o to toggle overview mode:\n\nHold down the Alt key (or Ctrl in Linux) and click on any element to zoom towards it—try it now on this slide.\n\nLearn more: Overview Mode, Slide Zoom"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#speaker-view",
+    "href": "team_call_Dec2023_fAIr/slides.html#speaker-view",
+    "title": "Quarto Presentations",
+    "section": "Speaker View",
+    "text": "Speaker View\nPress s (or use the presentation menu) to open speaker view\n\n\nLearn more: Speaker View"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#authoring-tools",
+    "href": "team_call_Dec2023_fAIr/slides.html#authoring-tools",
+    "title": "Quarto Presentations",
+    "section": "Authoring Tools",
+    "text": "Authoring Tools\nLive side-by-side preview for any notebook or text editor including Jupyter and VS Code\n\n\n\n\n\n\n\n\nLearn more: Jupyter, VS Code, Text Editors"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#and-more",
+    "href": "team_call_Dec2023_fAIr/slides.html#and-more",
+    "title": "Quarto Presentations",
+    "section": "And More…",
+    "text": "And More…\n\nTouch optimized (presentations look great on mobile, swipe to navigate slides)\nFooter & Logo (optionally specify custom footer per-slide)\nAuto-Slide (step through slides automatically, without any user input)\nMultiplex (allows your audience to follow the slides of the presentation you are controlling on their own phone, tablet or laptop).\n\n\nLearn more: Quarto Presentations\n\n\n\n\nhttps://quarto.org"
+  }
+]
