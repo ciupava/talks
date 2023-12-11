@@ -28,11 +28,15 @@ Computer Vision
 ::: {.fragment .fade-in-then-semi-out}
 State of the art in Image Segmentation
 :::
+::: {.fragment .fade-in-then-semi-out}
+Current status of the project
+:::
 
 ## Introduction to HOT and fAIr
 
 HOT
 ![](mini/images/HOTlogo.png){.absolute top="170" left="30"}
+![](mini/images/OSMlogo.png){.absolute top="170" left="170"}
 
 <br/>
 
@@ -44,14 +48,60 @@ fAIr
 
 fAIr
 
+## Demo
+
+## Let's make it work better!
+
+## (short) Intro to Computer Vision
+Image Segmentation
 
 
-## Column Layout {.smaller}
+## (short) Intro to Computer Vision
+Image Segmentation for buildings footprints
+
+
+## Let's make it work better!
+
+<br/>
+Challenges
+
+## Let's make it work better! {background="#43464B" background-image="images/models_list.png"}
+
+<br/>
+Challenges
+
+## Let's make it work better! 
+
+<br/>
+Challenges
+
+![](mini/images/maxar_osm.png){.absolute top="100" left="30"}
+https://wiki.openstreetmap.org/wiki/Maxar
+
+![](mini/images/maxar_open.png){.absolute top="170" left="30"}
+https://www.maxar.com/open-data
+
+![](mini/images/oam.png){.absolute top="210" left="30"}
+
+
+
+## Status of the project
+
+::: incremental
+-   First trials
+-   Cloud computing
+-   A name?
+:::
+
+
+
+
 
 Arrange content into columns of varying widths:
 
 ::: columns
 ::: {.column width="35%"}
+
 #### Motor Trend Car Road Tests
 
 The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.
