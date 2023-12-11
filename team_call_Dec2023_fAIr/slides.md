@@ -9,10 +9,12 @@ format:
     preview-links: auto
     logo: images/quarto.png
     css: styles.css
-    footer: <https://quarto.org>
-resources:
-  - demo.pdf
+    theme: moon
+    footer: <These slides at https://ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html>
+
 ---
+
+
 
 ## Hello, There
 
@@ -348,33 +350,3 @@ Press `s` (or use the presentation menu) to open speaker view
 Learn more: [Speaker View](https://quarto.org/docs/presentations/revealjs/presenting.html#speaker-view)
 :::
 
-## Authoring Tools {.smaller}
-
-Live side-by-side preview for any notebook or text editor including Jupyter and VS Code
-
-::: columns
-::: {.column width="50%"}
-![](images/jupyter-edit.png){.border .border-thick}
-:::
-
-::: {.column width="50%"}
-![](images/jupyter-preview.png){.border .border-thick}
-:::
-:::
-
-::: footer
-Learn more: [Jupyter](https://quarto.org/docs/tools/jupyter-lab.html), [VS Code](https://quarto.org/docs/tools/vscode.html), [Text Editors](https://quarto.org/docs/tools/text-editors.html)
-:::
-
-
-
-## And More...
-
--   [Touch](https://quarto.org/docs/presentations/revealjs/advanced.html#touch-navigation) optimized (presentations look great on mobile, swipe to navigate slides)
--   [Footer & Logo](https://quarto.org/docs/presentations/revealjs/#footer-logo) (optionally specify custom footer per-slide)
--   [Auto-Slide](https://quarto.org/docs/presentations/revealjs/presenting.html#auto-slide) (step through slides automatically, without any user input)
--   [Multiplex](https://quarto.org/docs/presentations/revealjs/presenting.html#multiplex) (allows your audience to follow the slides of the presentation you are controlling on their own phone, tablet or laptop).
-
-::: footer
-Learn more: [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/)
-:::
