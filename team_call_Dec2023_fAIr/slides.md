@@ -14,6 +14,12 @@ format:
 
 ---
 
+
+
+## Introduction {background="#43464B" background-image="images/background_me.png"}
+
+
+
 ## Introduction
 
 ::: {.fragment .fade-in-then-semi-out}
