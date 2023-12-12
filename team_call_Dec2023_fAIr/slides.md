@@ -26,7 +26,7 @@ format:
 
 <i class='fa fa-eye'></i> Demo
 
-<i class='fa fa-laptop'></i> Intro on computer Vision  <i class='fa fa-arrow-right'></i> Image segmentation
+<i class='fa fa-laptop'></i> On computer Vision
 
 <i class='fa fa-map-marker'></i> </i> Current status of the project
 
@@ -81,12 +81,10 @@ format:
 <br/><br/><br/><br/><br/><br/>
 [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 
-## <i class='fa fa-eye'></i>
-<br/>
-<br/><br/>
-<br/>
-link to recorded video
-
+##
+<!-- ## <i class='fa fa-eye'></i> -->
+<video controls="controls" autopla id="my_video" class="video-js vjs-default-skin" width="1600" height="1200" src="file:////Users/azanchetta/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/Desktop/video_fAIr.mov" type='video/mov' />
+</video>
 
 # <i class='fa fa-rocket'></i> Let's make it work better!
 <!-- ## <i class='fa fa-rocket'></i> Let's make it work better! -->
@@ -95,7 +93,7 @@ link to recorded video
 <!-- ## Let's make it work better! -->
 
 <!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
-<i class='fa fa-laptop'></i> 
+<i class='fa fa-laptop'></i> **Computer Vision**
 <!-- *cnn graph image* -->
 
 ::: footer
@@ -128,6 +126,10 @@ Source: [GitHub](https://github.com/bohaohuang/mrs/tree/master)
 :::
 
 ## <i class='fa fa-puzzle-piece'></i> Challenges
+<!-- ## <i class='fa fa-rocket'></i>
+
+<i class='fa fa-puzzle-piece'></i> **Challenges** -->
+<br/>
 <!-- ## <i class='fa fa-rocket'></i>  -->
 <!-- ## Let's make it work better! {background-image="../images/models_list.png"} -->
 <br/>
@@ -136,7 +138,22 @@ Models availability
 <br/><br/><br/>
 [https://github.com/satellite-image-deep-learning/techniques](https://github.com/satellite-image-deep-learning/techniques)
 
-## <i class='fa fa-puzzle-piece'></i> Challenges
+<!-- ## <i class='fa fa-rocket'></i>
+
+<i class='fa fa-puzzle-piece'></i> **Challenges**
+<br/>
+<!-- ## <i class='fa fa-rocket'></i>
+<br/>
+Data availability
+<br/>
+![](../images/maxar_osm.png){.absolute top="190" left="150"}
+[Maxar](https://wiki.openstreetmap.org/wiki/Maxar)
+<br/><br/><br/><br/>
+![](../images/maxar_open.png){.absolute top="370" left="380"}
+[open data program](https://www.maxar.com/open-data) -->
+
+
+## <i class='fa fa-puzzle-piece'></i>
 <!-- ## <i class='fa fa-rocket'></i> -->
 <br/>
 Data availability
@@ -148,7 +165,7 @@ Data availability
 [open data program](https://www.maxar.com/open-data)
 
 
-## <i class='fa fa-puzzle-piece'></i> Challenges
+## <i class='fa fa-puzzle-piece'></i>
 <!-- ## <i class='fa fa-rocket'></i> -->
 ![](../images/oam2.png){.absolute top="70" left="320"}
 <br/>
