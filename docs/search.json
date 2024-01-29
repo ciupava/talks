@@ -112,265 +112,6 @@
     "text": "Conclusions\n\n\n\n                👀 👂\n\n\nData (MSOA level)  ▫️ GHG emissions 💨 ☑️  Green space       accessibility 🌳 ▫️ Jobs accessibility 👷 ▫️ House prices 🏠 💰"
   },
   {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#hello-there",
-    "href": "team_call_Dec2023_fAIr/slides.html#hello-there",
-    "title": "Quarto Presentations",
-    "section": "Hello, There",
-    "text": "Hello, There\nThis presentation will show you examples of what you can do with Quarto and Reveal.js, including:\n\nPresenting code and LaTeX equations\nIncluding computations in slide output\nImage, video, and iframe backgrounds\nFancy transitions and animations\nPrinting to PDF\n\n…and much more"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#pretty-code",
-    "href": "team_call_Dec2023_fAIr/slides.html#pretty-code",
-    "title": "Quarto Presentations",
-    "section": "Pretty Code",
-    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n\nLearn more: Syntax Highlighting"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#code-animations",
-    "href": "team_call_Dec2023_fAIr/slides.html#code-animations",
-    "title": "Quarto Presentations",
-    "section": "Code Animations",
-    "text": "Code Animations\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n\nLearn more: Code Animations"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#line-highlighting",
-    "href": "team_call_Dec2023_fAIr/slides.html#line-highlighting",
-    "title": "Quarto Presentations",
-    "section": "Line Highlighting",
-    "text": "Line Highlighting\n\nHighlight specific lines for emphasis\nIncrementally highlight additional lines\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\nLearn more: Line Highlighting"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#column-layout",
-    "href": "team_call_Dec2023_fAIr/slides.html#column-layout",
-    "title": "Quarto Presentations",
-    "section": "Column Layout",
-    "text": "Column Layout\nArrange content into columns of varying widths:\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\nLearn more: Multiple Columns"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#incremental-lists",
-    "href": "team_call_Dec2023_fAIr/slides.html#incremental-lists",
-    "title": "Mapping buildings with AI",
-    "section": "Incremental Lists",
-    "text": "Incremental Lists\nLists can optionally be displayed incrementally:\n\n\nFirst item\nSecond item\nThird item\n\n\n\n Insert pauses to make other types of content display incrementally.\n\nLearn more: Incremental Lists"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#fragments",
-    "href": "team_call_Dec2023_fAIr/slides.html#fragments",
-    "title": "Mapping buildings with AI",
-    "section": "Fragments",
-    "text": "Fragments\nIncremental text display and animation with fragments:\n\n\nFade in\n\n\nSlide up while fading in\n\n\nSlide left while fading in\n\n\nFade in then semi out\n\n\n\nStrike\n\n\nHighlight red\n\n\nLearn more: Fragments"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#slide-backgrounds",
-    "href": "team_call_Dec2023_fAIr/slides.html#slide-backgrounds",
-    "title": "Mapping buildings with AI",
-    "section": "Slide Backgrounds",
-    "text": "Slide Backgrounds\nSet the background attribute on a slide to change the background color (all CSS color formats are supported).\nDifferent background transitions are available via the background-transition option.\n\nLearn more: Slide Backgrounds"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#media-backgrounds",
-    "href": "team_call_Dec2023_fAIr/slides.html#media-backgrounds",
-    "title": "Mapping buildings with AI",
-    "section": "Media Backgrounds",
-    "text": "Media Backgrounds\nYou can also use the following as a slide background:\n\nAn image: background-image\nA video: background-video\nAn iframe: background-iframe\n\n\nLearn more: Media Backgrounds"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#absolute-position",
-    "href": "team_call_Dec2023_fAIr/slides.html#absolute-position",
-    "title": "Mapping buildings with AI",
-    "section": "Absolute Position",
-    "text": "Absolute Position\nPosition images or other elements at precise locations\n\n\n\n\nLearn more: Absolute Position"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#auto-animate",
-    "href": "team_call_Dec2023_fAIr/slides.html#auto-animate",
-    "title": "Mapping buildings with AI",
-    "section": "Auto-Animate",
-    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#auto-animate-1",
-    "href": "team_call_Dec2023_fAIr/slides.html#auto-animate-1",
-    "title": "Mapping buildings with AI",
-    "section": "Auto-Animate",
-    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#slide-transitions",
-    "href": "team_call_Dec2023_fAIr/slides.html#slide-transitions",
-    "title": "Mapping buildings with AI",
-    "section": "Slide Transitions",
-    "text": "Slide Transitions\nThe next few slides will transition using the slide transition\n\n\n\n\n\n\n\nTransition\nDescription\n\n\n\n\nnone\nNo transition (default, switch instantly)\n\n\nfade\nCross fade\n\n\nslide\nSlide horizontally\n\n\nconvex\nSlide at a convex angle\n\n\nconcave\nSlide at a concave angle\n\n\nzoom\nScale the incoming slide so it grows in from the center of the screen.\n\n\n\n\nLearn more: Slide Transitions"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#tabsets",
-    "href": "team_call_Dec2023_fAIr/slides.html#tabsets",
-    "title": "Mapping buildings with AI",
-    "section": "Tabsets",
-    "text": "Tabsets\n::: panel-tabset"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#interactive-slides",
-    "href": "team_call_Dec2023_fAIr/slides.html#interactive-slides",
-    "title": "Mapping buildings with AI",
-    "section": "Interactive Slides",
-    "text": "Interactive Slides\nTurn presentations into applications with Observable and Shiny. Use component layout to position inputs and outputs."
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#preview-links",
-    "href": "team_call_Dec2023_fAIr/slides.html#preview-links",
-    "title": "Mapping buildings with AI",
-    "section": "Preview Links",
-    "text": "Preview Links\nNavigate to hyperlinks without disrupting the flow of your presentation.\nUse the preview-links option to open links in an iframe on top of your slides. Try clicking the link below for a demonstration:\n\nMatplotlib: Visualization with Python\n\n\nLearn more: Preview Links"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#themes",
-    "href": "team_call_Dec2023_fAIr/slides.html#themes",
-    "title": "Mapping buildings with AI",
-    "section": "Themes",
-    "text": "Themes\n10 Built-in Themes (or create your own)\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Themes"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#easy-navigation",
-    "href": "team_call_Dec2023_fAIr/slides.html#easy-navigation",
-    "title": "Mapping buildings with AI",
-    "section": "Easy Navigation",
-    "text": "Easy Navigation\n\nQuickly jump to other parts of your presentation\n\n\n\n\n\n\n\nToggle the slide menu with the menu button (bottom left of slide) to go to other slides and access presentation tools.\n\n\n\nYou can also press m to toggle the menu open and closed.\n\nLearn more: Navigation"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#chalkboard",
-    "href": "team_call_Dec2023_fAIr/slides.html#chalkboard",
-    "title": "Mapping buildings with AI",
-    "section": "Chalkboard",
-    "text": "Chalkboard\n\nFree form drawing and slide annotations\n\n\n\n\n\n\n\nUse the chalkboard button at the bottom left of the slide to toggle the chalkboard.\n\n\n\n\n\n\n\n\n\nUse the notes canvas button at the bottom left of the slide to toggle drawing on top of the current slide.\n\n\n\nYou can also press b to toggle the chalkboard or c to toggle the notes canvas.\n\nLearn more: Chalkboard"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#point-of-view",
-    "href": "team_call_Dec2023_fAIr/slides.html#point-of-view",
-    "title": "Mapping buildings with AI",
-    "section": "Point of View",
-    "text": "Point of View\nPress o to toggle overview mode:\n\nHold down the Alt key (or Ctrl in Linux) and click on any element to zoom towards it—try it now on this slide.\n\nLearn more: Overview Mode, Slide Zoom"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#speaker-view",
-    "href": "team_call_Dec2023_fAIr/slides.html#speaker-view",
-    "title": "Mapping buildings with AI",
-    "section": "Speaker View",
-    "text": "Speaker View\nPress s (or use the presentation menu) to open speaker view\n\n\n\n\n\n\nLearn more: Speaker View\n\n\n\n\n<These slides at https://ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html>"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#authoring-tools",
-    "href": "team_call_Dec2023_fAIr/slides.html#authoring-tools",
-    "title": "Quarto Presentations",
-    "section": "Authoring Tools",
-    "text": "Authoring Tools\nLive side-by-side preview for any notebook or text editor including Jupyter and VS Code\n\n\n\n\n\n\n\n\nLearn more: Jupyter, VS Code, Text Editors"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#and-more",
-    "href": "team_call_Dec2023_fAIr/slides.html#and-more",
-    "title": "Quarto Presentations",
-    "section": "And More…",
-    "text": "And More…\n\nTouch optimized (presentations look great on mobile, swipe to navigate slides)\nFooter & Logo (optionally specify custom footer per-slide)\nAuto-Slide (step through slides automatically, without any user input)\nMultiplex (allows your audience to follow the slides of the presentation you are controlling on their own phone, tablet or laptop).\n\n\nLearn more: Quarto Presentations\n\n\n\n\nhttps://quarto.org"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#introduction",
-    "href": "team_call_Dec2023_fAIr/slides.html#introduction",
-    "title": "Mapping buildings  with AI",
-    "section": "Introduction",
-    "text": "Introduction\n \n\n Presenting HOT and fAIr\n\n\n Demo\n\n\n Intro on computer Vision  Image segmentation\n\n\n Current status of the project"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#introduction-1",
-    "href": "team_call_Dec2023_fAIr/slides.html#introduction-1",
-    "title": "Mapping buildings with AI",
-    "section": "Introduction",
-    "text": "Introduction\n\nPresenting HOT and fAIr\n\n\nDemo\n\n\nComputer Vision\n\n\nState of the art in Image Segmentation\n\n\nCurrent status of the project"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#introduction-to-hot-and-fair",
-    "href": "team_call_Dec2023_fAIr/slides.html#introduction-to-hot-and-fair",
-    "title": "Mapping buildings  with AI",
-    "section": " Introduction to HOT and fAIr",
-    "text": "Introduction to HOT and fAIr"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#introduction-to-hot-and-fair-1",
-    "href": "team_call_Dec2023_fAIr/slides.html#introduction-to-hot-and-fair-1",
-    "title": "Mapping buildings  with AI",
-    "section": " Introduction to HOT and fAIr",
-    "text": "Introduction to HOT and fAIr"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#introduction-to-hot-and-fair-2",
-    "href": "team_call_Dec2023_fAIr/slides.html#introduction-to-hot-and-fair-2",
-    "title": "Mapping buildings  with AI",
-    "section": "Introduction to HOT and fAIr",
-    "text": "Introduction to HOT and fAIr"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#demo",
-    "href": "team_call_Dec2023_fAIr/slides.html#demo",
-    "title": "Mapping buildings  with AI",
-    "section": " Demo",
-    "text": "Demo"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better",
-    "href": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better",
-    "title": "Mapping buildings  with AI",
-    "section": " Let’s make it work better!",
-    "text": "Let’s make it work better!"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#short-intro-to-computer-vision",
-    "href": "team_call_Dec2023_fAIr/slides.html#short-intro-to-computer-vision",
-    "title": "Mapping buildings with AI",
-    "section": "(short) Intro to Computer Vision",
-    "text": "(short) Intro to Computer Vision\nImage Segmentation for buildings footprints"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-1",
-    "href": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-1",
-    "title": "Mapping buildings  with AI",
-    "section": " Let’s make it work better!",
-    "text": "Let’s make it work better!"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-2",
-    "href": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-2",
-    "title": "Mapping buildings  with AI",
-    "section": "Let’s make it work better!",
-    "text": "Let’s make it work better!\n(short) Intro to Computer Vision\nImage Segmentation for buildings footprints"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-3",
-    "href": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-3",
-    "title": "Mapping buildings  with AI",
-    "section": "Let’s make it work better!",
-    "text": "Let’s make it work better!\n Challenges"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#status-of-the-project",
-    "href": "team_call_Dec2023_fAIr/slides.html#status-of-the-project",
-    "title": "Mapping buildings with AI",
-    "section": "Status of the project",
-    "text": "Status of the project\n\n\nFirst trials\nCloud computing\nA name?\n\n\nArrange content into columns of varying widths:\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\nLearn more: Multiple Columns"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#a-name",
-    "href": "team_call_Dec2023_fAIr/slides.html#a-name",
-    "title": "Mapping buildings  with AI",
-    "section": " A name?",
-    "text": "A name?\n\n\n[*] Groundwork \n[*] Footing \n[*] Grounds \n[*] Buifoot"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#links",
-    "href": "team_call_Dec2023_fAIr/slides.html#links",
-    "title": "Mapping buildings  with AI",
-    "section": " Links",
-    "text": "Links\n\nGitHub fork from HOT fair-utilities link\nHackMD notes link\nThis presentation link\n\n\nThese slides at ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html"
-  },
-  {
     "objectID": "team_call_Dec2023_fAIr/slides.html#section",
     "href": "team_call_Dec2023_fAIr/slides.html#section",
     "title": "Mapping buildings  with AI",
@@ -378,50 +119,8 @@
     "text": "Presenting HOT and fAIr\n Demo\n On computer Vision\n  Current status of the project"
   },
   {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-4",
-    "href": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-4",
-    "title": "Mapping buildings  with AI",
-    "section": "Let’s make it work better!",
-    "text": "Let’s make it work better!\n Challenges"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#background",
-    "href": "team_call_Dec2023_fAIr/slides.html#background",
-    "title": "Mapping buildings  with AI",
-    "section": " Background",
-    "text": "Background"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-5",
-    "href": "team_call_Dec2023_fAIr/slides.html#lets-make-it-work-better-5",
-    "title": "Mapping buildings  with AI",
-    "section": "Let’s make it work better!",
-    "text": "Let’s make it work better!\n Challenges\n https://wiki.openstreetmap.org/wiki/Maxar\n https://www.maxar.com/open-data"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#background-background-image..imagesme_background4.png",
-    "href": "team_call_Dec2023_fAIr/slides.html#background-background-image..imagesme_background4.png",
-    "title": "Mapping buildings  with AI",
-    "section": "Background {background-image=“../images/me_background4.png”} ",
-    "text": "Background {background-image=“../images/me_background4.png”}"
-  },
-  {
     "objectID": "team_call_Dec2023_fAIr/slides.html#section-2",
     "href": "team_call_Dec2023_fAIr/slides.html#section-2",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "https://fair-dev.hotosm.org/"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-3",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-3",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "https://fair-dev.hotosm.org/"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-4",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-4",
     "title": "Mapping buildings  with AI",
     "section": "",
     "text": "https://fair-dev.hotosm.org/"
@@ -432,20 +131,6 @@
     "title": "Mapping buildings  with AI",
     "section": "",
     "text": "https://fair-dev.hotosm.org/"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#current-status-of-the-project",
-    "href": "team_call_Dec2023_fAIr/slides.html#current-status-of-the-project",
-    "title": "Mapping buildings  with AI",
-    "section": "  Current status of the project",
-    "text": "Current status of the project\n\n\n\n Assess the current performance  metric\n\n\n\n\n  Code in GitHub\n\n\n\n\n Cloud computation  Azure"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-6",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-6",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "link to recorded video"
   },
   {
     "objectID": "team_call_Dec2023_fAIr/slides.html#section-7",
@@ -469,34 +154,6 @@
     "text": "Source: GitHub"
   },
   {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-10",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-10",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Data availability   Maxar   open data program"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#summary",
-    "href": "team_call_Dec2023_fAIr/slides.html#summary",
-    "title": "Mapping buildings  with AI",
-    "section": " Summary",
-    "text": "Summary\n \n Presenting HOT and fAIr\n Demo\n Intro on computer Vision  Image segmentation\n  Current status of the project"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#background-1",
-    "href": "team_call_Dec2023_fAIr/slides.html#background-1",
-    "title": "Mapping buildings  with AI",
-    "section": " Background",
-    "text": "Background"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#demo-1",
-    "href": "team_call_Dec2023_fAIr/slides.html#demo-1",
-    "title": "Mapping buildings  with AI",
-    "section": " Demo",
-    "text": "Demo"
-  },
-  {
     "objectID": "team_call_Dec2023_fAIr/slides.html#challenges",
     "href": "team_call_Dec2023_fAIr/slides.html#challenges",
     "title": "Mapping buildings  with AI",
@@ -504,32 +161,11 @@
     "text": "Challenges\n\n    Models availability   https://github.com/satellite-image-deep-learning/techniques"
   },
   {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#challenges-1",
-    "href": "team_call_Dec2023_fAIr/slides.html#challenges-1",
-    "title": "Mapping buildings  with AI",
-    "section": " Challenges",
-    "text": "Challenges\n\n Data availability   Maxar   open data program"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#current-status-of-the-project-1",
-    "href": "team_call_Dec2023_fAIr/slides.html#current-status-of-the-project-1",
-    "title": "Mapping buildings  with AI",
-    "section": "  Current status of the project",
-    "text": "Current status of the project\n\n\n\n Assess the current performance  metric\n\n\n\n\n  Code in GitHub\n\n\n\n\n Cloud computation  Azure"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#challenges-2",
-    "href": "team_call_Dec2023_fAIr/slides.html#challenges-2",
-    "title": "Mapping buildings  with AI",
-    "section": " Challenges",
-    "text": "Challenges\n\n  Data availability  Open Aerial Map"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-1",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-1",
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-10",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-10",
     "title": "Mapping buildings  with AI",
     "section": "",
-    "text": "https://fair-dev.hotosm.org/"
+    "text": "Data availability   Maxar   open data program"
   },
   {
     "objectID": "team_call_Dec2023_fAIr/slides.html#section-11",
@@ -576,13 +212,6 @@
   {
     "objectID": "team_call_Dec2023_fAIr/slides.html#section-17",
     "href": "team_call_Dec2023_fAIr/slides.html#section-17",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "Links \nGitHub fork from HOT’s fair-utilities link  HackMD notes link  This presentation link"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-18",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-18",
     "title": "Mapping buildings  with AI",
     "section": " ",
     "text": "Links \nGitHub fork from HOT’s fair-utilities link  HackMD notes link  This presentation link"
