@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.1.251">
 
-  <title>Quarto Presentations</title>
+  <title>Mapping buildings  with AI</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -27,70 +27,6 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link rel="stylesheet" href="styles.css">
@@ -390,367 +326,209 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Quarto Presentations</h1>
-  <p class="subtitle">Create beautiful interactive slide decks with Reveal.js</p>
+  <h1 class="title">Mapping buildings <i class="fa fa-paw"></i> with AI</h1>
+  <p class="subtitle">Scoping the semi-automatic generation of buildings footprints for humanitarian mapping (and more)</p>
 </section>
 
-<section id="hello-there" class="slide level2">
-<h2>Hello, There</h2>
-<p>This presentation will show you examples of what you can do with Quarto and <a href="https://revealjs.com">Reveal.js</a>, including:</p>
-<ul>
-<li>Presenting code and LaTeX equations</li>
-<li>Including computations in slide output</li>
-<li>Image, video, and iframe backgrounds</li>
-<li>Fancy transitions and animations</li>
-<li>Printing to PDF</li>
-</ul>
-<p>…and much more</p>
-</section>
-<section id="pretty-code" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Pretty Code</h2>
-<ul>
-<li>Over 20 syntax highlighting themes available</li>
-<li>Default theme optimized for accessibility</li>
-</ul>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/output-formats/html-code.html#highlighting">Syntax Highlighting</a></p>
-</div>
-</section>
-<section id="code-animations" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Code Animations</h2>
-<ul>
-<li>Over 20 syntax highlighting themes available</li>
-<li>Default theme optimized for accessibility</li>
-</ul>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/advanced.html#code-animations">Code Animations</a></p>
-</div>
-</section>
-<section id="line-highlighting" class="slide level2">
-<h2>Line Highlighting</h2>
-<ul>
-<li>Highlight specific lines for emphasis</li>
-<li>Incrementally highlight additional lines</li>
-</ul>
-<div class="sourceCode" id="cb1" data-code-line-numbers="4-5|7|10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-3"><a href="#cb1-3"></a></span>
-<span id="cb1-4"><a href="#cb1-4"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
-<span id="cb1-5"><a href="#cb1-5"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
-<span id="cb1-6"><a href="#cb1-6"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">'projection'</span>: <span class="st">'polar'</span>})</span>
-<span id="cb1-7"><a href="#cb1-7"></a>ax.plot(theta, r)</span>
-<span id="cb1-8"><a href="#cb1-8"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
-<span id="cb1-9"><a href="#cb1-9"></a>ax.grid(<span class="va">True</span>)</span>
-<span id="cb1-10"><a href="#cb1-10"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/#line-highlighting">Line Highlighting</a></p>
-</div>
-</section>
-<section id="column-layout" class="slide level2 smaller">
-<h2>Column Layout</h2>
-<p>Arrange content into columns of varying widths:</p>
-<div class="columns">
-<div class="column" style="width:35%;">
-<h4 id="motor-trend-car-road-tests">Motor Trend Car Road Tests</h4>
-<p>The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.</p>
-</div><div class="column" style="width:3%;">
+<section>
+<section id="summary" class="title-slide slide level1 center">
+<h1><i class="fa fa-align-left"></i> Summary</h1>
 
-</div><div class="column" style="width:62%;">
+</section>
+<section id="section" class="slide level2">
+<h2><i class="fa fa-align-left"></i></h2>
+<p><br> <br></p>
+<p><i class="fa fa-fire"></i> Presenting HOT and fAIr</p>
+<p><i class="fa fa-eye"></i> Demo</p>
+<p><i class="fa fa-laptop"></i> On computer Vision</p>
+<p><i class="fa fa-map-marker"></i>  Current status of the project</p>
+<!-- ## Summary
 
-</div>
-</div>
+<br/>
+<br/>
+
+::: {.fragment .fade-in-then-semi-out}
+<i class='fa fa-fire'></i> Presenting HOT and fAIr 
+:::
+::: {.fragment .fade-in-then-semi-out}
+<i class='fa fa-eye'></i> Demo
+:::
+::: {.fragment .fade-in-then-semi-out}
+<i class='fa fa-laptop'></i> Intro on computer Vision  <i class='fa fa-arrow-right'></i> Image segmentation
+:::
+::: {.fragment .fade-in-then-semi-out}
+<i class='fa fa-rocket'></i> Current status of the project
+::: -->
+</section></section>
+<section>
+<section id="background" class="title-slide slide level1 center">
+<h1><i class="fa fa-map"></i> Background</h1>
+<!-- ## <i class='fa fa-map'></i> Background {background-image="../images/me_background4.png"} -->
+</section>
+<section id="section-1" class="slide level2" data-background-image="../images/me_background5.png">
+<h2><i class="fa fa-map"></i></h2>
+<!-- ### Turing Research Fellowship
+(since April 2023) -->
+</section></section>
+<section>
+<section id="hot-and-fair" class="title-slide slide level1 center">
+<h1><i class="fa fa-fire"></i> HOT and fAIr</h1>
+
+</section>
+<section id="section-2" class="slide level2">
+<h2><i class="fa fa-fire"></i></h2>
+<p><img data-src="../images/HOTlogo.png" class="absolute" style="top: 70px; left: 30px; "></p>
+<p><img data-src="../images/OSMlogo.png" class="absolute" style="top: 330px; left: 30px; "> <!-- <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> --> <br><br><br><br><br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://fair-dev.hotosm.org/">https://fair-dev.hotosm.org/</a></p>
+</section>
+<section id="section-3" class="slide level2" data-background-image="../images/fair_slide.png">
+<h2><i class="fa fa-fire"></i></h2>
+<!-- ## Introduction to HOT and fAIr {background-image="../images/fair_slide.png"} -->
+</section>
+<section id="section-4" class="slide level2" data-background-image="../images/fair_why.png">
+<h2><i class="fa fa-fire"></i></h2>
+<!-- ## Introduction to HOT and fAIr {background-image="../images/fair_why.png"} -->
+</section></section>
+<section>
+<section id="demo" class="title-slide slide level1 center">
+<h1><i class="fa fa-eye"></i> Demo</h1>
+
+</section>
+<section id="section-5" class="slide level2" data-background-image="../images/fair_webpage.png">
+<h2><i class="fa fa-eye"></i></h2>
+<p><br><br><br><br><br><br> <a href="https://fair-dev.hotosm.org/">https://fair-dev.hotosm.org/</a></p>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<!-- ## <i class='fa fa-eye'></i> -->
+<video controls="controls" autopla="" id="my_video" class="video-js vjs-default-skin" width="1600" height="1200" src="file:////Users/azanchetta/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/Desktop/video_fAIr.mov" type="video/mov"></video>
+
+</section></section>
+<section>
+<section id="lets-make-it-work-better" class="title-slide slide level1 center">
+<h1><i class="fa fa-rocket"></i> Let’s make it work better!</h1>
+<!-- ## <i class='fa fa-rocket'></i> Let's make it work better! -->
+</section>
+<section id="section-7" class="slide level2" data-background-image="../images/fully_CNN.png">
+<h2><i class="fa fa-rocket"></i></h2>
+<!-- ## Let's make it work better! -->
+<!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
+<p><i class="fa fa-laptop"></i> <strong>Computer Vision</strong> <!-- *cnn graph image* --></p>
 <div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/#multiple-columns">Multiple Columns</a></p>
+<p>Source: <a href="https://towardsdatascience.com/semantic-segmentation-popular-architectures-dff0a75f39d0">Towardsdatascience</a></p>
 </div>
 </section>
-<section id="incremental-lists" class="slide level2">
-<h2>Incremental Lists</h2>
-<p>Lists can optionally be displayed incrementally:</p>
-<div>
-<ul>
-<li class="fragment">First item</li>
-<li class="fragment">Second item</li>
-<li class="fragment">Third item</li>
-</ul>
-</div>
-<div class="fragment">
-<p><br> Insert pauses to make other types of content display incrementally.</p>
+<section id="section-8" class="slide level2" data-background-image="../images/image_segm.png">
+<h2><i class="fa fa-rocket"></i></h2>
+<!-- ## Let's make it work better! -->
+<!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
+<p><i class="fa fa-laptop"></i> <!-- Image segmentation --></p>
 <div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/#incremental-lists">Incremental Lists</a></p>
-</div>
+<p>Source: <a href="https://www.mdpi.com/2072-4292/12/10/1667">Hoeser et al.&nbsp;2020</a></p>
 </div>
 </section>
-<section id="fragments" class="slide level2">
-<h2>Fragments</h2>
-<p>Incremental text display and animation with fragments:</p>
+<section id="section-9" class="slide level2" data-background-image="../images/buildfoot_image.png">
+<h2><i class="fa fa-rocket"></i></h2>
+<!-- ## Let's make it work better! -->
+<!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
+<p><i class="fa fa-laptop"></i> <!-- *... for buildings footprints image* --></p>
+<!-- ## <i class='fa fa-rocket'></i>
+## Let's make it work better! -->
+<div class="footer">
+<p>Source: <a href="https://github.com/bohaohuang/mrs/tree/master">GitHub</a></p>
+</div>
+</section>
+<section id="challenges" class="slide level2">
+<h2><i class="fa fa-puzzle-piece"></i> Challenges</h2>
+<!-- ## <i class='fa fa-rocket'></i>
+
+<i class='fa fa-puzzle-piece'></i> **Challenges** -->
+<p><br> <!-- ## <i class='fa fa-rocket'></i>  --> <!-- ## Let's make it work better! {background-image="../images/models_list.png"} --> <br> Models availability <img data-src="../images/models_list.png" class="absolute" style="top: 10px; left: 340px; "> <br><br><br> <a href="https://github.com/satellite-image-deep-learning/techniques">https://github.com/satellite-image-deep-learning/techniques</a></p>
+<!-- ## <i class='fa fa-rocket'></i>
+
+<i class='fa fa-puzzle-piece'></i> **Challenges**
+<br/>
+<!-- ## <i class='fa fa-rocket'></i>
+<br/>
+Data availability
+<br/>
+![](../images/maxar_osm.png){.absolute top="190" left="150"}
+[Maxar](https://wiki.openstreetmap.org/wiki/Maxar)
+<br/><br/><br/><br/>
+![](../images/maxar_open.png){.absolute top="370" left="380"}
+[open data program](https://www.maxar.com/open-data) -->
+</section>
+<section id="section-10" class="slide level2">
+<h2><i class="fa fa-puzzle-piece"></i></h2>
+<!-- ## <i class='fa fa-rocket'></i> -->
+<p><br> Data availability <br> <img data-src="../images/maxar_osm.png" class="absolute" style="top: 190px; left: 150px; "> <a href="https://wiki.openstreetmap.org/wiki/Maxar">Maxar</a> <br><br><br><br> <img data-src="../images/maxar_open.png" class="absolute" style="top: 370px; left: 380px; "> <a href="https://www.maxar.com/open-data">open data program</a></p>
+</section>
+<section id="section-11" class="slide level2">
+<h2><i class="fa fa-puzzle-piece"></i></h2>
+<!-- ## <i class='fa fa-rocket'></i> -->
+<p><img data-src="../images/oam2.png" class="absolute" style="top: 70px; left: 320px; "> <br> Data availability <br><br> <a href="https://openaerialmap.org/">Open Aerial Map</a></p>
+</section></section>
+<section>
+<section id="current-status-of-the-project" class="title-slide slide level1 center">
+<h1><i class="fa fa-map-marker"></i>  Current status of the project</h1>
+<!-- ## <i class='fa fa-map-marker'></i> </i> Current status of the project -->
+</section>
+<section id="section-12" class="slide level2">
+<h2><i class="fa fa-map-marker"></i> </h2>
 <p><br></p>
-<div class="fragment fade-in">
-<p>Fade in</p>
-</div>
-<div class="fragment fade-up">
-<p>Slide up while fading in</p>
-</div>
-<div class="fragment fade-left">
-<p>Slide left while fading in</p>
+<div class="fragment fade-in-then-semi-out">
+<ul>
+<li><i class="fa fa-thermometer-half"></i> Assess the current performance <i class="fa fa-arrow-right"></i> metric</li>
+</ul>
 </div>
 <div class="fragment fade-in-then-semi-out">
-<p>Fade in then semi out</p>
-</div>
-<div class="fragment">
-<div class="fragment strike">
-<p>Strike</p>
-</div>
-<div class="fragment highlight-red">
-<p>Highlight red</p>
-</div>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/advanced.html#fragments">Fragments</a></p>
-</div>
-</div>
-</section>
-<section id="slide-backgrounds" class="slide level2" data-background="#43464B">
-<h2>Slide Backgrounds</h2>
-<p>Set the <code>background</code> attribute on a slide to change the background color (all CSS color formats are supported).</p>
-<p>Different background transitions are available via the <code>background-transition</code> option.</p>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/#color-backgrounds">Slide Backgrounds</a></p>
-</div>
-</section>
-<section id="media-backgrounds" class="slide level2" data-background="#43464B" data-background-image="images/milky-way.jpeg">
-<h2>Media Backgrounds</h2>
-<p>You can also use the following as a slide background:</p>
 <ul>
-<li><p>An image: <code>background-image</code></p></li>
-<li><p>A video: <code>background-video</code></p></li>
-<li><p>An iframe: <code>background-iframe</code></p></li>
+<li><i class="fa fa-github"></i> <i class="fa fa-code"></i> <i class="fa fa-code-fork"></i>Code in GitHub</li>
 </ul>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/#image-backgrounds">Media Backgrounds</a></p>
 </div>
-</section>
-<section id="absolute-position" class="slide level2">
-<h2>Absolute Position</h2>
-<p>Position images or other elements at precise locations</p>
-<p><img data-src="mini/images/kitten-400-350.jpeg" class="absolute" style="top: 170px; left: 30px; width: 400px; height: 400px; "></p>
-<p><img data-src="mini/images/kitten-450-250.jpeg" class="absolute fragment" style="top: 150px; right: 80px; width: 450px; "></p>
-<p><img data-src="mini/images/kitten-300-200.jpeg" class="absolute fragment" style="bottom: 110px; right: 130px; width: 300px; "></p>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/advanced.html#absolute-position">Absolute Position</a></p>
-</div>
-</section>
-<section id="auto-animate" class="slide level2" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
-<h2 data-id="quarto-animate-title">Auto-Animate</h2>
-<p>Automatically animate matching elements across slides with Auto-Animate.</p>
-<div class="r-hstack">
-<div data-id="box1" data-auto-animate-delay="0" style="background: #2780e3; width: 200px; height: 150px; margin: 10px;">
-
-</div>
-<div data-id="box2" data-auto-animate-delay="0.1" style="background: #3fb618; width: 200px; height: 150px; margin: 10px;">
-
-</div>
-<div data-id="box3" data-auto-animate-delay="0.2" style="background: #e83e8c; width: 200px; height: 150px; margin: 10px;">
-
-</div>
-</div>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/advanced.html#auto-animate">Auto-Animate</a></p>
-</div>
-</section>
-<section id="auto-animate-1" class="slide level2" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
-<h2 data-id="quarto-animate-title">Auto-Animate</h2>
-<p>Automatically animate matching elements across slides with Auto-Animate.</p>
-<div class="r-stack">
-<div data-id="box1" style="background: #2780e3; width: 350px; height: 350px; border-radius: 200px;">
-
-</div>
-<div data-id="box2" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px;">
-
-</div>
-<div data-id="box3" style="background: #e83e8c; width: 150px; height: 150px; border-radius: 200px;">
-
-</div>
-</div>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/advanced.html#auto-animate">Auto-Animate</a></p>
-</div>
-</section>
-<section id="slide-transitions" class="slide level2 smaller">
-<h2>Slide Transitions</h2>
-<p>The next few slides will transition using the <code>slide</code> transition</p>
-<table>
-<colgroup>
-<col style="width: 14%">
-<col style="width: 85%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Transition</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>none</code></td>
-<td>No transition (default, switch instantly)</td>
-</tr>
-<tr class="even">
-<td><code>fade</code></td>
-<td>Cross fade</td>
-</tr>
-<tr class="odd">
-<td><code>slide</code></td>
-<td>Slide horizontally</td>
-</tr>
-<tr class="even">
-<td><code>convex</code></td>
-<td>Slide at a convex angle</td>
-</tr>
-<tr class="odd">
-<td><code>concave</code></td>
-<td>Slide at a concave angle</td>
-</tr>
-<tr class="even">
-<td><code>zoom</code></td>
-<td>Scale the incoming slide so it grows in from the center of the screen.</td>
-</tr>
-</tbody>
-</table>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/advanced.html#slide-transitions">Slide Transitions</a></p>
-</div>
-</section>
-<section id="tabsets" class="slide level2 smaller scrollable" data-transition="slide">
-<h2>Tabsets</h2>
-<p>::: panel-tabset</p>
-</section>
-<section id="interactive-slides" class="slide level2 smaller" data-transition="slide">
-<h2>Interactive Slides</h2>
-<p>Turn presentations into applications with Observable and Shiny. Use component layout to position inputs and outputs.</p>
-</section>
-<section id="preview-links" class="slide level2">
-<h2>Preview Links</h2>
-<p>Navigate to hyperlinks without disrupting the flow of your presentation.</p>
-<p>Use the <code>preview-links</code> option to open links in an iframe on top of your slides. Try clicking the link below for a demonstration:</p>
-<div style="text-align: center; margin-top: 1em">
-<p><a href="https://matplotlib.org/" data-preview-link="true" style="text-align: center">Matplotlib: Visualization with Python</a></p>
-</div>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#preview-links">Preview Links</a></p>
-</div>
-</section>
-<section id="themes" class="slide level2">
-<h2>Themes</h2>
-<p>10 Built-in Themes (or <a href="https://quarto.org/docs/presentations/revealjs/themes.html#creating-themes">create your own</a>)</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="images/moon.png"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="images/sky.png"></p>
-</div>
-</div>
-</div>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/themes.html">Themes</a></p>
-</div>
-</section>
-<section id="easy-navigation" class="slide level2">
-<h2>Easy Navigation</h2>
-<div style="margin-bottom: 0.9em;">
-<p>Quickly jump to other parts of your presentation</p>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 4.8%;justify-content: center;">
-<p><img data-src="images/presentation-menu.png" width="41"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 95.2%;justify-content: center;">
-<p>Toggle the slide menu with the menu button (bottom left of slide) to go to other slides and access presentation tools.</p>
-</div>
-</div>
-</div>
-<p>You can also press <code>m</code> to toggle the menu open and closed.</p>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#navigation-menu">Navigation</a></p>
-</div>
-</section>
-<section id="chalkboard" class="slide level2" data-chalkboard-buttons="true">
-<h2>Chalkboard</h2>
-<div style="margin-bottom: 0.9em;">
-<p>Free form drawing and slide annotations</p>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 4.8%;justify-content: center;">
-<p><img data-src="images/presentation-chalkboard.png" width="41"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 95.2%;justify-content: center;">
-<p>Use the chalkboard button at the bottom left of the slide to toggle the chalkboard.</p>
-</div>
-</div>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 4.8%;justify-content: center;">
-<p><img data-src="images/presentation-notes-canvas.png" width="41"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 95.2%;justify-content: center;">
-<p>Use the notes canvas button at the bottom left of the slide to toggle drawing on top of the current slide.</p>
-</div>
-</div>
-</div>
-<p>You can also press <code>b</code> to toggle the chalkboard or <code>c</code> to toggle the notes canvas.</p>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#chalkboard">Chalkboard</a></p>
-</div>
-</section>
-<section id="point-of-view" class="slide level2">
-<h2>Point of View</h2>
-<p>Press <code>o</code> to toggle overview mode:</p>
-
-<img data-src="images/overview-mode.png" class="border r-stretch"><p>Hold down the <code>Alt</code> key (or <code>Ctrl</code> in Linux) and click on any element to zoom towards it—try it now on this slide.</p>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#overview-mode">Overview Mode</a>, <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#slide-zoom">Slide Zoom</a></p>
-</div>
-</section>
-<section id="speaker-view" class="slide level2">
-<h2>Speaker View</h2>
-<p>Press <code>s</code> (or use the presentation menu) to open speaker view</p>
-
-<img data-src="images/speaker-view.png" width="780" class="r-stretch quarto-figure-center"><div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#speaker-view">Speaker View</a></p>
-</div>
-</section>
-<section id="authoring-tools" class="slide level2 smaller">
-<h2>Authoring Tools</h2>
-<p>Live side-by-side preview for any notebook or text editor including Jupyter and VS Code</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/jupyter-edit.png" class="border border-thick"></p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="images/jupyter-preview.png" class="border border-thick"></p>
-</div>
-</div>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/tools/jupyter-lab.html">Jupyter</a>, <a href="https://quarto.org/docs/tools/vscode.html">VS Code</a>, <a href="https://quarto.org/docs/tools/text-editors.html">Text Editors</a></p>
-</div>
-</section>
-<section id="and-more" class="slide level2">
-<h2>And More…</h2>
+<div class="fragment fade-in-then-semi-out">
 <ul>
-<li><a href="https://quarto.org/docs/presentations/revealjs/advanced.html#touch-navigation">Touch</a> optimized (presentations look great on mobile, swipe to navigate slides)</li>
-<li><a href="https://quarto.org/docs/presentations/revealjs/#footer-logo">Footer &amp; Logo</a> (optionally specify custom footer per-slide)</li>
-<li><a href="https://quarto.org/docs/presentations/revealjs/presenting.html#auto-slide">Auto-Slide</a> (step through slides automatically, without any user input)</li>
-<li><a href="https://quarto.org/docs/presentations/revealjs/presenting.html#multiplex">Multiplex</a> (allows your audience to follow the slides of the presentation you are controlling on their own phone, tablet or laptop).</li>
+<li><i class="fa fa-cloud"></i> Cloud computation <i class="fa fa-arrow-right"></i> Azure</li>
 </ul>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/presentations/revealjs/">Quarto Presentations</a></p>
 </div>
+</section>
+<section id="section-13" class="slide level2" data-background-image="../images/prediction_2ep.png">
+<h2><i class="fa fa-map-marker"></i> </h2>
+<p><br> <br><br> <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thermometer-half"></i> 2 epochs</p>
+</section>
+<section id="section-14" class="slide level2" data-background-image="../images/prediction_3ep.png">
+<h2><i class="fa fa-map-marker"></i> </h2>
+<p><br> <br><br> <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thermometer-half"></i> 3 epochs</p>
+</section>
+<section id="section-15" class="slide level2" data-background-image="../images/prediction_4ep.png">
+<h2><i class="fa fa-map-marker"></i> </h2>
+<p><br> <br><br> <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thermometer-half"></i> 4 epochs</p>
+</section>
+<section id="section-16" class="slide level2">
+<h2><i class="fa fa-map-marker"></i> </h2>
+<!-- ## <i class='fa fa-id-card'></i> A name?  -->
+<p><br> <i class="fa fa-id-card"></i> A name? <br><br></p>
+<ul>
+<li><p>Groundwork <br></p></li>
+<li><p>Footing <br></p></li>
+<li><p>Grounds <br></p></li>
+<li><p>Buifoot</p></li>
+</ul>
+</section>
+<section id="section-17" class="slide level2">
+<h2><i class="fa fa-map-marker"></i> </h2>
+<!-- ## <i class='fa fa-at'></i> Links -->
+<p><br> <i class="fa fa-at"></i> Links <br><br></p>
+<p>GitHub fork from HOT’s <code>fair-utilities</code> <a href="https://github.com/ciupava/fAIr-utilities">link</a> <br> HackMD notes <a href="https://hackmd.io/@annazan/H1PkFnRz6">link</a> <br> This presentation <a href="https://ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html">link</a></p>
+</section></section>
+<section id="thank-you" class="title-slide slide level1 center">
+<h1>THANK YOU</h1>
+<!-- 
+:::{.r-stack}
+**THANK YOU**
+::: -->
 
-
-<img src="images/quarto.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://quarto.org" class="uri">https://quarto.org</a></p>
+<div class="footer footer-default">
+<p>These slides at <a href="ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html">ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html</a></p>
 </div>
 </section>
     </div>
@@ -786,7 +564,7 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":false},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -807,7 +585,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'c/t',
+        slideNumber: 'h.v',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -848,7 +626,7 @@
         rtl: false,
 
         // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'linear',
+        navigationMode: 'default',
 
         // Randomizes the order of slides each time the presentation loads
         shuffle: false,
