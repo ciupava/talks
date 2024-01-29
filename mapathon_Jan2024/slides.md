@@ -7,7 +7,7 @@ format:
     preview-links: auto
     # logo: images/quarto.png
     # css: styles.css
-    # theme:  solarized # custom.scss # simple # serif
+    theme:  solarized # simple # serif
     footer: "These slides at [ciupava.github.io/talks/mapathon_Jan2024/slides.html](ciupava.github.io/talks/mapathon_Jan204/slides.html)"
 ---
 

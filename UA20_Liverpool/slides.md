@@ -8,6 +8,7 @@ format:
     progress: false
     menu: false
     # theme: custom.scss
+    theme: [default, custom.scss]
     footer: UA 2.0 - Inequalities in the recovery of cities and regions --- **Liverpool**, November 2022--- 
 from: markdown+emoji
 resources:
