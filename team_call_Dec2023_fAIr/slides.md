@@ -14,7 +14,7 @@ format:
     footer: "These slides at [ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html](ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html)"
 ---
 
-# <i class='fa fa-align-left'></i> Summary
+# <i class='fa fa-align-left'></i> Summary FUN
 
 ## <i class='fa fa-align-left'></i>
 <br/>
