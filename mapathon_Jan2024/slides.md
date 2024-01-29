@@ -1,6 +1,6 @@
 ---
-title: "(kind of) mapathon for fAir"
-subtitle: "Generate good quality data in OSM as labels for buildings footprints)"
+title: "Creating labels for fAir"
+subtitle: "Generate good quality data in OSM as labels for building footprints"
 format:
   revealjs: 
     slide-number: true
@@ -13,14 +13,23 @@ format:
 
 # Intro
 
-Previous presentation of fAIr [link]()
+Aim of this **mapathon**
 
-Aim of this mapathon
+Recent presentation of fAIr at weekly team call [link](https://ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html)
+
 
 # Action
 
-- Link to fAIr
+## Useful links
+- Link to [fAIr website](https://fair-dev.hotosm.org/)
+- Link to [OpenAerialMap OAM](https://openaerialmap.org/)
+- Link to [Openstreetmap OSM](https://www.openstreetmap.org/)
 
-- Workflow (live demo)
+## Workflow (live demo):
+- choose imagery in OAM
+- compare with OSM data availability
+- get TMS link from OAM to be used in the fAIr website
+- generate new training dataset in fAIr
+- map map map!
 
-- Let's map!
+# Let's map!
