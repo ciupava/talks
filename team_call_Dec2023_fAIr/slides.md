@@ -9,7 +9,7 @@ format:
     navigation-mode: vertical
     preview-links: auto
     # logo: images/quarto.png
-    css: styles.css
+    # css: styles.css
     theme: solarized # simple # serif
     footer: "These slides at [ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html](ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html)"
 
