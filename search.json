@@ -1,110 +1,5 @@
 [
   {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section",
-    "href": "team_call_Dec2023_fAIr/slides.html#section",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Presenting HOT and fAIr\n Demo\n On computer Vision\n  Current status of the project"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-2",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-2",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "https://fair-dev.hotosm.org/"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-5",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-5",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "https://fair-dev.hotosm.org/"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-7",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-7",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Computer Vision \n\nSource: Towardsdatascience"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-8",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-8",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Source: Hoeser et al. 2020"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-9",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-9",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Source: GitHub"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#challenges",
-    "href": "team_call_Dec2023_fAIr/slides.html#challenges",
-    "title": "Mapping buildings  with AI",
-    "section": " Challenges",
-    "text": "Challenges\n\n    Models availability   https://github.com/satellite-image-deep-learning/techniques"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-10",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-10",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Data availability   Maxar   open data program"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-11",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-11",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Data availability  Open Aerial Map"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-12",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-12",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "Assess the current performance  metric\n\n\n\n\n  Code in GitHub\n\n\n\n\n Cloud computation  Azure"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-13",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-13",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "2 epochs"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-14",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-14",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "3 epochs"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-15",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-15",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "4 epochs"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-16",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-16",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "A name? \n\nGroundwork \nFooting \nGrounds \nBuifoot"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-17",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-17",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "Links \nGitHub fork from HOT’s fair-utilities link  HackMD notes link  This presentation link"
-  },
-  {
     "objectID": "UA20_Liverpool/slides.html#intro-1",
     "href": "UA20_Liverpool/slides.html#intro-1",
     "title": "Land Use Demonstrator",
@@ -215,5 +110,110 @@
     "title": "Land Use Demonstrator",
     "section": "Conclusions",
     "text": "Conclusions\n\n\n\n                👀 👂\n\n\nData (MSOA level)  ▫️ GHG emissions 💨 ☑️  Green space       accessibility 🌳 ▫️ Jobs accessibility 👷 ▫️ House prices 🏠 💰"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section",
+    "href": "team_call_Dec2023_fAIr/slides.html#section",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Presenting HOT and fAIr\n Demo\n On computer Vision\n  Current status of the project"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-2",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-2",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "https://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-5",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-5",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "https://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-7",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-7",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Computer Vision \n\nSource: Towardsdatascience"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-8",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-8",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Source: Hoeser et al. 2020"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-9",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-9",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Source: GitHub"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#challenges",
+    "href": "team_call_Dec2023_fAIr/slides.html#challenges",
+    "title": "Mapping buildings  with AI",
+    "section": " Challenges",
+    "text": "Challenges\n\n    Models availability   https://github.com/satellite-image-deep-learning/techniques"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-10",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-10",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Data availability   Maxar   open data program"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-11",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-11",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Data availability  Open Aerial Map"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-12",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-12",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "Assess the current performance  metric\n\n\n\n\n  Code in GitHub\n\n\n\n\n Cloud computation  Azure"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-13",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-13",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "2 epochs"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-14",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-14",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "3 epochs"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-15",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-15",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "4 epochs"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-16",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-16",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "A name? \n\nGroundwork \nFooting \nGrounds \nBuifoot"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-17",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-17",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "Links \nGitHub fork from HOT’s fair-utilities link  HackMD notes link  This presentation link"
   }
 ]

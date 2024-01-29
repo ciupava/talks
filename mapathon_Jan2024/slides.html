@@ -2,7 +2,7 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.4">
-  <title>Mapping buildings  with AI</title>
+  <title>(kind of) mapathon for fAir</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -31,8 +31,6 @@
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -331,209 +329,26 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Mapping buildings <i class="fa fa-paw"></i> with AI</h1>
-  <p class="subtitle">Scoping the semi-automatic generation of buildings footprints for humanitarian mapping (and more)</p>
+  <h1 class="title">(kind of) mapathon for fAir</h1>
+  <p class="subtitle">Generate good quality data in OSM as labels for buildings footprints)</p>
 </section>
 
-<section>
-<section id="summary-fun" class="title-slide slide level1 center">
-<h1><i class="fa fa-align-left"></i> Summary FUN</h1>
+<section id="intro" class="title-slide slide level1 center">
+<h1>Intro</h1>
+<p>Previous presentation of fAIr <a href="">link</a></p>
+<p>Aim of this mapathon</p>
+</section>
 
-</section>
-<section id="section" class="slide level2">
-<h2><i class="fa fa-align-left"></i></h2>
-<p><br> <br></p>
-<p><i class="fa fa-fire"></i> Presenting HOT and fAIr</p>
-<p><i class="fa fa-eye"></i> Demo</p>
-<p><i class="fa fa-laptop"></i> On computer Vision</p>
-<p><i class="fa fa-map-marker"></i>  Current status of the project</p>
-<!-- ## Summary
-
-<br/>
-<br/>
-
-::: {.fragment .fade-in-then-semi-out}
-<i class='fa fa-fire'></i> Presenting HOT and fAIr 
-:::
-::: {.fragment .fade-in-then-semi-out}
-<i class='fa fa-eye'></i> Demo
-:::
-::: {.fragment .fade-in-then-semi-out}
-<i class='fa fa-laptop'></i> Intro on computer Vision  <i class='fa fa-arrow-right'></i> Image segmentation
-:::
-::: {.fragment .fade-in-then-semi-out}
-<i class='fa fa-rocket'></i> Current status of the project
-::: -->
-</section></section>
-<section>
-<section id="background" class="title-slide slide level1 center">
-<h1><i class="fa fa-map"></i> Background</h1>
-<!-- ## <i class='fa fa-map'></i> Background {background-image="../images/me_background4.png"} -->
-</section>
-<section id="section-1" class="slide level2" data-background-image="../images/me_background5.png">
-<h2><i class="fa fa-map"></i></h2>
-<!-- ### Turing Research Fellowship
-(since April 2023) -->
-</section></section>
-<section>
-<section id="hot-and-fair" class="title-slide slide level1 center">
-<h1><i class="fa fa-fire"></i> HOT and fAIr</h1>
-
-</section>
-<section id="section-2" class="slide level2">
-<h2><i class="fa fa-fire"></i></h2>
-<p><img data-src="../images/HOTlogo.png" class="absolute" style="top: 70px; left: 30px; "></p>
-<p><img data-src="../images/OSMlogo.png" class="absolute" style="top: 330px; left: 30px; "> <!-- <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> --> <br><br><br><br><br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://fair-dev.hotosm.org/">https://fair-dev.hotosm.org/</a></p>
-</section>
-<section id="section-3" class="slide level2" data-background-image="../images/fair_slide.png">
-<h2><i class="fa fa-fire"></i></h2>
-<!-- ## Introduction to HOT and fAIr {background-image="../images/fair_slide.png"} -->
-</section>
-<section id="section-4" class="slide level2" data-background-image="../images/fair_why.png">
-<h2><i class="fa fa-fire"></i></h2>
-<!-- ## Introduction to HOT and fAIr {background-image="../images/fair_why.png"} -->
-</section></section>
-<section>
-<section id="demo" class="title-slide slide level1 center">
-<h1><i class="fa fa-eye"></i> Demo</h1>
-
-</section>
-<section id="section-5" class="slide level2" data-background-image="../images/fair_webpage.png">
-<h2><i class="fa fa-eye"></i></h2>
-<p><br><br><br><br><br><br> <a href="https://fair-dev.hotosm.org/">https://fair-dev.hotosm.org/</a></p>
-</section>
-<section id="section-6" class="slide level2">
-<h2></h2>
-<!-- ## <i class='fa fa-eye'></i> -->
-<video controls="controls" autopla="" id="my_video" class="video-js vjs-default-skin" width="1600" height="1200" src="file:////Users/azanchetta/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/Desktop/video_fAIr.mov" type="video/mov"></video>
-
-</section></section>
-<section>
-<section id="lets-make-it-work-better" class="title-slide slide level1 center">
-<h1><i class="fa fa-rocket"></i> Let’s make it work better!</h1>
-<!-- ## <i class='fa fa-rocket'></i> Let's make it work better! -->
-</section>
-<section id="section-7" class="slide level2" data-background-image="../images/fully_CNN.png">
-<h2><i class="fa fa-rocket"></i></h2>
-<!-- ## Let's make it work better! -->
-<!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
-<p><i class="fa fa-laptop"></i> <strong>Computer Vision</strong> <!-- *cnn graph image* --></p>
-<div class="footer">
-<p>Source: <a href="https://towardsdatascience.com/semantic-segmentation-popular-architectures-dff0a75f39d0">Towardsdatascience</a></p>
-</div>
-</section>
-<section id="section-8" class="slide level2" data-background-image="../images/image_segm.png">
-<h2><i class="fa fa-rocket"></i></h2>
-<!-- ## Let's make it work better! -->
-<!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
-<p><i class="fa fa-laptop"></i> <!-- Image segmentation --></p>
-<div class="footer">
-<p>Source: <a href="https://www.mdpi.com/2072-4292/12/10/1667">Hoeser et al.&nbsp;2020</a></p>
-</div>
-</section>
-<section id="section-9" class="slide level2" data-background-image="../images/buildfoot_image.png">
-<h2><i class="fa fa-rocket"></i></h2>
-<!-- ## Let's make it work better! -->
-<!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
-<p><i class="fa fa-laptop"></i> <!-- *... for buildings footprints image* --></p>
-<!-- ## <i class='fa fa-rocket'></i>
-## Let's make it work better! -->
-<div class="footer">
-<p>Source: <a href="https://github.com/bohaohuang/mrs/tree/master">GitHub</a></p>
-</div>
-</section>
-<section id="challenges" class="slide level2">
-<h2><i class="fa fa-puzzle-piece"></i> Challenges</h2>
-<!-- ## <i class='fa fa-rocket'></i>
-
-<i class='fa fa-puzzle-piece'></i> **Challenges** -->
-<p><br> <!-- ## <i class='fa fa-rocket'></i>  --> <!-- ## Let's make it work better! {background-image="../images/models_list.png"} --> <br> Models availability <img data-src="../images/models_list.png" class="absolute" style="top: 10px; left: 340px; "> <br><br><br> <a href="https://github.com/satellite-image-deep-learning/techniques">https://github.com/satellite-image-deep-learning/techniques</a></p>
-<!-- ## <i class='fa fa-rocket'></i>
-
-<i class='fa fa-puzzle-piece'></i> **Challenges**
-<br/>
-<!-- ## <i class='fa fa-rocket'></i>
-<br/>
-Data availability
-<br/>
-![](../images/maxar_osm.png){.absolute top="190" left="150"}
-[Maxar](https://wiki.openstreetmap.org/wiki/Maxar)
-<br/><br/><br/><br/>
-![](../images/maxar_open.png){.absolute top="370" left="380"}
-[open data program](https://www.maxar.com/open-data) -->
-</section>
-<section id="section-10" class="slide level2">
-<h2><i class="fa fa-puzzle-piece"></i></h2>
-<!-- ## <i class='fa fa-rocket'></i> -->
-<p><br> Data availability <br> <img data-src="../images/maxar_osm.png" class="absolute" style="top: 190px; left: 150px; "> <a href="https://wiki.openstreetmap.org/wiki/Maxar">Maxar</a> <br><br><br><br> <img data-src="../images/maxar_open.png" class="absolute" style="top: 370px; left: 380px; "> <a href="https://www.maxar.com/open-data">open data program</a></p>
-</section>
-<section id="section-11" class="slide level2">
-<h2><i class="fa fa-puzzle-piece"></i></h2>
-<!-- ## <i class='fa fa-rocket'></i> -->
-<p><img data-src="../images/oam2.png" class="absolute" style="top: 70px; left: 320px; "> <br> Data availability <br><br> <a href="https://openaerialmap.org/">Open Aerial Map</a></p>
-</section></section>
-<section>
-<section id="current-status-of-the-project" class="title-slide slide level1 center">
-<h1><i class="fa fa-map-marker"></i>  Current status of the project</h1>
-<!-- ## <i class='fa fa-map-marker'></i> </i> Current status of the project -->
-</section>
-<section id="section-12" class="slide level2">
-<h2><i class="fa fa-map-marker"></i> </h2>
-<p><br></p>
-<div class="fragment fade-in-then-semi-out">
+<section id="action" class="title-slide slide level1 center">
+<h1>Action</h1>
 <ul>
-<li><i class="fa fa-thermometer-half"></i> Assess the current performance <i class="fa fa-arrow-right"></i> metric</li>
+<li><p>Link to fAIr</p></li>
+<li><p>Workflow (live demo)</p></li>
+<li><p>Let’s map!</p></li>
 </ul>
-</div>
-<div class="fragment fade-in-then-semi-out">
-<ul>
-<li><i class="fa fa-github"></i> <i class="fa fa-code"></i> <i class="fa fa-code-fork"></i>Code in GitHub</li>
-</ul>
-</div>
-<div class="fragment fade-in-then-semi-out">
-<ul>
-<li><i class="fa fa-cloud"></i> Cloud computation <i class="fa fa-arrow-right"></i> Azure</li>
-</ul>
-</div>
-</section>
-<section id="section-13" class="slide level2" data-background-image="../images/prediction_2ep.png">
-<h2><i class="fa fa-map-marker"></i> </h2>
-<p><br> <br><br> <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thermometer-half"></i> 2 epochs</p>
-</section>
-<section id="section-14" class="slide level2" data-background-image="../images/prediction_3ep.png">
-<h2><i class="fa fa-map-marker"></i> </h2>
-<p><br> <br><br> <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thermometer-half"></i> 3 epochs</p>
-</section>
-<section id="section-15" class="slide level2" data-background-image="../images/prediction_4ep.png">
-<h2><i class="fa fa-map-marker"></i> </h2>
-<p><br> <br><br> <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thermometer-half"></i> 4 epochs</p>
-</section>
-<section id="section-16" class="slide level2">
-<h2><i class="fa fa-map-marker"></i> </h2>
-<!-- ## <i class='fa fa-id-card'></i> A name?  -->
-<p><br> <i class="fa fa-id-card"></i> A name? <br><br></p>
-<ul>
-<li><p>Groundwork <br></p></li>
-<li><p>Footing <br></p></li>
-<li><p>Grounds <br></p></li>
-<li><p>Buifoot</p></li>
-</ul>
-</section>
-<section id="section-17" class="slide level2">
-<h2><i class="fa fa-map-marker"></i> </h2>
-<!-- ## <i class='fa fa-at'></i> Links -->
-<p><br> <i class="fa fa-at"></i> Links <br><br></p>
-<p>GitHub fork from HOT’s <code>fair-utilities</code> <a href="https://github.com/ciupava/fAIr-utilities">link</a> <br> HackMD notes <a href="https://hackmd.io/@annazan/H1PkFnRz6">link</a> <br> This presentation <a href="https://ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html">link</a></p>
-</section></section>
-<section id="thank-you" class="title-slide slide level1 center">
-<h1>THANK YOU</h1>
-<!-- 
-:::{.r-stack}
-**THANK YOU**
-::: -->
 
 <div class="footer footer-default">
-<p>These slides at <a href="ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html">ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html</a></p>
+<p>These slides at <a href="ciupava.github.io/talks/mapathon_Jan204/slides.html">ciupava.github.io/talks/mapathon_Jan2024/slides.html</a></p>
 </div>
 </section>
     </div>
@@ -547,7 +362,6 @@ Data availability
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
   <script src="../site_libs/revealjs/plugin/search/search.js"></script>
@@ -569,8 +383,7 @@ Data availability
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
 
         // Display controls in the bottom right corner
@@ -591,7 +404,7 @@ Data availability
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'h.v',
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -632,7 +445,7 @@ Data availability
         rtl: false,
 
         // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'default',
+        navigationMode: 'linear',
 
         // Randomizes the order of slides each time the presentation loads
         shuffle: false,
@@ -741,7 +554,7 @@ Data availability
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,
