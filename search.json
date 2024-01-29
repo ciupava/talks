@@ -215,5 +215,19 @@
     "title": "Land Use Demonstrator",
     "section": "Conclusions",
     "text": "Conclusions\n\n\n\n                👀 👂\n\n\nData (MSOA level)  ▫️ GHG emissions 💨 ☑️  Green space       accessibility 🌳 ▫️ Jobs accessibility 👷 ▫️ House prices 🏠 💰"
+  },
+  {
+    "objectID": "mapathon_Jan2024/slides.html#useful-links",
+    "href": "mapathon_Jan2024/slides.html#useful-links",
+    "title": "Creating labels for fAir",
+    "section": "Useful links",
+    "text": "Useful links\n\nLink to fAIr website\nLink to OpenAerialMap OAM\nLink to Openstreetmap OSM"
+  },
+  {
+    "objectID": "mapathon_Jan2024/slides.html#workflow-live-demo",
+    "href": "mapathon_Jan2024/slides.html#workflow-live-demo",
+    "title": "Creating labels for fAir",
+    "section": "Workflow (live demo):",
+    "text": "Workflow (live demo):\n\nchoose imagery in OAM\ncompare with OSM data availability\nget TMS link from OAM to be used in the fAIr website\ngenerate new training dataset in fAIr\nmap map map!"
   }
 ]
