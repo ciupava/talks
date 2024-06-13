@@ -49,7 +49,7 @@ format:
 
 # <i class='fa fa-map'></i> Background
 <!-- ## <i class='fa fa-map'></i> Background {background-image="../images/me_background4.png"} -->
-## <i class='fa fa-map'></i> {background-image="../images/me_background5.png"}
+## <i class='fa fa-map'></i> {background-image="../images/world_map_citieslocations.png"}
 <!-- ### Turing Research Fellowship
 (since April 2023) -->
 
