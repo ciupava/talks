@@ -69,10 +69,10 @@ format:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 
-## <i class='fa fa-fire'></i> {background-image="../images/fair_slide.png"}
+## <i class='fa fa-fire'></i> {background-image="../images/world_map_bydensity.png"}
 <!-- ## Introduction to HOT and fAIr {background-image="../images/fair_slide.png"} -->
 
-## <i class='fa fa-fire'></i> {background-image="../images/fair_why.png"}
+## <i class='fa fa-fire'></i> {background-image="../images/world_map_bycovertype.png"}
 <!-- ## Introduction to HOT and fAIr {background-image="../images/fair_why.png"} -->
 
 # <i class='fa fa-eye'></i> Demo
