@@ -1,283 +1,239 @@
 ---
-title: "Mapping buildings <i class='fa fa-paw'></i> with AI"
-subtitle: "Scoping the semi-automatic generation of buildings footprints \n for humanitarian mapping (and more)"
-format:
+title: "Mapping buildings <i class='fa fa-paw'></i> with fAIr"
+subtitle: "Validation accuracy after training in building footprints segmentation for OpenStreetMap"
+# author:
+#   - name: "John Doe"
+date: "2024-06-24"
+date-format: long
+author:
+  - "*Anna Zanchetta, Omran Najjar, Kshitij Sharma*"
+institute:
+  - "The Alan Turing Institute {.smaller}"
+  - HOT Humanitarian OpenStreetMap Team
+format: 
   revealjs: 
     slide-number: true
-    chalkboard: 
-      buttons: true
+    # self-contained: false
     navigation-mode: vertical
     preview-links: auto
-    # logo: images/quarto.png
-    # css: styles.css
+    # width: 1280
+    # height: 720
     theme: default #solarized # custom.scss # simple # serif
-    footer: "These slides at [ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html](ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html)"
+    footer: "These slides at [ciupava.github.io/talks/ml4eo24/slides.html](ciupava.github.io/talks/ml4eo24/slides.html)"
+include-in-header: 
+  text: |
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 ---
+
 
 # <i class='fa fa-align-left'></i> Summary
 
 ## <i class='fa fa-align-left'></i>
-<br/>
-<br/>
 
+:::: {.columns}
 
-<i class='fa fa-fire'></i> Presenting HOT and fAIr 
+::: {.column width="45%"}
 
-<i class='fa fa-eye'></i> Demo
-
-<i class='fa fa-laptop'></i> On computer Vision
-
-<i class='fa fa-map-marker'></i> </i> Current status of the project
-
-<!-- ## Summary
-
-<br/>
-<br/>
-
-::: {.fragment .fade-in-then-semi-out}
-<i class='fa fa-fire'></i> Presenting HOT and fAIr 
+* <i class='fa fa-map'></i> Introduction
+    * <i class="fas fa-pepper-hot"></i> HOT OSM
+        -   <i class='fa fa-compass'></i> fAIr
+        -   <i class="fas fa-server"></i> ML model
+        -   <i class="fas fa-lightbulb"></i> reason for research
 :::
-::: {.fragment .fade-in-then-semi-out}
-<i class='fa fa-eye'></i> Demo
+
+::: {.column width="10%"}
 :::
-::: {.fragment .fade-in-then-semi-out}
-<i class='fa fa-laptop'></i> Intro on computer Vision  <i class='fa fa-arrow-right'></i> Image segmentation
+
+::: {.column width="45%"}
+* <i class='fas fa-microscope'></i> <i class="fas fa-search"></i> Research
+    *  <i class="fas fa-crosshairs"></i> Aim
+    * <i class="fas fa-wrench"></i> Methods
+        * <i class="fas fa-table"></i> Data
+          - <i class="far fa-images"></i> Chips, OAM
+          - <i class="fas fa-home"></i> Masks
+        - <i class="fas fa-globe-africa"></i> Dataset
+          - <i class="fas fa-map-marker-alt"></i> Locations
+          - <i class="fas fa-list"></i> Categories
+* <i class='fa fa-puzzle-piece'></i> Results
 :::
-::: {.fragment .fade-in-then-semi-out}
-<i class='fa fa-rocket'></i> Current status of the project
+
+::::
+
+<!-- ## <i class='fa fa-align-left'></i>
+
+::: {layout-ncol=2}
+
 ::: -->
 
-# <i class='fa fa-map'></i> Background
-<!-- ## <i class='fa fa-map'></i> Background {background-image="../images/me_background4.png"} -->
-## <i class='fa fa-map'></i> {background-image="../images/world_map_citieslocations.png"}
-<!-- ### Turing Research Fellowship
-(since April 2023) -->
 
-# <i class='fa fa-fire'></i> HOT and fAIr
-## <i class='fa fa-fire'></i>
+## Awesome icons
+<i class="fas fa-globe"></i>
+<i class="fas fa-globe-americas"></i>
+<i class="fas fa-globe-africa"></i>
+<i class="fab fa-diaspora"></i>
+<i class='fa fa-braille'></i>
+<i class="fas fa-dice-three"></i>
+<i class="fas fa-disease"></i>
+<i class="fa-regular fa-square"></i>
+<i class="fa-duotone fa-grid"></i>
+<i class="fas fa-grip-horizontal"></i>
+<i class="fas fa-border-none"></i>
+<i class="fa-solid fa-grid"></i>
+<i class="fa-solid fa-grid"></i>
+<i class='fa fa-square-o'></i>
+<i class='fa fa-th-list'></i>
+<i class='fa fa-th'></i>
+<i class='fa fa-th-large'></i>
+<i class='fa fa-tasks'></i>
+<i class='fa fa-window-restore'></i>
+<i class='fa fa-window-maximize'></i>
+<i class='fa fa-minus'></i>
+<i class='fa fa-circle-thin'></i>
+<i class='fa fa-navicon'></i>
+<i class='fa fa-reorder'></i>
 
-![](../images/HOTlogo.png){.absolute top="70" left="30"}
 
-![](../images/OSMlogo.png){.absolute top="330" left="30"}
-<!-- <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> -->
+<i class="fas fa-shapes"></i>
+<i class="fas fa-border-all"></i>
+<i class='fa fa-th'></i>
+<i class='fa fa-th-large'></i>
+
+
+<i class='fa fa-stop'></i>
+<i class='fa fa-home'></i>
+<i class='fa fa-building'></i>
+<i class="far fa-building"></i>
+<i class="fas fa-hotel"></i>
+<i class='fa fa-industry'></i>
+<i class="fas fa-landmark"></i>
+<i class="fas fa-landmark"></i>
+<i class="fas fa-store-alt"></i>
+<i class='fa fa-compass'></i>
+<i class='fa fa-signal'></i>
+<i class='fa fa-tag'></i>
+<i class='fa fa-tags'></i>
+<i class='fa fa-university'></i>
+<i class='fa fa-tree'></i>
+<i class='fa fa-wrench'></i>
+<i class='fa fa-paperclip'></i>
+<i class='fa fa-scissors'></i>
+<i class='fa fa-file'></i>
+<i class='fa fa-file-o'></i>
+<i class='fa fa-comment'></i>
+<i class='fa fa-comments'></i>
+<i class="far fa-comment"></i>
+<i class='fa fa-search'></i>
+<i class='fa fa-send'></i>
+<i class='fa fa-photo'></i>
+<i class="fas fa-umbrella-beach"></i>
+
+<i class="fas fa-chart-bar"></i>
+<i class="fas fa-terminal"></i>
+<i class="fas fa-tools"></i>
+
+<i class="fas fa-pepper-hot"></i>
+<i class="fab fa-hotjar"></i>
+<i class="fas fa-fire-alt"></i>
+<i class="fas fa-fire"></i>
+<i class="fas fa-burn"></i>
+
+<i class="fab fa-periscope"></i>
+<i class="fas fa-microscope"></i>
+<i class="fas fa-search"></i>
+
+<i class='fa fa-'></i>
+
+
+# <i class='fa fa-map'></i> Introduction
+
+## <i class='fa fa-map'></i> 
+<i class="fab fa-hotjar"></i> HOT
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+![](../images/OSMlogo.png){.absolute top="70" left="30"}
+<br/><br/>
+![](../images/HOTlogo.png){.absolute top="330" left="30"}
+
+## <i class='fa fa-map'></i> {background-image="../images/fair_why.png"}
+<i class='fa fa-compass'></i> fAIr
 <br/><br/><br/><br/><br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 
-## <i class='fa fa-fire'></i> {background-image="../images/world_map_bydensity.png"}
-<!-- ## Introduction to HOT and fAIr {background-image="../images/fair_slide.png"} -->
+## <i class='fa fa-map'></i>
+<i class="fas fa-server"></i> ML engine
 
-## <i class='fa fa-fire'></i> {background-image="../images/world_map_bycovertype.png"}
-<!-- ## Introduction to HOT and fAIr {background-image="../images/fair_why.png"} -->
+image from RAMP
 
-# <i class='fa fa-eye'></i> Demo
-## <i class='fa fa-eye'></i> {background-image="../images/fair_webpage.png"}
-<br/><br/><br/><br/><br/><br/>
-[https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
+## <i class='fa fa-map'></i>
 
-##
-<!-- ## <i class='fa fa-eye'></i> -->
-<video controls="controls" autopla id="my_video" class="video-js vjs-default-skin" width="1600" height="1200" src="file:////Users/azanchetta/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/Desktop/video_fAIr.mov" type='video/mov' />
-</video>
+::: {layout-ncol=2}
 
-# <i class='fa fa-rocket'></i> Let's make it work better!
-<!-- ## <i class='fa fa-rocket'></i> Let's make it work better! -->
+<i class="fas fa-search"></i> 
 
-## <i class='fa fa-rocket'></i> {background-image="../images/fully_CNN.png"}
-<!-- ## Let's make it work better! -->
+<i class="fas fa-lightbulb"></i>
 
-<!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
-<i class='fa fa-laptop'></i> **Computer Vision**
-<!-- *cnn graph image* -->
-
-::: footer
-Source: [Towardsdatascience](https://towardsdatascience.com/semantic-segmentation-popular-architectures-dff0a75f39d0)
 :::
 
-## <i class='fa fa-rocket'></i> {background-image="../images/image_segm.png"}
-<!-- ## Let's make it work better! -->
-<!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
-<i class='fa fa-laptop'></i>
-<!-- Image segmentation -->
+# <i class="fas fa-search"></i> Research
 
-::: footer
-Source: [Hoeser et al. 2020](https://www.mdpi.com/2072-4292/12/10/1667)
-:::
+## <i class="fas fa-search"></i>
+<i class="fas fa-crosshairs"></i> Aim
 
-## <i class='fa fa-rocket'></i> {background-image="../images/buildfoot_image.png"}
-<!-- ## Let's make it work better! -->
+## <i class="fas fa-search"></i>
+<i class="far fa-database"></i> Data
 
-<!-- <i class='fa fa-laptop'></i> (short) Intro to Computer Vision -->
-<i class='fa fa-laptop'></i>
-<!-- *... for buildings footprints image* -->
+::: {layout-ncol=2}
 
-
-<!-- ## <i class='fa fa-rocket'></i>
-## Let's make it work better! -->
-
-::: footer
-Source: [GitHub](https://github.com/bohaohuang/mrs/tree/master)
-:::
-
-## <i class='fa fa-puzzle-piece'></i> Challenges
-<!-- ## <i class='fa fa-rocket'></i>
-
-<i class='fa fa-puzzle-piece'></i> **Challenges** -->
-<br/>
-<!-- ## <i class='fa fa-rocket'></i>  -->
-<!-- ## Let's make it work better! {background-image="../images/models_list.png"} -->
-<br/>
-Models availability
-![](../images/models_list.png){.absolute top="10" left="340"}
-<br/><br/><br/>
-[https://github.com/satellite-image-deep-learning/techniques](https://github.com/satellite-image-deep-learning/techniques)
-
-<!-- ## <i class='fa fa-rocket'></i>
-
-<i class='fa fa-puzzle-piece'></i> **Challenges**
-<br/>
-<!-- ## <i class='fa fa-rocket'></i>
-<br/>
-Data availability
-<br/>
-![](../images/maxar_osm.png){.absolute top="190" left="150"}
-[Maxar](https://wiki.openstreetmap.org/wiki/Maxar)
-<br/><br/><br/><br/>
-![](../images/maxar_open.png){.absolute top="370" left="380"}
-[open data program](https://www.maxar.com/open-data) -->
-
-
-## <i class='fa fa-puzzle-piece'></i>
-<!-- ## <i class='fa fa-rocket'></i> -->
-<br/>
-Data availability
-<br/>
-![](../images/maxar_osm.png){.absolute top="190" left="150"}
-[Maxar](https://wiki.openstreetmap.org/wiki/Maxar)
-<br/><br/><br/><br/>
-![](../images/maxar_open.png){.absolute top="370" left="380"}
-[open data program](https://www.maxar.com/open-data)
-
-
-## <i class='fa fa-puzzle-piece'></i>
-<!-- ## <i class='fa fa-rocket'></i> -->
-![](../images/oam2.png){.absolute top="70" left="320"}
-<br/>
-Data availability
+<i class="far fa-images"></i> RGB from OAM
 <br/><br/>
 [Open Aerial Map](https://openaerialmap.org/)
 
+<i class="fas fa-home"></i> Masks
 
-# <i class='fa fa-map-marker'></i> </i> Current status of the project
-<!-- ## <i class='fa fa-map-marker'></i> </i> Current status of the project -->
-
-## <i class='fa fa-map-marker'></i> </i>
-<br/>
-
-::: {.fragment .fade-in-then-semi-out}
-- <i class='fa fa-thermometer-half'></i> Assess the current performance <i class='fa fa-arrow-right'></i> metric 
-:::
-::: {.fragment .fade-in-then-semi-out}
-- <i class='fa fa-github'></i>  <i class='fa fa-code'></i>  <i class='fa fa-code-fork'></i>Code in GitHub
-:::
-::: {.fragment .fade-in-then-semi-out}
-- <i class='fa fa-cloud'></i> Cloud computation  <i class='fa fa-arrow-right'></i> Azure
 :::
 
+## <i class="fas fa-search"></i>
+<i class="fas fa-globe-africa"></i> Dataset
+Description
 
-## <i class='fa fa-map-marker'></i> </i> {background-image="../images/prediction_2ep.png"}
-
-<br/>
-<br/><br/>
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-thermometer-half'></i>  2 epochs
-
-## <i class='fa fa-map-marker'></i> </i> {background-image="../images/prediction_3ep.png"}
-<br/>
-<br/><br/>
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-thermometer-half'></i> 3 epochs
-
-## <i class='fa fa-map-marker'></i> </i> {background-image="../images/prediction_4ep.png"}
-<br/>
-<br/><br/>
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-thermometer-half'></i> 4 epochs
+## <i class="fas fa-search"></i>{background-image="../images/world_map_citieslocations.png"}
+<i class="fas fa-map-marker-alt"></i> Locations
 
 
-## <i class='fa fa-map-marker'></i> </i> 
-<!-- ## <i class='fa fa-id-card'></i> A name?  -->
-<br/>
-<i class='fa fa-id-card'></i> A name? 
-<br/><br/>
+## <i class="fas fa-search"></i>{background-image="../images/world_map_bydensity.png"}
+<i class="fas fa-list"></i> Categories
 
- -  Groundwork
- <br/>
+## <i class="fas fa-search"></i>{background-image="../images/world_map_bycovertype.png"}
+<i class="fas fa-list"></i> Categories
 
- -  Footing
- <br/>
- 
- -  Grounds
- <br/>
- 
- -  Buifoot
+## <i class="fas fa-search"></i>{background-image="../images/world_map_byurbantype.png"}
+<i class="fas fa-list"></i> Categories
 
-## <i class='fa fa-map-marker'></i> </i>
-<!-- ## <i class='fa fa-at'></i> Links -->
-<br/>
+# <i class='fa fa-puzzle-piece'></i> Results
+<i class='fa fa-bar-chart'></i> 
+
+## <i class='fa fa-puzzle-piece'></i>
+
+## <i class='fa fa-puzzle-piece'></i>
+
+# <i class="fas fa-hand-point-down"></i> Conclusions
+<!-- ## <i class='fa fa-rocket'></i> -->
+
+## <i class="fas fa-hand-point-down"></i>
+nice numbers
+
+
+## <i class="fas fa-hand-point-down"></i>
+
 <i class='fa fa-at'></i> Links
 <br/><br/>
 
 GitHub fork from HOT's `fair-utilities` [link](https://github.com/ciupava/fAIr-utilities)
 <br/>
-HackMD notes [link](https://hackmd.io/@annazan/H1PkFnRz6)
+fAIr pro
 <br/>
 This presentation [link](https://ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html)
 
 
 # THANK YOU
-<!-- 
-:::{.r-stack}
-**THANK YOU**
-::: -->
