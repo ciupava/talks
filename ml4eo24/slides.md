@@ -12,7 +12,7 @@ format:
     theme: [default, style.scss] #solarized # custom.scss # simple # serif
     footer: "These slides at [ciupava.github.io/talks/ml4eo24/slides.html](ciupava.github.io/talks/ml4eo24/slides.html)"
 title-slide-attributes:
-  data-background-image: "../images/black_background5.jpg"
+  data-background-image: "../images/black_background6.png"
   data-background-size: contain
   data-background-opacity: "0.9"
 date: "2024-06-24"
@@ -195,20 +195,21 @@ include-in-header:
 <br/><br/>
 ![](../images/HOTlogo.png){.absolute top="330" left="30"} -->
 
-## <i class='fa fa-map'></i> {background-image="../images/fair_why.png" background-size="1200px"}
+
+## <i class='fa fa-map'></i>{background-image="../images/fair_webpage.png" background-size="1200px"}
 <i class='fa fa-compass'></i> fAIr
-<!-- ![](../images/fair_why.png) -->
-<br/><br/><br/><br/><br/><br/>
+<!-- ![](../images/fair_webpage.png) -->
+
+<br/><br/><br/><br/>
 <br/><br/><br/>
 
 [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_webpage.png" background-size="1400px"}
+## <i class='fa fa-map'></i> {background-image="../images/fair_why.png" background-size="1200px"}
 <i class='fa fa-compass'></i> fAIr
-<!-- ![](../images/fair_webpage.png) -->
-
+<!-- ![](../images/fair_why.png) -->
 <br/><br/><br/><br/><br/><br/>
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 
@@ -229,19 +230,19 @@ include-in-header:
 [2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
 
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample1.png" background-size="1400px"}
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample1.png" background-size="1200px"}
 <i class="fas fa-lightbulb"></i> Reason for research
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample1_pred.png" background-size="1400px"}
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample1_pred.png" background-size="1200px"}
 <i class="fas fa-lightbulb"></i> 
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample2.png" background-size="1400px" background-color="black"}
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample2.png" background-size="1200px" background-color="black"}
 <i class="fas fa-lightbulb"></i> 
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1400px" background-color="black"}
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
 <i class="fas fa-lightbulb"></i> 
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1400px" background-color="black"}
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
 <i class="fas fa-lightbulb"></i> 
 <br/><br/><br/>
 
@@ -274,23 +275,30 @@ include-in-header:
 
 ::: -->
 
-## <i class="fas fa-table"></i>{background-image="../images/oam2.png" background-size="1400px" background-color="black"}
+## <i class="fas fa-table"></i>{background-image="../images/oam3.png" background-size="1100px" background-color="black"}
 <i class="far fa-images"></i> RGB from OAM
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/>
 [Open Aerial Map](https://openaerialmap.org/)
 
-## <i class="fas fa-table"></i>{background-image="../images/labels_fair.png" background-size="1400px" background-color="black"}
-<i class="fas fa-home"></i> Binary masks
+## <i class="fas fa-table"></i>{background-image="../images/labels_fair.png" background-size="1200px" background-color="black"}
+<i class="fas fa-home"></i> Labels from OSM
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/>
-[OSM labels through fAIr website](https://fair-dev.hotosm.org/training-datasets)
+[Preprocessing through fAIr website](https://fair-dev.hotosm.org/training-datasets)
 
 ## <i class="fas fa-search"></i>
 <i class="fas fa-globe-africa"></i> Dataset
 
+|[]()    |        |
+|--------|--------|
+| **Urban regions**  | 25   |
+| **Countries**  | 21   |
+| **Zoom levels**    |      3 <br> (19, 20, 21) | 
+| **N. images**   | (8400 <br> ~350 per region)  |
+|[]()    |        |
 
-Description with a table
+<!-- :  {tbl-colwidths="[70,30]"} -->
 
 ## <i class="fas fa-search"></i>{background-image="../images/world_map_citieslocations.png"}
 <i class="fas fa-map-marker-alt"></i> Locations
@@ -305,6 +313,65 @@ Description with a table
 ## <i class="fas fa-search"></i>{background-image="../images/world_map_byurbantype.png"}
 <i class="fas fa-list"></i> Categories
 
+## <i class="fas fa-search"></i>{background-image="../images/density1.png" background-color="black"}
+<i class='fa fa-th'></i> Dense
+
+
+
+Montevideo dense
+
+## <i class="fas fa-search"></i>{background-image="../images/density3.png"}
+<i class='fa fa-th'></i> Sparse
+
+
+Gornja Rijeka
+
+## <i class="fas fa-search"></i>{background-image="../images/density2.png"}
+<i class='fa fa-th'></i> Grid
+
+
+Quincy
+
+## <i class="fas fa-search"></i>{background-image="../images/cover1.png"}
+<i class='fas fa-shapes'></i>  Shingles
+
+Silvania
+
+## <i class="fas fa-search"></i>{background-image="../images/cover2.png" background-color="black"}
+<i class='fas fa-shapes'></i> Metal
+
+Ngandoure
+
+## <i class="fas fa-search"></i>{background-image="../images/cover3.png"}
+<i class='fas fa-shapes'></i> Cement
+
+Melbourne
+
+## <i class="fas fa-search"></i>{background-image="../images/cover4.png"}
+<i class='fas fa-shapes'></i> Mixed
+
+Kutu Palong
+
+## <i class="fas fa-search"></i>{background-image="../images/urban1.png" background-color="black"}
+<i class='fa fa-university'></i> Rural
+
+Desa Kulaba
+
+## <i class="fas fa-search"></i>{background-image="../images/urban2.png" background-color="black"}
+<i class='fa fa-university'></i> Peri-urban
+
+Ggaba
+
+## <i class="fas fa-search"></i>{background-image="../images/urban4.png" background-color="black"}
+<i class='fa fa-university'></i> Urban
+
+Bogota
+
+## <i class="fas fa-search"></i>{background-image="../images/urban3.png" background-color="black"}
+<i class='fa fa-university'></i> Refugee camp
+
+Kakuma
+
 # <i class='fa fa-chart-bar'></i> Results
 
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_sample.png" background-size="900px"}
@@ -317,7 +384,7 @@ Accuracy after training
 <i class='fa fa-puzzle-piece'></i>
 
 
-# Showcase
+# <i class="fas fa-map-marked-alt"> </i> Showcase
 
 
 # <i class="fas fa-hand-point-down"></i> Conclusions
