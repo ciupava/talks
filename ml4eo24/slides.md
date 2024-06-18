@@ -275,13 +275,13 @@ include-in-header:
 
 ::: -->
 
-## <i class="fas fa-table"></i>{background-image="../images/oam3.png" background-size="1100px" background-color="black"}
-<i class="far fa-images"></i> RGB from OAM
+## <i class="fas fa-table"></i>{background-image="../images/oam3.png" background-size="1100px"}
+<i class="far fa-images"></i> [RGB from OAM]{style="color:white;"}
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/>
 [Open Aerial Map](https://openaerialmap.org/)
 
-## <i class="fas fa-table"></i>{background-image="../images/labels_fair.png" background-size="1200px" background-color="black"}
+## <i class="fas fa-table"></i>{background-image="../images/labels_fair.png" background-size="1200px"}
 <i class="fas fa-home"></i> Labels from OSM
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/>
@@ -295,7 +295,8 @@ include-in-header:
 | **Urban regions**  | 25   |
 | **Countries**  | 21   |
 | **Zoom levels**    |      3 <br> (19, 20, 21) | 
-| **N. images**   | (8400 <br> ~350 per region)  |
+| **N. images**   | 8400 <br> (~350 per region)  |
+| **Resolution**  | cm |
 |[]()    |        |
 
 <!-- :  {tbl-colwidths="[70,30]"} -->
@@ -357,7 +358,7 @@ Kutu Palong
 
 Desa Kulaba
 
-## <i class="fas fa-search"></i>{background-image="../images/urban2.png" background-color="black"}
+## <i class="fas fa-search"></i>{background-image="../images/urban2.png"}
 <i class='fa fa-university'></i> Peri-urban
 
 Ggaba
@@ -372,35 +373,65 @@ Bogota
 
 Kakuma
 
+## <i class="fas fa-search"></i>
+<i class="fas fa-hourglass-half"></i> Training
+
+|[]()    |        |
+|--------|--------|
+| **Urban regions**  | all (25) |
+| **N. of epochs**  | 20   |
+| **Batch sizes**    |      4 <br> (2, 4, 8, 16) | 
+| **Accuracy metrics**   | 5 <br>Categorical accuracy, Precision,<br>Recall, F1 Score, IoU  |
+|[]()    |        |
+
 # <i class='fa fa-chart-bar'></i> Results
 
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_sample.png" background-size="900px"}
-Accuracy after training
+
 
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_with_circle.png" background-size="900px"}
-Accuracy after training
 
-## <i class='fa fa-chart-bar'></i>
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_map_roof.png" background-size="800px"}
+<i class='fas fa-shapes'></i> Roof type
+
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_map_urban.png" background-size="800px"}
+<i class='fa fa-university'></i> Urbanity
+
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_map_density.png" background-size="800px"}
+<i class='fa fa-th'></i> Density
+
+
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_density.png" background-size="800px"}
 <i class='fa fa-puzzle-piece'></i>
 
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_metrics.png" background-size="800px"}
+<i class='fa fa-puzzle-piece'></i>
+
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_comparebatches.png" background-size="800px"}
+<i class='fa fa-puzzle-piece'></i>
 
 # <i class="fas fa-map-marked-alt"> </i> Showcase
 
+2-3 extreme cases to show
 
 # <i class="fas fa-hand-point-down"></i> Conclusions
-<!-- ## <i class='fa fa-rocket'></i> -->
+
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_box_totdensity.png" background-size="800px"}
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_box_totmetrics.png" background-size="800px"}
 
 ## <i class="fas fa-hand-point-down"></i>
-nice numbers
+Some nice numbers
 
-## <i class="fas fa-hand-point-down"></i>
+
 
 <i class='fa fa-at'></i> Links
 <br/><br/>
 
-GitHub fork from HOT's `fair-utilities` [link](https://github.com/ciupava/fAIr-utilities)
+GitHub fork of `fair-utilities` [link](https://github.com/ciupava/fAIr-utilities)
 <br/>
-fAIr pro
+fAIr website [link](https://fair-dev.hotosm.org/)
 <br/>
 This presentation [link](https://ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html)
 
