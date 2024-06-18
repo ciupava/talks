@@ -107,107 +107,233 @@
   {
     "objectID": "ml4eo24/slides.html#section",
     "href": "ml4eo24/slides.html#section",
-    "title": "Mapping buildings  with AI",
+    "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Presenting HOT and fAIr\n Demo\n On computer Vision\n  Current status of the project"
+    "text": "Introduction\n\n HOT OSM\n\n fAIr\n ML model\n reason for research\n\n\n\n\n\n\n\n Research \n\n Methods\n\n Data\n\n Chips, OAM\n Masks\n\n Dataset\n\n Locations\n Categories\n\n\n\n\n\n\n\n\n Results\n\n Graphs\n Numbers"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#awesome-icons",
+    "href": "ml4eo24/slides.html#awesome-icons",
+    "title": "Mapping   with fAIr",
+    "section": "Awesome icons",
+    "text": "Awesome icons"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-1",
+    "href": "ml4eo24/slides.html#section-1",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "HOT"
   },
   {
     "objectID": "ml4eo24/slides.html#section-2",
     "href": "ml4eo24/slides.html#section-2",
-    "title": "Mapping buildings  with AI",
+    "title": "Mapping   with fAIr",
     "section": "",
-    "text": "https://fair-dev.hotosm.org/"
+    "text": "fAIr \n \nhttps://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-3",
+    "href": "ml4eo24/slides.html#section-3",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "fAIr   \nhttps://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-4",
+    "href": "ml4eo24/slides.html#section-4",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "ML engine\n \nhttps://rampml.global/"
   },
   {
     "objectID": "ml4eo24/slides.html#section-5",
     "href": "ml4eo24/slides.html#section-5",
-    "title": "Mapping buildings  with AI",
+    "title": "Mapping   with fAIr",
     "section": "",
-    "text": "https://fair-dev.hotosm.org/"
+    "text": "ML engine\n \n2020 paper by Baheti et al."
   },
   {
-    "objectID": "ml4eo24/slides.html#section-7",
-    "href": "ml4eo24/slides.html#section-7",
-    "title": "Mapping buildings  with AI",
+    "objectID": "ml4eo24/slides.html#section-6",
+    "href": "ml4eo24/slides.html#section-6",
+    "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Computer Vision \n\nSource: Towardsdatascience"
-  },
-  {
-    "objectID": "ml4eo24/slides.html#section-8",
-    "href": "ml4eo24/slides.html#section-8",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Source: Hoeser et al. 2020"
-  },
-  {
-    "objectID": "ml4eo24/slides.html#section-9",
-    "href": "ml4eo24/slides.html#section-9",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Source: GitHub"
-  },
-  {
-    "objectID": "ml4eo24/slides.html#challenges",
-    "href": "ml4eo24/slides.html#challenges",
-    "title": "Mapping buildings  with AI",
-    "section": " Challenges",
-    "text": "Challenges\n\n    Models availability   https://github.com/satellite-image-deep-learning/techniques"
+    "text": "Reason for research"
   },
   {
     "objectID": "ml4eo24/slides.html#section-10",
     "href": "ml4eo24/slides.html#section-10",
-    "title": "Mapping buildings  with AI",
+    "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Data availability   Maxar   open data program"
+    "text": "How accurate is fAIr in detecting buildings\nin different conditions?“"
   },
   {
     "objectID": "ml4eo24/slides.html#section-11",
     "href": "ml4eo24/slides.html#section-11",
-    "title": "Mapping buildings  with AI",
+    "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Data availability  Open Aerial Map"
+    "text": "Data"
   },
   {
     "objectID": "ml4eo24/slides.html#section-12",
     "href": "ml4eo24/slides.html#section-12",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "Assess the current performance  metric\n\n\n\n\n  Code in GitHub\n\n\n\n\n Cloud computation  Azure"
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "RGB from OAM   Open Aerial Map"
   },
   {
     "objectID": "ml4eo24/slides.html#section-13",
     "href": "ml4eo24/slides.html#section-13",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "2 epochs"
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Labels from OSM   Preprocessing through fAIr website"
   },
   {
     "objectID": "ml4eo24/slides.html#section-14",
     "href": "ml4eo24/slides.html#section-14",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "3 epochs"
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Dataset\n\n\n\n\n\n\n\n\n\nUrban regions\n25\n\n\nCountries\n21\n\n\nZoom levels\n3  (19, 20, 21)\n\n\nN. images\n8400  (~350 per region)\n\n\nResolution\ncm"
   },
   {
     "objectID": "ml4eo24/slides.html#section-15",
     "href": "ml4eo24/slides.html#section-15",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "4 epochs"
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Locations"
   },
   {
     "objectID": "ml4eo24/slides.html#section-16",
     "href": "ml4eo24/slides.html#section-16",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "A name? \n\nGroundwork \nFooting \nGrounds \nBuifoot"
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Categories"
   },
   {
     "objectID": "ml4eo24/slides.html#section-17",
     "href": "ml4eo24/slides.html#section-17",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "Links \nGitHub fork from HOT’s fair-utilities link  HackMD notes link  This presentation link"
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Categories"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-18",
+    "href": "ml4eo24/slides.html#section-18",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Categories"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-19",
+    "href": "ml4eo24/slides.html#section-19",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Dense\nMontevideo dense"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-20",
+    "href": "ml4eo24/slides.html#section-20",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Sparse\nGornja Rijeka"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-21",
+    "href": "ml4eo24/slides.html#section-21",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Grid\nQuincy"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-22",
+    "href": "ml4eo24/slides.html#section-22",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Shingles\nSilvania"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-23",
+    "href": "ml4eo24/slides.html#section-23",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Metal\nNgandoure"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-24",
+    "href": "ml4eo24/slides.html#section-24",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Cement\nMelbourne"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-25",
+    "href": "ml4eo24/slides.html#section-25",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Mixed\nKutu Palong"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-26",
+    "href": "ml4eo24/slides.html#section-26",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Rural\nDesa Kulaba"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-27",
+    "href": "ml4eo24/slides.html#section-27",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Peri-urban\nGgaba"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-28",
+    "href": "ml4eo24/slides.html#section-28",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Urban\nBogota"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-29",
+    "href": "ml4eo24/slides.html#section-29",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Refugee camp\nKakuma"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-30",
+    "href": "ml4eo24/slides.html#section-30",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Training\n\n\n\n\n\n\n\n\n\nUrban regions\nall (25)\n\n\nN. of epochs\n20\n\n\nBatch sizes\n4  (2, 4, 8, 16)\n\n\nAccuracy metrics\n5 Categorical accuracy, Precision,Recall, F1 Score, IoU"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-33",
+    "href": "ml4eo24/slides.html#section-33",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Roof type"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-34",
+    "href": "ml4eo24/slides.html#section-34",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Urbanity"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-35",
+    "href": "ml4eo24/slides.html#section-35",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Density"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-41",
+    "href": "ml4eo24/slides.html#section-41",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Some nice numbers\n Links \nGitHub fork of fair-utilities link  fAIr website link  This presentation link"
   },
   {
     "objectID": "UA20_Liverpool/slides.html#intro-1",
