@@ -22,10 +22,10 @@ author:
 institute:
   - "The Alan Turing Institute"
   - "HOT Humanitarian OpenStreetMap Team"
-# css: style.scss
-# include-in-header: 
-  # text: |
-    # <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+css: style.scss
+include-in-header: 
+  text: |
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 ---
 
@@ -294,8 +294,9 @@ institute:
 |--------|--------|
 | **Urban regions**  | 25   |
 | **Countries**  | 21   |
-| **Zoom levels**    |      3 <br> (19, 20, 21) | 
+| **Zoom levels**    |  19, 20, 21 | 
 | **N. images**   | 8400 <br> (~350 per region)  |
+| **Images size** | 256x256 |
 | **Resolution**  | cm |
 |[]()    |        |
 
@@ -401,31 +402,48 @@ Kakuma
 <i class='fa fa-th'></i> Density
 
 
-## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_density.png" background-size="800px"}
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_batchsize.png" background-size="800px"}
 <i class='fa fa-puzzle-piece'></i>
 
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_metrics.png" background-size="800px"}
 <i class='fa fa-puzzle-piece'></i>
 
-## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_comparebatches.png" background-size="800px"}
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_density.png" background-size="800px"}
 <i class='fa fa-puzzle-piece'></i>
 
 # <i class="fas fa-map-marked-alt"> </i> Showcase
 
-2-3 extreme cases to show
+## <i class="fas fa-map-marked-alt"></i>{background-image="../images/banyuwangi_batch16.png" background-size="1100px"}
+Banyuwangi
+
+## <i class="fas fa-map-marked-alt"></i>{background-image="../images/pallabi_batch16.png" background-size="1100px"}
+Pallaby Dhaka
 
 # <i class="fas fa-hand-point-down"></i> Conclusions
 
 
 ## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_box_totdensity.png" background-size="800px"}
+<br/><br/><br/><br/><br/><br/>
+<br/><br/>
+Text with significative number
 
 ## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_box_totmetrics.png" background-size="800px"}
+<br/><br/><br/><br/><br/><br/>
+<br/><br/>
+Text with significative number
 
 ## <i class="fas fa-hand-point-down"></i>
-Some nice numbers
+<br/><br/><br/>
+
+|[]()    |        |
+|--------|--------|
+| IoU performance |  <i class="far fa-frown"></i> |
+| Dense regions  | <i class="fas fa-exclamation-triangle"></i> |
+| Batch size 16  |      <i class="fas fa-arrow-up"></i> n. epochs | 
+|[]()    |        |
 
 
-
+## <i class="fas fa-hand-point-down"></i>
 <i class='fa fa-at'></i> Links
 <br/><br/>
 
