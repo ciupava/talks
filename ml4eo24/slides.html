@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.4">
   <meta name="author" content="Anna Zanchetta, Omran Najjar, Kshitij Sharma">
-  <meta name="dcterms.date" content="2024-06-24">
+  <meta name="dcterms.date" content="2024-06-25">
   <title>Mapping   with fAIr</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -325,6 +325,7 @@
       margin-right: 0; 
     }
   </style>
+  <link rel="stylesheet" href="style.scss">
 </head>
 <body>
   <div class="reveal">
@@ -336,96 +337,26 @@
   <p class="author"><em>Anna Zanchetta, Omran Najjar, Kshitij Sharma</em></p>
   <p class="institute">The Alan Turing Institute</p>
   <p class="institute">HOT Humanitarian OpenStreetMap Team</p>
-  <p class="date">2024-06-24</p>
+  <p class="date">2024-06-25</p>
 </section>
 
-<section>
-<section id="summary" class="title-slide slide level1 center">
-<h1><i class="fa fa-align-left"></i> Summary</h1>
-
-</section>
-<section id="section" class="slide level2 smaller">
-<h2><i class="fa fa-align-left"></i></h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li><i class="fa fa-map"></i> Introduction
-<ul>
-<li><i class="fas fa-pepper-hot"></i> HOT OSM
-<ul>
-<li><i class="fa fa-compass"></i> fAIr</li>
-<li><i class="fas fa-server"></i> ML model</li>
-<li><i class="fas fa-lightbulb"></i> reason for research</li>
-</ul></li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:4%;">
-
-</div><div class="column" style="width:30%;">
-<ul>
-<li><i class="fas fa-search"></i> Research <!-- *  <i class="fas fa-crosshairs"></i> Aim -->
-<ul>
-<li><i class="fas fa-wrench"></i> Methods
-<ul>
-<li><i class="fas fa-table"></i> Data
-<ul>
-<li><i class="far fa-images"></i> Chips, OAM</li>
-<li><i class="fas fa-home"></i> Masks</li>
-</ul></li>
-<li><i class="fas fa-globe-africa"></i> Dataset
-<ul>
-<li><i class="fas fa-map-marker-alt"></i> Locations</li>
-<li><i class="fas fa-list"></i> Categories</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:3%;">
-
-</div><div class="column" style="width:30%;">
-<ul>
-<li><i class="fa fa-puzzle-piece"></i> Results
-<ul>
-<li><i class="fa fa-chart-bar"></i> Graphs</li>
-<li><i class="fas fa-list-ol"></i> Numbers</li>
-</ul></li>
-</ul>
-</div>
-</div>
-<!-- ## <i class='fa fa-align-left'></i>
-
-::: {layout-ncol=2}
-
-::: -->
-</section>
-<section id="awesome-icons" class="slide level2">
-<h2>Awesome icons</h2>
-<p><i class="fas fa-globe"></i> <i class="fas fa-globe-americas"></i> <i class="fas fa-globe-africa"></i> <i class="fab fa-diaspora"></i> <i class="fa fa-braille"></i> <i class="fas fa-dice-three"></i> <i class="fas fa-disease"></i> <i class="fa-regular fa-square"></i> <i class="fa-duotone fa-grid"></i> <i class="fas fa-grip-horizontal"></i> <i class="fas fa-border-none"></i> <i class="fa-solid fa-grid"></i> <i class="fa-solid fa-grid"></i> <i class="fa fa-square-o"></i> <i class="fa fa-th-list"></i> <i class="fa fa-th"></i> <i class="fa fa-th-large"></i> <i class="fa fa-tasks"></i> <i class="fa fa-window-restore"></i> <i class="fa fa-window-maximize"></i> <i class="fa fa-minus"></i> <i class="fa fa-circle-thin"></i> <i class="fa fa-navicon"></i> <i class="fa fa-reorder"></i></p>
-<p><i class="fas fa-shapes"></i> <i class="fas fa-border-all"></i> <i class="fa fa-th"></i> <i class="fa fa-th-large"></i></p>
-<p><i class="fa fa-stop"></i> <i class="fa fa-home"></i> <i class="fa fa-building"></i> <i class="far fa-building"></i> <i class="fas fa-hotel"></i> <i class="fa fa-industry"></i> <i class="fas fa-landmark"></i> <i class="fas fa-landmark"></i> <i class="fas fa-store-alt"></i> <i class="fa fa-compass"></i> <i class="fa fa-signal"></i> <i class="fa fa-tag"></i> <i class="fa fa-tags"></i> <i class="fa fa-university"></i> <i class="fa fa-tree"></i> <i class="fa fa-wrench"></i> <i class="fa fa-paperclip"></i> <i class="fa fa-scissors"></i> <i class="fa fa-file"></i> <i class="fa fa-file-o"></i> <i class="fa fa-comment"></i> <i class="fa fa-comments"></i> <i class="far fa-comment"></i> <i class="fa fa-search"></i> <i class="fa fa-send"></i> <i class="fa fa-photo"></i> <i class="fas fa-umbrella-beach"></i></p>
-<p><i class="fas fa-chart-bar"></i> <i class="fas fa-terminal"></i> <i class="fas fa-tools"></i></p>
-<p><i class="fas fa-pepper-hot"></i> <i class="fab fa-hotjar"></i> <i class="fas fa-fire-alt"></i> <i class="fas fa-fire"></i> <i class="fas fa-burn"></i></p>
-<p><i class="fab fa-periscope"></i> <i class="fas fa-microscope"></i> <i class="fas fa-search"></i></p>
-<p><i class="fas fa-shoe-prints"></i> <i class="fa fa-paw"></i></p>
-<p><i class="fas fa-award"></i> <i class="fas fa-list-ol"></i></p>
-<p><i class="fas fa-map-marked-alt"></i> <i class="fas fa-image"></i></p>
-<p><i class="fa fa-"></i></p>
-</section></section>
 <section>
 <section id="introduction" class="title-slide slide level1 center">
 <h1><i class="fa fa-map"></i> Introduction</h1>
 
 </section>
-<section id="section-1" class="slide level2">
+<section id="section" class="slide level2">
 <h2><i class="fa fa-map"></i></h2>
-<p><i class="fab fa-hotjar"></i> <strong>HOT</strong></p>
+<p><i class="fas fa-pepper-hot"></i> <strong>HOT</strong> <!-- <i class="fab fa-hotjar"></i> **HOT** --></p>
 <div class="columns">
-<div class="column" style="width:45%;">
-<p><img data-src="../images/OSMlogo.png"></p>
-</div><div class="column" style="width:10%;">
+<div class="column" style="width:5%;">
 
-</div><div class="column" style="width:45%;">
+</div><div class="column" style="width:40%;">
 <p><img data-src="../images/HOTlogo.png"></p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<p><img data-src="../images/OSMlogo.png"></p>
 </div>
 </div>
 <!-- 
@@ -433,54 +364,56 @@
 <br/><br/>
 ![](../images/HOTlogo.png){.absolute top="330" left="30"} -->
 </section>
-<section id="section-2" class="slide level2" data-background-image="../images/fair_webpage.png" data-background-size="1200px">
+<section id="section-1" class="slide level2" data-background-image="../images/fair_morewebpage.png" data-background-size="800px">
 <h2><i class="fa fa-map"></i></h2>
 <p><i class="fa fa-compass"></i> fAIr <!-- ![](../images/fair_webpage.png) --></p>
 <p><br><br><br><br> <br><br><br></p>
 <p><a href="https://fair-dev.hotosm.org/">https://fair-dev.hotosm.org/</a></p>
+<!-- ## <i class='fa fa-map'></i> {background-image="../images/fair_why.png" background-size="1200px"}
+<i class='fa fa-compass'></i> fAIr
+<!-- ![](../images/fair_why.png) -->
+<!-- <br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+[https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/) -->
 </section>
-<section id="section-3" class="slide level2" data-background-image="../images/fair_why.png" data-background-size="1200px">
-<h2><i class="fa fa-map"></i></h2>
-<p><i class="fa fa-compass"></i> fAIr <!-- ![](../images/fair_why.png) --> <br><br><br><br><br><br> <br><br><br><br></p>
-<p><a href="https://fair-dev.hotosm.org/">https://fair-dev.hotosm.org/</a></p>
-</section>
-<section id="section-4" class="slide level2" data-background-image="../images/ramp.png" data-background-size="1300px" data-background-color="black">
+<section id="section-2" class="slide level2" data-background-image="../images/ramp_morewebpage.png" data-background-size="800px" data-background-color="black">
 <h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-server"></i> ML engine</p>
 <p><br><br><br><br><br><br> <br><br><br></p>
 <p><a href="https://rampml.global/">https://rampml.global/</a></p>
 </section>
-<section id="section-5" class="slide level2" data-background-image="../images/ramp_effunet.png" data-background-size="1000px">
+<section id="section-3" class="slide level2" data-background-image="../images/ramp_effunet_morewebpage2.png" data-background-size="600px">
 <h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-server"></i> ML engine</p>
 <p><br><br><br><br><br><br> <br><br><br></p>
 <p><a href="https://rampml.global/ramp-model-card/">2020 paper by Baheti et al.</a></p>
 </section>
-<section id="section-6" class="slide level2" data-background-image="../images/fair_sample1.png" data-background-size="1200px">
+<section id="section-4" class="slide level2" data-background-image="../images/fair_sample1.png" data-background-size="1200px">
 <h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-lightbulb"></i> Reason for research</p>
 </section>
-<section id="section-7" class="slide level2" data-background-image="../images/fair_sample1_pred.png" data-background-size="1200px">
+<section id="section-5" class="slide level2" data-background-image="../images/fair_sample1_pred.png" data-background-size="1200px">
 <h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-lightbulb"></i></p>
 </section>
-<section id="section-8" class="slide level2" data-background-image="../images/fair_sample2.png" data-background-size="1200px" data-background-color="black">
+<section id="section-6" class="slide level2" data-background-image="../images/fair_sample2.png" data-background-size="1200px" data-background-color="black">
 <h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-lightbulb"></i></p>
 </section>
-<section id="section-9" class="slide level2" data-background-image="../images/fair_sample2_pred.png" data-background-size="1200px" data-background-color="black">
+<section id="section-7" class="slide level2" data-background-image="../images/fair_sample2_pred.png" data-background-size="1200px" data-background-color="black">
 <h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-lightbulb"></i></p>
 </section>
-<section id="section-10" class="slide level2" data-background-image="../images/fair_sample2_pred.png" data-background-size="1200px" data-background-color="black">
+<section id="section-8" class="slide level2" data-background-image="../images/fair_sample2_pred.png" data-background-size="1200px" data-background-color="black">
 <h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-lightbulb"></i> <br><br><br></p>
-<p><em>How accurate is fAIr in detecting buildings</em></p>
-<p><em>in different conditions?“</em></p>
+<p>How accurate is fAIr in detecting buildings</p>
+<p>in different conditions?</p>
 </section></section>
 <section>
-<section id="research" class="title-slide slide level1 center">
-<h1><i class="fas fa-search"></i>Research</h1>
+<section id="methods" class="title-slide slide level1 center">
+<h1><i class="fas fa-search"></i> Methods</h1>
 <!-- ## <i class="fas fa-search"></i>
 <i class="fas fa-crosshairs"></i> **Research question**
 <br/><br/><br/>
@@ -489,7 +422,7 @@
 
 *in different conditions?"* -->
 </section>
-<section id="section-11" class="slide level2">
+<section id="section-9" class="slide level2">
 <h2><i class="fas fa-search"></i></h2>
 <p><i class="fas fa-table"></i> Data</p>
 <!-- ::: {layout-ncol=2}
@@ -504,15 +437,15 @@
 
 ::: -->
 </section>
-<section id="section-12" class="slide level2" data-background-image="../images/oam3.png" data-background-size="1100px">
+<section id="section-10" class="slide level2" data-background-image="../images/oam_morewebpage.png" data-background-size="800px" data-background-color="black">
 <h2><i class="fas fa-table"></i></h2>
-<p><i class="far fa-images"></i> <span style="color:white;">RGB from OAM</span> <br><br><br><br><br><br> <br><br><br> <a href="https://openaerialmap.org/">Open Aerial Map</a></p>
+<p><i class="far fa-images"></i> RGB from OAM <br><br><br><br><br><br> <br><br><br> <a href="https://openaerialmap.org/">Open Aerial Map</a></p>
 </section>
-<section id="section-13" class="slide level2" data-background-image="../images/labels_fair.png" data-background-size="1200px">
+<section id="section-11" class="slide level2" data-background-image="../images/labels_fair.png" data-background-size="1200px">
 <h2><i class="fas fa-table"></i></h2>
 <p><i class="fas fa-home"></i> Labels from OSM <br><br><br><br><br><br> <br><br><br> <a href="https://fair-dev.hotosm.org/training-datasets">Preprocessing through fAIr website</a></p>
 </section>
-<section id="section-14" class="slide level2">
+<section id="section-12" class="slide level2">
 <h2><i class="fas fa-search"></i></h2>
 <p><i class="fas fa-globe-africa"></i> Dataset</p>
 <table>
@@ -533,17 +466,21 @@
 </tr>
 <tr class="odd">
 <td><strong>Zoom levels</strong></td>
-<td>3 <br> (19, 20, 21)</td>
+<td>19, 20, 21</td>
 </tr>
 <tr class="even">
 <td><strong>N. images</strong></td>
 <td>8400 <br> (~350 per region)</td>
 </tr>
 <tr class="odd">
+<td><strong>Images size</strong></td>
+<td>256x256</td>
+</tr>
+<tr class="even">
 <td><strong>Resolution</strong></td>
 <td>cm</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href=""></a></td>
 <td></td>
 </tr>
@@ -551,78 +488,78 @@
 </table>
 <!-- :  {tbl-colwidths="[70,30]"} -->
 </section>
-<section id="section-15" class="slide level2" data-background-image="../images/world_map_citieslocations.png">
-<h2><i class="fas fa-search"></i></h2>
+<section id="section-13" class="slide level2" data-background-image="../images/world_map_citieslocations.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-map-marker-alt"></i> Locations</p>
 </section>
-<section id="section-16" class="slide level2" data-background-image="../images/world_map_bydensity.png">
-<h2><i class="fas fa-search"></i></h2>
+<section id="section-14" class="slide level2" data-background-image="../images/world_map_byurbantype.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-list"></i> Categories</p>
 </section>
-<section id="section-17" class="slide level2" data-background-image="../images/world_map_bycovertype.png">
-<h2><i class="fas fa-search"></i></h2>
-<p><i class="fas fa-list"></i> Categories</p>
-</section>
-<section id="section-18" class="slide level2" data-background-image="../images/world_map_byurbantype.png">
-<h2><i class="fas fa-search"></i></h2>
-<p><i class="fas fa-list"></i> Categories</p>
-</section>
-<section id="section-19" class="slide level2" data-background-image="../images/density1.png" data-background-color="black">
-<h2><i class="fas fa-search"></i></h2>
-<p><i class="fa fa-th"></i> Dense</p>
-<p>Montevideo dense</p>
-</section>
-<section id="section-20" class="slide level2" data-background-image="../images/density3.png">
-<h2><i class="fas fa-search"></i></h2>
-<p><i class="fa fa-th"></i> Sparse</p>
-<p>Gornja Rijeka</p>
-</section>
-<section id="section-21" class="slide level2" data-background-image="../images/density2.png">
-<h2><i class="fas fa-search"></i></h2>
-<p><i class="fa fa-th"></i> Grid</p>
-<p>Quincy</p>
-</section>
-<section id="section-22" class="slide level2" data-background-image="../images/cover1.png">
-<h2><i class="fas fa-search"></i></h2>
-<p><i class="fas fa-shapes"></i> Shingles</p>
-<p>Silvania</p>
-</section>
-<section id="section-23" class="slide level2" data-background-image="../images/cover2.png" data-background-color="black">
-<h2><i class="fas fa-search"></i></h2>
-<p><i class="fas fa-shapes"></i> Metal</p>
-<p>Ngandoure</p>
-</section>
-<section id="section-24" class="slide level2" data-background-image="../images/cover3.png">
-<h2><i class="fas fa-search"></i></h2>
-<p><i class="fas fa-shapes"></i> Cement</p>
-<p>Melbourne</p>
-</section>
-<section id="section-25" class="slide level2" data-background-image="../images/cover4.png">
-<h2><i class="fas fa-search"></i></h2>
-<p><i class="fas fa-shapes"></i> Mixed</p>
-<p>Kutu Palong</p>
-</section>
-<section id="section-26" class="slide level2" data-background-image="../images/urban1.png" data-background-color="black">
-<h2><i class="fas fa-search"></i></h2>
+<section id="section-15" class="slide level2" data-background-image="../images/urban1.png" data-background-color="black">
+<h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-university"></i> Rural</p>
 <p>Desa Kulaba</p>
 </section>
-<section id="section-27" class="slide level2" data-background-image="../images/urban2.png">
-<h2><i class="fas fa-search"></i></h2>
+<section id="section-16" class="slide level2" data-background-image="../images/urban2.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-university"></i> Peri-urban</p>
 <p>Ggaba</p>
 </section>
-<section id="section-28" class="slide level2" data-background-image="../images/urban4.png" data-background-color="black">
-<h2><i class="fas fa-search"></i></h2>
+<section id="section-17" class="slide level2" data-background-image="../images/urban4.png" data-background-color="black">
+<h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-university"></i> Urban</p>
 <p>Bogota</p>
 </section>
-<section id="section-29" class="slide level2" data-background-image="../images/urban3.png" data-background-color="black">
-<h2><i class="fas fa-search"></i></h2>
+<section id="section-18" class="slide level2" data-background-image="../images/urban3.png" data-background-color="black">
+<h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-university"></i> Refugee camp</p>
 <p>Kakuma</p>
 </section>
-<section id="section-30" class="slide level2">
+<section id="section-19" class="slide level2" data-background-image="../images/world_map_bycovertype.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
+<p><i class="fas fa-list"></i> Categories</p>
+</section>
+<section id="section-20" class="slide level2" data-background-image="../images/cover1.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
+<p><i class="fas fa-shapes"></i> Shingles</p>
+<p>Silvania</p>
+</section>
+<section id="section-21" class="slide level2" data-background-image="../images/cover2.png" data-background-color="black">
+<h2><i class="fas fa-globe-africa"></i></h2>
+<p><i class="fas fa-shapes"></i> Metal</p>
+<p>Ngaoundere</p>
+</section>
+<section id="section-22" class="slide level2" data-background-image="../images/cover3.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
+<p><i class="fas fa-shapes"></i> Cement</p>
+<p>Melbourne</p>
+</section>
+<section id="section-23" class="slide level2" data-background-image="../images/cover4.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
+<p><i class="fas fa-shapes"></i> Mixed</p>
+<p>Kutupalong</p>
+</section>
+<section id="section-24" class="slide level2" data-background-image="../images/world_map_bydensity.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
+<p><i class="fas fa-list"></i> Categories</p>
+</section>
+<section id="section-25" class="slide level2" data-background-image="../images/density1.png" data-background-color="black">
+<h2><i class="fas fa-globe-africa"></i></h2>
+<p><i class="fa fa-th"></i> Dense</p>
+<p>Montevideo dense</p>
+</section>
+<section id="section-26" class="slide level2" data-background-image="../images/density3.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
+<p><i class="fa fa-th"></i> Sparse</p>
+<p>Gornja Rijeka</p>
+</section>
+<section id="section-27" class="slide level2" data-background-image="../images/density2.png">
+<h2><i class="fas fa-globe-africa"></i></h2>
+<p><i class="fa fa-th"></i> Grid</p>
+<p>Quincy</p>
+</section>
+<section id="section-28" class="slide level2">
 <h2><i class="fas fa-search"></i></h2>
 <p><i class="fas fa-hourglass-half"></i> Training</p>
 <table>
@@ -661,60 +598,172 @@
 <h1><i class="fa fa-chart-bar"></i> Results</h1>
 
 </section>
-<section id="section-31" class="slide level2" data-background-image="../images/graph_sample.png" data-background-size="900px">
+<section id="section-29" class="slide level2" data-background-image="../images/graph_sample.png" data-background-size="900px">
 <h2><i class="fa fa-chart-bar"></i></h2>
 </section>
-<section id="section-32" class="slide level2" data-background-image="../images/graph_with_circle.png" data-background-size="900px">
+<section id="section-30" class="slide level2" data-background-image="../images/graph_with_circle.png" data-background-size="900px">
 <h2><i class="fa fa-chart-bar"></i></h2>
-</section>
-<section id="section-33" class="slide level2" data-background-image="../images/plot_map_roof.png" data-background-size="800px">
-<h2><i class="fa fa-chart-bar"></i></h2>
-<p><i class="fas fa-shapes"></i> Roof type</p>
-</section>
-<section id="section-34" class="slide level2" data-background-image="../images/plot_map_urban.png" data-background-size="800px">
-<h2><i class="fa fa-chart-bar"></i></h2>
-<p><i class="fa fa-university"></i> Urbanity</p>
-</section>
-<section id="section-35" class="slide level2" data-background-image="../images/plot_map_density.png" data-background-size="800px">
-<h2><i class="fa fa-chart-bar"></i></h2>
-<p><i class="fa fa-th"></i> Density</p>
-</section>
-<section id="section-36" class="slide level2" data-background-image="../images/plot_box_density.png" data-background-size="800px">
-<h2><i class="fa fa-chart-bar"></i></h2>
-<p><i class="fa fa-puzzle-piece"></i></p>
-</section>
-<section id="section-37" class="slide level2" data-background-image="../images/plot_box_metrics.png" data-background-size="800px">
-<h2><i class="fa fa-chart-bar"></i></h2>
-<p><i class="fa fa-puzzle-piece"></i></p>
-</section>
-<section id="section-38" class="slide level2" data-background-image="../images/plot_box_comparebatches.png" data-background-size="800px">
-<h2><i class="fa fa-chart-bar"></i></h2>
-<p><i class="fa fa-puzzle-piece"></i></p>
-</section></section>
-<section id="showcase" class="title-slide slide level1 center">
-<h1><i class="fas fa-map-marked-alt"> </i> Showcase</h1>
-<p>2-3 extreme cases to show</p>
-</section>
+<!-- ## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_map_roof.png" background-size="800px"}
+<i class='fas fa-shapes'></i> Roof type
 
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_map_urban.png" background-size="800px"}
+<i class='fa fa-university'></i> Urbanity -->
+</section>
+<section id="section-31" class="slide level2" data-background-image="../images/plot_map_density.png" data-background-size="800px">
+<h2><i class="fa fa-chart-bar"></i></h2>
+<p><del><i class="fa fa-university"></i> Urbanity</del></p>
+<p><del><i class="fas fa-shapes"></i> Roof type</del></p>
+<p><i class="fa fa-th"></i> Density</p>
+<!-- ## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_batchsize.png" background-size="800px"}
+<i class='fa fa-puzzle-piece'></i> -->
+<!-- ## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_metrics.png" background-size="800px"}
+<i class='fa fa-puzzle-piece'></i>
+
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_density.png" background-size="800px"}
+<i class='fa fa-puzzle-piece'></i> -->
+</section>
+<section id="section-32" class="slide level2" data-background-image="../images/plot_box_all.png" data-background-size="800px">
+<h2><i class="fa fa-chart-bar"></i></h2>
+<p><i class="fa fa-puzzle-piece"></i></p>
+<p><del>Batch size</del></p>
+<!-- # <i class="fas fa-map-marked-alt"> </i> Showcase -->
+</section></section>
 <section>
 <section id="conclusions" class="title-slide slide level1 center">
 <h1><i class="fas fa-hand-point-down"></i> Conclusions</h1>
 
 </section>
-<section id="section-39" class="slide level2" data-background-image="../images/plot_box_totdensity.png" data-background-size="800px">
-<h2><i class="fas fa-hand-point-down"></i></h2>
+<section id="conclusions-1" class="slide level2">
+<h2><i class="fas fa-hand-point-down"></i> Conclusions</h2>
+<!-- ## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_box_all_withmean_numbers.png" background-size="800px"}
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_box_totmetrics.png" background-size="800px"} -->
+<!-- ::: {.r-fit-text} -->
+<p><br><br></p>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:15%;">
+<p><i class="fa fa-th"></i></p>
+</div><div class="column" style="width:25%;">
+<p><i class="fas fa-border-all"></i></p>
+<p><em>4.8%</em></p>
+</div><div class="column" style="width:15%;">
+
+</div><div class="column" style="width:40%;">
+<p><i class="fas fa-braille"></i></p>
+<p><em>4.2%</em></p>
+</div>
+</div>
+<!-- ::: -->
 </section>
-<section id="section-40" class="slide level2" data-background-image="../images/plot_box_totmetrics.png" data-background-size="800px">
-<h2><i class="fas fa-hand-point-down"></i></h2>
+<section id="conclusions-2" class="slide level2">
+<h2><i class="fas fa-hand-point-down"></i> Conclusions</h2>
+<p><br><br></p>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:15%;">
+<p><i class="fa fa-th"></i></p>
+</div><div class="column" style="width:25%;">
+<p><i class="fas fa-border-all"></i></p>
+<p><em><span style="color:#bfbfbf;">4.8%</span></em></p>
+<p><em>7.7%</em></p>
+</div><div class="column" style="width:15%;">
+<p><span style="color:white">ooo</span></p>
+<p><em><span style="color:white">ooo</span></em></p>
+<p><em>IoU</em></p>
+</div><div class="column" style="width:40%;">
+<p><i class="fas fa-braille"></i></p>
+<p><em><span style="color:#bfbfbf;">4.2%</span></em></p>
+<p><em>7.8%</em></p>
+</div>
+</div>
 </section>
-<section id="section-41" class="slide level2">
+<section id="section-33" class="slide level2" data-background-image="../images/banyuwangi_batch16.png" data-background-size="1100px">
 <h2><i class="fas fa-hand-point-down"></i></h2>
-<p>Some nice numbers</p>
-<p><i class="fa fa-at"></i> Links <br><br></p>
-<p>GitHub fork of <code>fair-utilities</code> <a href="https://github.com/ciupava/fAIr-utilities">link</a> <br> fAIr website <a href="https://fair-dev.hotosm.org/">link</a> <br> This presentation <a href="https://ciupava.github.io/talks/team_call_Dec2023_fAIr/slides.html">link</a></p>
+<p><i class="fas fa-map-marked-alt"></i></p>
+<p>Banyuwangi</p>
+</section>
+<section id="section-34" class="slide level2" data-background-image="../images/pallabi_batch16.png" data-background-size="1100px">
+<h2><i class="fas fa-hand-point-down"></i></h2>
+<p><i class="fas fa-map-marked-alt"></i></p>
+<p>Pallaby Dhaka</p>
+</section>
+<section id="section-35" class="slide level2">
+<h2><i class="fas fa-hand-point-down"></i></h2>
+<p><i class="fas fa-rocket"></i> Future</p>
+<!-- |[]()    |        |
+|--------|--------|
+| IoU performance |  <i class="far fa-frown"></i> |
+| Dense regions  | <i class="fas fa-exclamation-triangle"></i> |
+| Batch size 16  |      <i class="fas fa-arrow-up"></i> n. epochs | 
+|    | <br/>  |
+|Future  | <i class="fas fa-rocket"></i> models <br> <i class="fas fa-tree"></i> <i class="fas fa-water"></i> features |
+|[]()    |        | -->
+<p><br> <br></p>
+<div class="r-stack">
+<p><i class="fas fa-cogs"></i> Models <br> <br><i class="fas fa-tree"></i> <i class="fas fa-water"></i> Features</p>
+</div>
+<!-- ## <i class='fa fa-at'></i> Links
+<br/><br/>
+
+GitHub repo [https://github.com/ciupava/fAIr-utilities](https://github.com/ciupava/fAIr-utilities)
+<br/>
+fAIr website [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
+<br/>
+This presentation <i class="fas fa-angle-down"></i> -->
 </section></section>
-<section id="thank-you" class="title-slide slide level1 center" data-background-image="../images/black_background.jpg">
-<h1><span style="color:white;">THANK YOU</span></h1>
+<section id="thank-you" class="title-slide slide level1 center" data-background-image="../images/black_background.jpg" data-background-color="black">
+<h1>THANK YOU</h1>
+<p><br><br> <i class="fa fa-at"></i></p>
+<p>GitHub repo <a href="https://github.com/ciupava/fAIr-utilities">https://github.com/ciupava/fAIr-utilities</a> <br> fAIr website <a href="https://fair-dev.hotosm.org/">https://fair-dev.hotosm.org/</a> <br> This presentation <i class="fas fa-angle-down"></i></p>
+<!-- 
+# <i class='fa fa-align-left'></i> Summary
+
+## <i class='fa fa-align-left'></i> {.smaller}
+<br/><br/>
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+* <i class='fa fa-map'></i> Introduction
+    * <i class="fas fa-pepper-hot"></i> HOT and fAIr
+        <!-- -   <i class='fa fa-compass'></i> fAIr
+        -   <i class="fas fa-server"></i> ML model 
+    <!-- * <i class="fas fa-lightbulb"></i>  Reason for research -->
+<!-- :::
+
+::: {.column width="4%"}
+
+:::
+
+::: {.column width="30%"}
+
+* <i class="fas fa-search"></i> Methods
+    * <i class="fas fa-table"></i> Data
+      <!-- - <i class="far fa-images"></i> Chips, OAM
+      - <i class="fas fa-home"></i> Masks 
+    - <i class="fas fa-globe-africa"></i> Dataset
+      <!-- - <i class="fas fa-map-marker-alt"></i> Locations
+      - <i class="fas fa-list"></i> Categories 
+
+:::
+
+::: {.column width="3%"}
+
+:::
+
+::: {.column width="30%"}
+
+* <i class='fa fa-puzzle-piece'></i> Results
+    * <i class='fa fa-chart-bar'></i> Graphs
+    * <i class="fas fa-map-marked-alt"> </i> Cases
+
+:::
+
+:::: -->
 
 <div class="footer footer-default">
 <p>These slides at <a href="ciupava.github.io/talks/ml4eo24/slides.html">ciupava.github.io/talks/ml4eo24/slides.html</a></p>
