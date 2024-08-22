@@ -15,7 +15,7 @@ title-slide-attributes:
   data-background-image: "../images/black_background6.png"
   data-background-size: contain
   data-background-opacity: "0.9"
-date: "2024-09-08"
+date: "2024-06-25"
 date-format: long
 author:
   - "*Anna Zanchetta, Omran Najjar, Kshitij Sharma*"
@@ -25,8 +25,7 @@ institute:
 css: style.scss
 include-in-header: 
   text: |
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></link>
-
+    css: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 ---
 
