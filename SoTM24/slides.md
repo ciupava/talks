@@ -203,7 +203,7 @@ Quincy
 
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_with_circle.png" background-size="900px"}
 
-## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_map_density.png" background-size="800px"}
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_map_density2.png" background-size="800px"}
 ~~<i class='fa fa-university'></i> Urbanity~~
 
 ~~<i class='fas fa-shapes'></i> Roof type~~
@@ -211,7 +211,7 @@ Quincy
 <i class='fa fa-th'></i> Density
 
 
-## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_all2.png" background-size="800px"}
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_all.png" background-size="800px"}
 <i class='fa fa-puzzle-piece'></i>
 
 ~~Batch size~~
