@@ -10,7 +10,7 @@ format:
     # width: 1280
     # height: 720
     theme: [default, style.scss] #solarized # custom.scss # simple # serif
-    footer: "These slides at [https://ciupava.github.io/talks/SoTM24/slides.html](ciupava.github.io/talks/SoTM24/slides.html)"
+    footer: "These slides at [https://ciupava.github.io/talks/SoTM24/slides.html]"
 title-slide-attributes:
   data-background-image: "../images/black_background6.png"
   data-background-size: contain
