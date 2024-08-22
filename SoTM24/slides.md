@@ -23,12 +23,12 @@ institute:
   - "The Alan Turing Institute"
   - "HOT Humanitarian OpenStreetMap Team"
 css: style.scss
-# include-in-header: 
-#   text: |
-#     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+include-in-header: 
+  text: |
+   "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'>"
 
 ---
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 
 # <i class='fa fa-map'></i> Introduction
 
