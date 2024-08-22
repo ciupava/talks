@@ -23,9 +23,7 @@ institute:
   - "The Alan Turing Institute"
   - "HOT Humanitarian OpenStreetMap Team"
 css: style.scss
-include-in-header: 
-  text:
-    <link rel="stylesheet" href="https://github.com/myfileshost/assets/blob/assets/lib/font-awesome/css/font-awesome.min.css">
+
 
 ---
 

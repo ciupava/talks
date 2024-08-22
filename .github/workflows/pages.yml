@@ -16,6 +16,9 @@ jobs:
         wget https://github.com/quarto-dev/quarto-cli/releases/download/v0.9.4/quarto-0.9.4-linux-amd64.deb
         sudo dpkg -i quarto-0.9.4-linux-amd64.deb
 
+    -name: Install FOntawesome
+      run: quarto install extension quarto-ext/fontawesome
+
     - name: Render Quarto Project
       uses: quarto-dev/quarto-actions/render@v2
 
