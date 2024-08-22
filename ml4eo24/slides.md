@@ -30,6 +30,7 @@ css: style.scss
 ---
 
 # <i class='fa fa-map'></i> Introduction
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 ## <i class='fa fa-map'></i> 
 <i class="fas fa-pepper-hot"></i> **HOT**
