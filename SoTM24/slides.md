@@ -25,7 +25,7 @@ institute:
 css: style.scss
 include-in-header: 
   text:
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"/>
+    <link rel="stylesheet" href="https://github.com/myfileshost/assets/blob/assets/lib/font-awesome/css/font-awesome.min.css">
 
 ---
 
