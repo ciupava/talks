@@ -16,7 +16,7 @@ jobs:
         wget https://github.com/quarto-dev/quarto-cli/releases/download/v0.9.4/quarto-0.9.4-linux-amd64.deb
         sudo dpkg -i quarto-0.9.4-linux-amd64.deb
 
-    -name: Install Fontawesome
+    - name: Install Fontawesome
       run: |
         sudo quarto install extension quarto-ext/fontawesome
 
