@@ -15,7 +15,7 @@ title-slide-attributes:
   data-background-image: "../images/black_background6.png"
   data-background-size: contain
   data-background-opacity: "0.9"
-date: "2024-06-25"
+date: "09/08/2024"
 date-format: long
 author:
   - "*Anna Zanchetta, Omran Najjar, Kshitij Sharma*"
@@ -71,22 +71,34 @@ in different conditions?
 
 # <i class="fas fa-search"></i> Methods
 
-## <i class='fa fa-search'></i>{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
+## <i class="fas fa-search"></i>
 <i class="fas fa-server"></i> ML engine
+
+## <i class='fa fa-server'></i>{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
+
 
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/>
 
 [https://rampml.global/](https://rampml.global/)
 
-## <i class='fa fa-search'></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
-<i class="fas fa-server"></i> ML engine
+## <i class="fas fa-server"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
+
 
 <br/><br/><br/><br/><br/><br/>
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 [2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
 
+## <i class="fas fa-server"></i>{background-image="../images/metrics.png" background-size="1200px"}
+
+<i class="fas fa-chart-line"></i> Metrics
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+
+Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
 
 ## <i class="fas fa-search"></i>
 <i class="fas fa-table"></i> Data
@@ -118,75 +130,113 @@ in different conditions?
 
 <!-- :  {tbl-colwidths="[70,30]"} -->
 
+# <i class="fas fa-globe-africa"></i> Dataset
+
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/world_map_citieslocations.png"}
 <i class="fas fa-map-marker-alt"></i> Locations
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/world_map_byurbantype.png"}
-<i class="fas fa-list"></i> Categories
+<i class="fas fa-list"></i> Degree of urbanity
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/urban1.png" background-color="black"}
 <i class='fa fa-university'></i> Rural
 
+<br/>
 Desa Kulaba
+
+[Indonesia]
+
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/urban2.png"}
 <i class='fa fa-university'></i> Peri-urban
 
+<br/>
 Ggaba
+
+[Uganda]
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/urban4.png" background-color="black"}
 <i class='fa fa-university'></i> Urban
 
+<br/>
 Bogota
+
+[Colombia]
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/urban3.png" background-color="black"}
 <i class='fa fa-university'></i> Refugee camp
 
+<br/>
 Kakuma
 
+[Kenya]
+
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/world_map_bycovertype.png"}
-<i class="fas fa-list"></i> Categories
+<i class="fas fa-list"></i> Roof cover type
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/cover1.png"}
 <i class='fas fa-shapes'></i>  Shingles
 
+<br/>
 Silvania
+
+[Brasil]
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/cover2.png" background-color="black"}
 <i class='fas fa-shapes'></i> Metal
 
+<br/>
 Ngaoundere
+
+[Cameroon]
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/cover3.png"}
 <i class='fas fa-shapes'></i> Cement
 
+<br/>
 Melbourne
+
+[Australia]
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/cover4.png"}
 <i class='fas fa-shapes'></i> Mixed
 
+<br/>
 Kutupalong
 
+[Bangladesh]
+
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/world_map_bydensity.png"}
-<i class="fas fa-list"></i> Categories
+<i class="fas fa-list"></i> Urban density
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/density1.png" background-color="black"}
 <i class='fa fa-th'></i> Dense
 
-Montevideo dense
+<br/>
+Montevideo
+
+[Uruguay]
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/density3.png"}
 <i class='fa fa-th'></i> Sparse
 
+<br/>
 Gornja Rijeka
+
+[Croatia]
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/density2.png"}
 <i class='fa fa-th'></i> Grid
 
-
+<br/>
 Quincy
 
-## <i class="fas fa-search"></i>
+[USA]
+
+
+# <i class='fa fa-chart-bar'></i> Results
+
+## <i class="fas fa-chart-bar"></i>
 <i class="fas fa-hourglass-half"></i> Training
 
 |[]()    |        |
@@ -197,11 +247,10 @@ Quincy
 | **Accuracy metrics**   | 5 <br>Categorical accuracy, Precision,<br>Recall, F1 Score, IoU  |
 |[]()    |        |
 
-# <i class='fa fa-chart-bar'></i> Results
 
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_sample.png" background-size="900px"}
 
-## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_with_circle.png" background-size="900px"}
+## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_with_circle2.png" background-size="900px"}
 
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_map_density2.png" background-size="800px"}
 ~~<i class='fa fa-university'></i> Urbanity~~
@@ -211,7 +260,7 @@ Quincy
 <i class='fa fa-th'></i> Density
 
 
-## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_all.png" background-size="800px"}
+## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_all4.png" background-size="800px"}
 <i class='fa fa-puzzle-piece'></i>
 
 ~~Batch size~~
@@ -309,12 +358,18 @@ Quincy
 ## <i class="fas fa-hand-point-down"></i>{background-image="../images/banyuwangi_batch16.png" background-size="1100px"}
 <i class="fas fa-map-marked-alt"></i>
 
+<br/>
 Banyuwangi
+
+[Indonesia]
 
 ## <i class="fas fa-hand-point-down"></i>{background-image="../images/pallabi_batch16.png" background-size="1100px"}
 <i class="fas fa-map-marked-alt"></i>
 
-Pallaby Dhaka
+<br/>
+Pallaby, Dhaka
+
+[Bangladesh]
 
 ## <i class="fas fa-hand-point-down"></i>
 <i class="fas fa-rocket"></i> Future
@@ -336,51 +391,3 @@ GitHub repo [https://github.com/ciupava/fAIr-utilities](https://github.com/ciupa
 fAIr website [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 <br/>
 This presentation <i class="fas fa-angle-down"></i>
-
-<!-- 
-# <i class='fa fa-align-left'></i> Summary
-
-## <i class='fa fa-align-left'></i> {.smaller}
-<br/><br/>
-
-:::: {.columns}
-
-::: {.column width="30%"}
-
-* <i class='fa fa-map'></i> Introduction
-    * <i class="fas fa-pepper-hot"></i> HOT and fAIr
-        <!-- -   <i class='fa fa-compass'></i> fAIr
-        -   <i class="fas fa-server"></i> ML model 
-    <!-- * <i class="fas fa-lightbulb"></i>  Reason for research -->
-
-<!-- :::
-
-::: {.column width="4%"}
-
-:::
-
-::: {.column width="30%"}
-
-* <i class="fas fa-search"></i> Methods
-    * <i class="fas fa-table"></i> Data
-      <!-- - <i class="far fa-images"></i> Chips, OAM
-      - <i class="fas fa-home"></i> Masks 
-    - <i class="fas fa-globe-africa"></i> Dataset
-      <!-- - <i class="fas fa-map-marker-alt"></i> Locations
-      - <i class="fas fa-list"></i> Categories 
-
-:::
-
-::: {.column width="3%"}
-
-:::
-
-::: {.column width="30%"}
-
-* <i class='fa fa-puzzle-piece'></i> Results
-    * <i class='fa fa-chart-bar'></i> Graphs
-    * <i class="fas fa-map-marked-alt"> </i> Cases
-
-:::
-
-:::: -->
