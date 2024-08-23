@@ -72,26 +72,25 @@ in different conditions?
 # <i class="fas fa-search"></i> Methods
 
 
-## <i class="fas fa-search"></i>
-<i class="fas fa-server"></i> ML engine
+## <i class="fas fa-search"></i>{background-image="../images/MLmethod2.png" background-size="1300px"}
 
-## <i class="fas fa-search"></i>
-<i class="fas fa-table"></i> Data
 
-## <i class="fas fa-table"></i>{background-image="../images/oam_morewebpage.png" background-size="800px"  background-color="black"}
+## <i class="fas fa-search"></i>{background-image="../images/oam_morewebpage.png" background-size="800px"  background-color="black"}
 <i class="far fa-images"></i> RGB from OAM
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/>
 [Open Aerial Map](https://openaerialmap.org/)
 
-## <i class="fas fa-table"></i>{background-image="../images/labels_fair.png" background-size="1200px"}
+## <i class="fas fa-search"></i>{background-image="../images/labels_fair.png" background-size="1200px"}
 <i class="fas fa-home"></i> Labels from OSM
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/>
 [Preprocessing through fAIr website](https://fair-dev.hotosm.org/training-datasets)
 
-## <i class="fas fa-search"></i>
-<i class="fas fa-globe-africa"></i> Dataset
+
+# <i class="fas fa-globe-africa"></i> Dataset
+
+## <i class="fas fa-globe-africa"></i> Dataset
 
 |[]()    |        |
 |--------|--------|
@@ -104,9 +103,6 @@ in different conditions?
 |[]()    |        |
 
 <!-- :  {tbl-colwidths="[70,30]"} -->
-
-# <i class="fas fa-globe-africa"></i> Dataset
-
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/world_map_citieslocations.png"}
 <i class="fas fa-map-marker-alt"></i> Locations
 
@@ -207,6 +203,49 @@ Gornja Rijeka
 Quincy
 
 [USA]
+
+# <i class="fas fa-server"></i> ML engine
+
+<!-- # <i class="fas fa-graduation-cap"></i> Semantic segmentation -->
+
+## <i class='fa fa-server'></i>{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
+
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/>
+
+[https://rampml.global/](https://rampml.global/)
+
+## <i class="fas fa-server"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
+
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+[2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
+
+## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics3.png" background-size="1200px"}
+
+<i class="fas fa-chart-line"></i> Metrics
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+
+Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
+
+
+
+## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics2.png" background-size="1200px"}
+
+<i class="fas fa-chart-line"></i> Metrics
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+
+Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
+
 
 
 # <i class='fa fa-chart-bar'></i> Results
@@ -355,37 +394,6 @@ Pallaby, Dhaka
 :::{.r-stack}
 <i class="fas fa-cogs"></i>  Models <br> <br><i class="fas fa-tree"></i> <i class="fas fa-water"></i>  Features
 :::
-
-# <i class="fas fa-graduation-cap"></i> Appendix
-
-## <i class='fa fa-server'></i>{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
-
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/>
-
-[https://rampml.global/](https://rampml.global/)
-
-## <i class="fas fa-server"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
-
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-[2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
-
-## <i class='fa fa-server'></i>{background-image="../images/MLmethod2.png" background-size="1300px"}
-
-
-## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics.png" background-size="1200px"}
-
-<i class="fas fa-chart-line"></i> Metrics
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-
-Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
 
 
 # THANK YOU {background-image="../images/black_background.jpg" background-color="black"}
