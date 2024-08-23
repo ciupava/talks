@@ -494,172 +494,151 @@
     "href": "SoTM24/slides.html#section-8",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "https://rampml.global/"
+    "text": "Data"
   },
   {
     "objectID": "SoTM24/slides.html#section-9",
     "href": "SoTM24/slides.html#section-9",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "2020 paper by Baheti et al."
+    "text": "RGB from OAM   Open Aerial Map"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-10",
+    "href": "SoTM24/slides.html#section-10",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Labels from OSM   Preprocessing through fAIr website"
   },
   {
     "objectID": "SoTM24/slides.html#section-11",
     "href": "SoTM24/slides.html#section-11",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Data"
+    "text": "Dataset\n\n\n\n\n\n\n\n\n\nUrban regions\n25\n\n\nCountries\n21\n\n\nZoom levels\n19, 20, 21\n\n\nN. images\n8400  (~350 per region)\n\n\nImages size\n256x256\n\n\nResolution\ncm"
   },
   {
     "objectID": "SoTM24/slides.html#section-12",
     "href": "SoTM24/slides.html#section-12",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "RGB from OAM   Open Aerial Map"
+    "text": "Locations"
   },
   {
     "objectID": "SoTM24/slides.html#section-13",
     "href": "SoTM24/slides.html#section-13",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Labels from OSM   Preprocessing through fAIr website"
+    "text": "Degree of urbanity"
   },
   {
     "objectID": "SoTM24/slides.html#section-14",
     "href": "SoTM24/slides.html#section-14",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Dataset\n\n\n\n\n\n\n\n\n\nUrban regions\n25\n\n\nCountries\n21\n\n\nZoom levels\n19, 20, 21\n\n\nN. images\n8400  (~350 per region)\n\n\nImages size\n256x256\n\n\nResolution\ncm"
+    "text": "Rural\n Desa Kulaba\n[Indonesia]"
   },
   {
     "objectID": "SoTM24/slides.html#section-15",
     "href": "SoTM24/slides.html#section-15",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Locations"
+    "text": "Peri-urban\n Ggaba\n[Uganda]"
   },
   {
     "objectID": "SoTM24/slides.html#section-16",
     "href": "SoTM24/slides.html#section-16",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Degree of urbanity"
+    "text": "Urban\n Bogota\n[Colombia]"
   },
   {
     "objectID": "SoTM24/slides.html#section-17",
     "href": "SoTM24/slides.html#section-17",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Rural\n Desa Kulaba\n[Indonesia]"
+    "text": "Refugee camp\n Kakuma\n[Kenya]"
   },
   {
     "objectID": "SoTM24/slides.html#section-18",
     "href": "SoTM24/slides.html#section-18",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Peri-urban\n Ggaba\n[Uganda]"
+    "text": "Roof cover type"
   },
   {
     "objectID": "SoTM24/slides.html#section-19",
     "href": "SoTM24/slides.html#section-19",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Urban\n Bogota\n[Colombia]"
+    "text": "Shingles\n Silvania\n[Brasil]"
   },
   {
     "objectID": "SoTM24/slides.html#section-20",
     "href": "SoTM24/slides.html#section-20",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Refugee camp\n Kakuma\n[Kenya]"
+    "text": "Metal\n Ngaoundere\n[Cameroon]"
   },
   {
     "objectID": "SoTM24/slides.html#section-21",
     "href": "SoTM24/slides.html#section-21",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Roof cover type"
+    "text": "Cement\n Melbourne\n[Australia]"
   },
   {
     "objectID": "SoTM24/slides.html#section-22",
     "href": "SoTM24/slides.html#section-22",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Shingles\n Silvania\n[Brasil]"
+    "text": "Mixed\n Kutupalong\n[Bangladesh]"
   },
   {
     "objectID": "SoTM24/slides.html#section-23",
     "href": "SoTM24/slides.html#section-23",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Metal\n Ngaoundere\n[Cameroon]"
+    "text": "Urban density"
   },
   {
     "objectID": "SoTM24/slides.html#section-24",
     "href": "SoTM24/slides.html#section-24",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Cement\n Melbourne\n[Australia]"
+    "text": "Dense\n Montevideo\n[Uruguay]"
   },
   {
     "objectID": "SoTM24/slides.html#section-25",
     "href": "SoTM24/slides.html#section-25",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Mixed\n Kutupalong\n[Bangladesh]"
+    "text": "Sparse\n Gornja Rijeka\n[Croatia]"
   },
   {
     "objectID": "SoTM24/slides.html#section-26",
     "href": "SoTM24/slides.html#section-26",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Urban density"
+    "text": "Grid\n Quincy\n[USA]"
   },
   {
     "objectID": "SoTM24/slides.html#section-27",
     "href": "SoTM24/slides.html#section-27",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Dense\n Montevideo\n[Uruguay]"
-  },
-  {
-    "objectID": "SoTM24/slides.html#section-28",
-    "href": "SoTM24/slides.html#section-28",
-    "title": "Mapping   with fAIr",
-    "section": "",
-    "text": "Sparse\n Gornja Rijeka\n[Croatia]"
-  },
-  {
-    "objectID": "SoTM24/slides.html#section-29",
-    "href": "SoTM24/slides.html#section-29",
-    "title": "Mapping   with fAIr",
-    "section": "",
-    "text": "Grid\n Quincy\n[USA]"
+    "text": "Training\n\n\n\n\n\n\n\n\n\nUrban regions\nall (25)\n\n\nN. of epochs\n20\n\n\nBatch sizes\n4  (2, 4, 8, 16)\n\n\nAccuracy metrics\n5 Categorical accuracy, Precision,Recall, F1 Score, IoU"
   },
   {
     "objectID": "SoTM24/slides.html#section-30",
     "href": "SoTM24/slides.html#section-30",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Training\n\n\n\n\n\n\n\n\n\nUrban regions\nall (25)\n\n\nN. of epochs\n20\n\n\nBatch sizes\n4  (2, 4, 8, 16)\n\n\nAccuracy metrics\n5 Categorical accuracy, Precision,Recall, F1 Score, IoU"
+    "text": "Urbanity\n Roof type\n Density"
   },
   {
     "objectID": "SoTM24/slides.html#section-31",
     "href": "SoTM24/slides.html#section-31",
-    "title": "Mapping   with fAIr",
-    "section": "",
-    "text": "Metrics\n \nSource: https://metrics-reloaded.dkfz.de/metric-library"
-  },
-  {
-    "objectID": "SoTM24/slides.html#section-34",
-    "href": "SoTM24/slides.html#section-34",
-    "title": "Mapping   with fAIr",
-    "section": "",
-    "text": "Urbanity\n Roof type\n Density"
-  },
-  {
-    "objectID": "SoTM24/slides.html#section-35",
-    "href": "SoTM24/slides.html#section-35",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Batch size"
@@ -679,24 +658,45 @@
     "text": "Conclusions\n\n\n\n\n\n\n\n\n4.8%\n7.7%\n\nooo\nooo\nIoU\n\n\n4.2%\n7.8%"
   },
   {
-    "objectID": "SoTM24/slides.html#section-36",
-    "href": "SoTM24/slides.html#section-36",
+    "objectID": "SoTM24/slides.html#section-32",
+    "href": "SoTM24/slides.html#section-32",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Banyuwangi\n[Indonesia]"
   },
   {
-    "objectID": "SoTM24/slides.html#section-37",
-    "href": "SoTM24/slides.html#section-37",
+    "objectID": "SoTM24/slides.html#section-33",
+    "href": "SoTM24/slides.html#section-33",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-34",
+    "href": "SoTM24/slides.html#section-34",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Future\n \n\n Models    Features"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-35",
+    "href": "SoTM24/slides.html#section-35",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "https://rampml.global/"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-36",
+    "href": "SoTM24/slides.html#section-36",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "2020 paper by Baheti et al."
   },
   {
     "objectID": "SoTM24/slides.html#section-38",
     "href": "SoTM24/slides.html#section-38",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Future\n \n\n Models    Features"
+    "text": "Metrics\n \nSource: https://metrics-reloaded.dkfz.de/metric-library"
   }
 ]
