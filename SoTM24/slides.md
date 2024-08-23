@@ -71,6 +71,7 @@ in different conditions?
 
 # <i class="fas fa-search"></i> Methods
 
+
 ## <i class="fas fa-search"></i>
 <i class="fas fa-server"></i> ML engine
 
@@ -90,15 +91,7 @@ in different conditions?
 
 [2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
 
-## <i class="fas fa-server"></i>{background-image="../images/metrics.png" background-size="1200px"}
-
-<i class="fas fa-chart-line"></i> Metrics
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-
-Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
+## <i class='fa fa-server'></i>{background-image="../images/MLmethod.png" background-size="1300px"}
 
 ## <i class="fas fa-search"></i>
 <i class="fas fa-table"></i> Data
@@ -246,6 +239,18 @@ Quincy
 | **Batch sizes**    |      4 <br> (2, 4, 8, 16) | 
 | **Accuracy metrics**   | 5 <br>Categorical accuracy, Precision,<br>Recall, F1 Score, IoU  |
 |[]()    |        |
+
+
+
+## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics.png" background-size="1200px"}
+
+<i class="fas fa-chart-line"></i> Metrics
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+
+Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
 
 
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_sample.png" background-size="900px"}
