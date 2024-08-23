@@ -504,13 +504,6 @@
     "text": "2020 paper by Baheti et al."
   },
   {
-    "objectID": "SoTM24/slides.html#section-10",
-    "href": "SoTM24/slides.html#section-10",
-    "title": "Mapping   with fAIr",
-    "section": "",
-    "text": "Metrics\n \nSource: https://metrics-reloaded.dkfz.de/metric-library"
-  },
-  {
     "objectID": "SoTM24/slides.html#section-11",
     "href": "SoTM24/slides.html#section-11",
     "title": "Mapping   with fAIr",
@@ -651,15 +644,22 @@
     "text": "Training\n\n\n\n\n\n\n\n\n\nUrban regions\nall (25)\n\n\nN. of epochs\n20\n\n\nBatch sizes\n4  (2, 4, 8, 16)\n\n\nAccuracy metrics\n5 Categorical accuracy, Precision,Recall, F1 Score, IoU"
   },
   {
-    "objectID": "SoTM24/slides.html#section-33",
-    "href": "SoTM24/slides.html#section-33",
+    "objectID": "SoTM24/slides.html#section-31",
+    "href": "SoTM24/slides.html#section-31",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Metrics\n \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-34",
+    "href": "SoTM24/slides.html#section-34",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Urbanity\n Roof type\n Density"
   },
   {
-    "objectID": "SoTM24/slides.html#section-34",
-    "href": "SoTM24/slides.html#section-34",
+    "objectID": "SoTM24/slides.html#section-35",
+    "href": "SoTM24/slides.html#section-35",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Batch size"
@@ -679,22 +679,22 @@
     "text": "Conclusions\n\n\n\n\n\n\n\n\n4.8%\n7.7%\n\nooo\nooo\nIoU\n\n\n4.2%\n7.8%"
   },
   {
-    "objectID": "SoTM24/slides.html#section-35",
-    "href": "SoTM24/slides.html#section-35",
+    "objectID": "SoTM24/slides.html#section-36",
+    "href": "SoTM24/slides.html#section-36",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Banyuwangi\n[Indonesia]"
   },
   {
-    "objectID": "SoTM24/slides.html#section-36",
-    "href": "SoTM24/slides.html#section-36",
+    "objectID": "SoTM24/slides.html#section-37",
+    "href": "SoTM24/slides.html#section-37",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Pallaby, Dhaka\n[Bangladesh]"
   },
   {
-    "objectID": "SoTM24/slides.html#section-37",
-    "href": "SoTM24/slides.html#section-37",
+    "objectID": "SoTM24/slides.html#section-38",
+    "href": "SoTM24/slides.html#section-38",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Future\n \n\n Models    Features"
