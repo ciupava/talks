@@ -75,6 +75,24 @@ in different conditions?
 ## <i class="fas fa-search"></i>
 <i class="fas fa-server"></i> ML engine
 
+## <i class='fa fa-server'></i>{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
+
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/>
+
+[https://rampml.global/](https://rampml.global/)
+
+## <i class="fas fa-server"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
+
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+[2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
+
+## <i class='fa fa-server'></i>{background-image="../images/MLmethod.png" background-size="1300px"}
+
 ## <i class="fas fa-search"></i>
 <i class="fas fa-table"></i> Data
 
@@ -223,6 +241,18 @@ Quincy
 |[]()    |        |
 
 
+
+## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics.png" background-size="1200px"}
+
+<i class="fas fa-chart-line"></i> Metrics
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+
+Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
+
+
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_sample.png" background-size="900px"}
 
 ## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_with_circle2.png" background-size="900px"}
@@ -355,37 +385,6 @@ Pallaby, Dhaka
 :::{.r-stack}
 <i class="fas fa-cogs"></i>  Models <br> <br><i class="fas fa-tree"></i> <i class="fas fa-water"></i>  Features
 :::
-
-# <i class="fas fa-graduation-cap"></i> Appendix
-
-## <i class='fa fa-server'></i>{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
-
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/>
-
-[https://rampml.global/](https://rampml.global/)
-
-## <i class="fas fa-server"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
-
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-[2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
-
-## <i class='fa fa-server'></i>{background-image="../images/MLmethod2.png" background-size="1300px"}
-
-
-## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics.png" background-size="1200px"}
-
-<i class="fas fa-chart-line"></i> Metrics
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-
-Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
 
 
 # THANK YOU {background-image="../images/black_background.jpg" background-color="black"}
