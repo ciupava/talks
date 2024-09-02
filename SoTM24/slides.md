@@ -443,4 +443,4 @@ Code [https://github.com/ciupava/fAIr-utilities](https://github.com/ciupava/fAIr
 <br/>
 fAIr website [https://fair.hotosm.org/](https://fair.hotosm.org/)
 <br/>
-This presentation <i class="fas fa-angle-down"></i>
+Link to this presentation <i class="fas fa-angle-down"></i>
