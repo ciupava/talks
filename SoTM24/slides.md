@@ -36,7 +36,33 @@ css: style.scss
 
 ## <i class='fa fa-map'></i>{background-image="../images/Intro_sotm.png" background-size="1200px"}
 
+## <i class='fa fa-map'></i>
+:::: {.columns}
 
+::: {.column width="5%"}
+
+::: 
+
+::: {.column width="40%"}
+
+![](../images/pic_kshitij_square.png)
+
+Kshitij (Nepal)
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+
+![](../images/pic_omran_square.png)
+
+Omran (Germany)
+
+:::
+
+::::
 
 ## <i class='fa fa-map'></i>{background-image="../images/fair_morewebpage.png" background-size="800px"}
 <i class='fa fa-compass'></i> fAIr
@@ -396,12 +422,13 @@ Pallaby, Dhaka
 :::
 
 
-# THANK YOU {background-image="../images/black_background.jpg" background-color="black"}
-<br/><br/>
-<i class='fa fa-at'></i>
+# <i class="fas fa-praying-hands"></i> THANK YOU {background-image="../images/black_background.jpg" background-color="black"}
 
-GitHub repo [https://github.com/ciupava/fAIr-utilities](https://github.com/ciupava/fAIr-utilities)
+<br/><br/><br/><br/><br/><br/>
+<i class='fa fa-at'></i>
 <br/>
-fAIr website [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
+Code [https://github.com/ciupava/fAIr-utilities](https://github.com/ciupava/fAIr-utilities)
+<br/>
+fAIr website [https://fair.hotosm.org/](https://fair.hotosm.org/)
 <br/>
 This presentation <i class="fas fa-angle-down"></i>
