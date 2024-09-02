@@ -424,7 +424,7 @@ Pallaby, Dhaka
 
 # <i class="fas fa-praying-hands"></i> THANK YOU {background-image="../images/black_background.jpg" background-color="black"}
 
-<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
 <i class='fa fa-at'></i>
 <br/>
 Code [https://github.com/ciupava/fAIr-utilities](https://github.com/ciupava/fAIr-utilities)
