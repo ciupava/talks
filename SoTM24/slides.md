@@ -39,26 +39,38 @@ css: style.scss
 ## <i class='fa fa-map'></i>
 :::: {.columns}
 
-::: {.column width="5%"}
+::: {.column width="15%"}
 
 ::: 
 
-::: {.column width="40%"}
-
-![](../images/pic_kshitij_square.png)
-
-Kshitij (Nepal)
-
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
+::: {.column width="30%"}
 
 ![](../images/pic_omran_square.png)
 
+::: {style="font-size: 50%;"}
+
 Omran (Germany)
+
+**Product owner**
+
+:::
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+
+![](../images/pic_kshitij_square.png)
+
+::: {style="font-size: 50%;"}
+
+Kshitij (Nepal)
+
+**Backend developer**
+
+:::
 
 :::
 
@@ -72,6 +84,43 @@ Omran (Germany)
 
 [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 
+
+## <i class="fas fa-map"></i>{background-image="../images/MLmethod2.png" background-size="1300px"}
+
+
+## <i class="fas fa-map"></i>{background-image="../images/oam_morewebpage.png" background-size="800px"  background-color="black"}
+<i class="far fa-images"></i> RGB from OAM
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/>
+[Open Aerial Map](https://openaerialmap.org/)
+
+## <i class="fas fa-map"></i>{background-image="../images/labels_fair.png" background-size="1200px"}
+<i class="fas fa-home"></i> Labels from OSM
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/>
+[Preprocessing through fAIr website](https://fair-dev.hotosm.org/training-datasets)
+
+<!-- # <i class="fas fa-server"></i> ML engine -->
+
+<!-- # <i class="fas fa-graduation-cap"></i> Semantic segmentation -->
+
+## <i class='fa fa-server'></i> ML engine{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
+
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/>
+
+[https://rampml.global/](https://rampml.global/)
+
+## <i class="fas fa-server"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
+
+
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+[2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
+
+# <i class="fas fa-search"></i> Methods
 
 ## <i class='fa fa-map'></i>{background-image="../images/fair_sample1.png" background-size="1200px"}
 <i class="fas fa-lightbulb"></i> Reason for research
@@ -94,24 +143,29 @@ How accurate is fAIr in detecting buildings
 in different conditions?
 
 
+## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics2.png" background-size="1200px"}
 
-# <i class="fas fa-search"></i> Methods
+<i class="fas fa-chart-line"></i> Metrics
 
-
-## <i class="fas fa-search"></i>{background-image="../images/MLmethod2.png" background-size="1300px"}
-
-
-## <i class="fas fa-search"></i>{background-image="../images/oam_morewebpage.png" background-size="800px"  background-color="black"}
-<i class="far fa-images"></i> RGB from OAM
 <br/><br/><br/><br/><br/><br/>
-<br/><br/><br/>
-[Open Aerial Map](https://openaerialmap.org/)
+<br/><br/><br/><br/>
 
-## <i class="fas fa-search"></i>{background-image="../images/labels_fair.png" background-size="1200px"}
-<i class="fas fa-home"></i> Labels from OSM
+
+Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
+
+
+
+## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics3.png" background-size="1200px"}
+
+<i class="fas fa-chart-line"></i> Metrics
+
 <br/><br/><br/><br/><br/><br/>
-<br/><br/><br/>
-[Preprocessing through fAIr website](https://fair-dev.hotosm.org/training-datasets)
+<br/><br/><br/><br/>
+
+
+Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
+
+
 
 
 # <i class="fas fa-globe-africa"></i> Dataset
@@ -229,49 +283,6 @@ Gornja Rijeka
 Quincy
 
 [USA]
-
-# <i class="fas fa-server"></i> ML engine
-
-<!-- # <i class="fas fa-graduation-cap"></i> Semantic segmentation -->
-
-## <i class='fa fa-server'></i>{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
-
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/>
-
-[https://rampml.global/](https://rampml.global/)
-
-## <i class="fas fa-server"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
-
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-[2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
-
-## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics2.png" background-size="1200px"}
-
-<i class="fas fa-chart-line"></i> Metrics
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-
-Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
-
-
-
-## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics3.png" background-size="1200px"}
-
-<i class="fas fa-chart-line"></i> Metrics
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-
-Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
-
 
 
 # <i class='fa fa-chart-bar'></i> Results
