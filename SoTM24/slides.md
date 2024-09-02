@@ -104,7 +104,8 @@ Kshitij (Nepal)
 
 <!-- # <i class="fas fa-graduation-cap"></i> Semantic segmentation -->
 
-## <i class='fa fa-server'></i> ML engine{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
+## <i class="fas fa-map"></i>{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
+<i class='fa fa-server'></i> ML engine
 
 
 <br/><br/><br/><br/><br/><br/>
@@ -112,7 +113,7 @@ Kshitij (Nepal)
 
 [https://rampml.global/](https://rampml.global/)
 
-## <i class="fas fa-server"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
+## <i class="fas fa-map"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
 
 
 <br/><br/><br/><br/><br/><br/>
@@ -122,19 +123,19 @@ Kshitij (Nepal)
 
 # <i class="fas fa-search"></i> Methods
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample1.png" background-size="1200px"}
+## <i class='fa fa-search'></i>{background-image="../images/fair_sample1.png" background-size="1200px"}
 <i class="fas fa-lightbulb"></i> Reason for research
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample1_pred.png" background-size="1200px"}
+## <i class='fa fa-search'></i>{background-image="../images/fair_sample1_pred.png" background-size="1200px"}
 <i class="fas fa-lightbulb"></i> 
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample2.png" background-size="1200px" background-color="black"}
+## <i class='fa fa-search'></i>{background-image="../images/fair_sample2.png" background-size="1200px" background-color="black"}
 <i class="fas fa-lightbulb"></i> 
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
+## <i class='fa fa-search'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
 <i class="fas fa-lightbulb"></i> 
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
+## <i class='fa fa-search'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
 <i class="fas fa-lightbulb"></i> 
 <br/><br/><br/>
 
@@ -143,7 +144,7 @@ How accurate is fAIr in detecting buildings
 in different conditions?
 
 
-## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics2.png" background-size="1200px"}
+## <i class="fas fa-search"></i>{background-image="../images/metrics2.png" background-size="1200px"}
 
 <i class="fas fa-chart-line"></i> Metrics
 
@@ -155,7 +156,7 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 
 
 
-## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics3.png" background-size="1200px"}
+## <i class="fas fa-search"></i>{background-image="../images/metrics3.png" background-size="1200px"}
 
 <i class="fas fa-chart-line"></i> Metrics
 
