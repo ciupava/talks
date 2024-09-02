@@ -250,7 +250,7 @@ Quincy
 
 [2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
 
-## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics3.png" background-size="1200px"}
+## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics2.png" background-size="1200px"}
 
 <i class="fas fa-chart-line"></i> Metrics
 
@@ -262,7 +262,7 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 
 
 
-## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics2.png" background-size="1200px"}
+## <i class="fas fa-chart-bar"></i>{background-image="../images/metrics3.png" background-size="1200px"}
 
 <i class="fas fa-chart-line"></i> Metrics
 
