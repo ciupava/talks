@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "mapathon_Jan2024/slides.html#useful-links",
-    "href": "mapathon_Jan2024/slides.html#useful-links",
-    "title": "Creating labels for fAir",
-    "section": "Useful links",
-    "text": "Useful links\n\nLink to fAIr website\nLink to OpenAerialMap OAM\nLink to Openstreetmap OSM"
-  },
-  {
-    "objectID": "mapathon_Jan2024/slides.html#workflow-live-demo",
-    "href": "mapathon_Jan2024/slides.html#workflow-live-demo",
-    "title": "Creating labels for fAir",
-    "section": "Workflow (live demo):",
-    "text": "Workflow (live demo):\n\nchoose imagery in OAM\ncompare with OSM data availability\nget TMS link from OAM to be used in the fAIr website\ngenerate new training dataset in fAIr\nmap map map!"
-  },
-  {
     "objectID": "ml4eo24/slides.html#section",
     "href": "ml4eo24/slides.html#section",
     "title": "Mapping   with fAIr",
@@ -245,111 +231,6 @@
     "text": "Future\n\n \n\n Models    Features"
   },
   {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section",
-    "href": "team_call_Dec2023_fAIr/slides.html#section",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Presenting HOT and fAIr\n Demo\n On computer Vision\n  Current status of the project"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-2",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-2",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "https://fair-dev.hotosm.org/"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-5",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-5",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "https://fair-dev.hotosm.org/"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-7",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-7",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Computer Vision \n\nSource: Towardsdatascience"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-8",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-8",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Source: Hoeser et al. 2020"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-9",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-9",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Source: GitHub"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#challenges",
-    "href": "team_call_Dec2023_fAIr/slides.html#challenges",
-    "title": "Mapping buildings  with AI",
-    "section": " Challenges",
-    "text": "Challenges\n\n    Models availability   https://github.com/satellite-image-deep-learning/techniques"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-10",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-10",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Data availability   Maxar   open data program"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-11",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-11",
-    "title": "Mapping buildings  with AI",
-    "section": "",
-    "text": "Data availability  Open Aerial Map"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-12",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-12",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "Assess the current performance  metric\n\n\n\n\n  Code in GitHub\n\n\n\n\n Cloud computation  Azure"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-13",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-13",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "2 epochs"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-14",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-14",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "3 epochs"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-15",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-15",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "4 epochs"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-16",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-16",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "A name? \n\nGroundwork \nFooting \nGrounds \nBuifoot"
-  },
-  {
-    "objectID": "team_call_Dec2023_fAIr/slides.html#section-17",
-    "href": "team_call_Dec2023_fAIr/slides.html#section-17",
-    "title": "Mapping buildings  with AI",
-    "section": " ",
-    "text": "Links \nGitHub fork from HOT’s fair-utilities link  HackMD notes link  This presentation link"
-  },
-  {
     "objectID": "UA20_Liverpool/slides.html#intro-1",
     "href": "UA20_Liverpool/slides.html#intro-1",
     "title": "Land Use Demonstrator",
@@ -466,7 +347,7 @@
     "href": "SoTM24/slides.html#section-1",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Omran (Germany)\nProduct owner\n\n\n\n\n\n\nKshitij (Nepal)\nBackend developer"
+    "text": "Omran (Germany)\nAI Product owner\n\n\n\n\n\n\nKshitij (Nepal)\nBackend developer"
   },
   {
     "objectID": "SoTM24/slides.html#section-2",
@@ -522,144 +403,144 @@
     "href": "SoTM24/slides.html#section-13",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Metrics\n \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
   },
   {
     "objectID": "SoTM24/slides.html#section-14",
     "href": "SoTM24/slides.html#section-14",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Metrics\n \nSource: https://metrics-reloaded.dkfz.de/metric-library"
-  },
-  {
-    "objectID": "SoTM24/slides.html#dataset-1",
-    "href": "SoTM24/slides.html#dataset-1",
-    "title": "Mapping   with fAIr",
-    "section": " Dataset",
-    "text": "Dataset\n\n\n\n\n\n\n\n\n\nUrban regions\n25\n\n\nCountries\n21\n\n\nZoom levels\n19, 20, 21\n\n\nN. images\n8400  (~350 per region)\n\n\nImages size\n256x256\n\n\nResolution\ncm"
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
   },
   {
     "objectID": "SoTM24/slides.html#section-15",
     "href": "SoTM24/slides.html#section-15",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Locations"
+    "text": "Urban regions\n25\n\n\nCountries\n21\n\n\nZoom levels\n19, 20, 21\n\n\nN. images\n8400  (~350 per region)\n\n\nImages size\n256x256\n\n\nResolution\ncm"
   },
   {
     "objectID": "SoTM24/slides.html#section-16",
     "href": "SoTM24/slides.html#section-16",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Degree of urbanity"
+    "text": "Locations"
   },
   {
     "objectID": "SoTM24/slides.html#section-17",
     "href": "SoTM24/slides.html#section-17",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Rural\n Desa Kulaba\n[Indonesia]"
+    "text": "Degree of urbanity"
   },
   {
     "objectID": "SoTM24/slides.html#section-18",
     "href": "SoTM24/slides.html#section-18",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Peri-urban\n Ggaba\n[Uganda]"
+    "text": "Rural\n Desa Kulaba\n[Indonesia]"
   },
   {
     "objectID": "SoTM24/slides.html#section-19",
     "href": "SoTM24/slides.html#section-19",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Urban\n Bogota\n[Colombia]"
+    "text": "Peri-urban\n Ggaba\n[Uganda]"
   },
   {
     "objectID": "SoTM24/slides.html#section-20",
     "href": "SoTM24/slides.html#section-20",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Refugee camp\n Kakuma\n[Kenya]"
+    "text": "Urban\n Bogota\n[Colombia]"
   },
   {
     "objectID": "SoTM24/slides.html#section-21",
     "href": "SoTM24/slides.html#section-21",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Roof cover type"
+    "text": "Refugee camp\n Kakuma\n[Kenya]"
   },
   {
     "objectID": "SoTM24/slides.html#section-22",
     "href": "SoTM24/slides.html#section-22",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Shingles\n Silvania\n[Brasil]"
+    "text": "Roof cover type"
   },
   {
     "objectID": "SoTM24/slides.html#section-23",
     "href": "SoTM24/slides.html#section-23",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Metal\n Ngaoundere\n[Cameroon]"
+    "text": "Shingles\n Silvania\n[Brasil]"
   },
   {
     "objectID": "SoTM24/slides.html#section-24",
     "href": "SoTM24/slides.html#section-24",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Cement\n Melbourne\n[Australia]"
+    "text": "Metal\n Ngaoundere\n[Cameroon]"
   },
   {
     "objectID": "SoTM24/slides.html#section-25",
     "href": "SoTM24/slides.html#section-25",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Mixed\n Kutupalong\n[Bangladesh]"
+    "text": "Cement\n Melbourne\n[Australia]"
   },
   {
     "objectID": "SoTM24/slides.html#section-26",
     "href": "SoTM24/slides.html#section-26",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Urban density"
+    "text": "Mixed\n Kutupalong\n[Bangladesh]"
   },
   {
     "objectID": "SoTM24/slides.html#section-27",
     "href": "SoTM24/slides.html#section-27",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Dense\n Montevideo\n[Uruguay]"
+    "text": "Urban density"
   },
   {
     "objectID": "SoTM24/slides.html#section-28",
     "href": "SoTM24/slides.html#section-28",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Sparse\n Gornja Rijeka\n[Croatia]"
+    "text": "Dense\n Montevideo\n[Uruguay]"
   },
   {
     "objectID": "SoTM24/slides.html#section-29",
     "href": "SoTM24/slides.html#section-29",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Grid\n Quincy\n[USA]"
+    "text": "Sparse\n Gornja Rijeka\n[Croatia]"
   },
   {
     "objectID": "SoTM24/slides.html#section-30",
     "href": "SoTM24/slides.html#section-30",
     "title": "Mapping   with fAIr",
     "section": "",
+    "text": "Grid\n Quincy\n[USA]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-31",
+    "href": "SoTM24/slides.html#section-31",
+    "title": "Mapping   with fAIr",
+    "section": "",
     "text": "Training\n\n\n\n\n\n\n\n\n\nUrban regions\nall (25)\n\n\nN. of epochs\n20\n\n\nBatch sizes\n4  (2, 4, 8, 16)\n\n\nAccuracy metrics\n5 Categorical accuracy, Precision,Recall, F1 Score, IoU"
   },
   {
-    "objectID": "SoTM24/slides.html#section-33",
-    "href": "SoTM24/slides.html#section-33",
+    "objectID": "SoTM24/slides.html#section-34",
+    "href": "SoTM24/slides.html#section-34",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Urbanity\n Roof type\n Density"
   },
   {
-    "objectID": "SoTM24/slides.html#section-34",
-    "href": "SoTM24/slides.html#section-34",
+    "objectID": "SoTM24/slides.html#section-35",
+    "href": "SoTM24/slides.html#section-35",
     "title": "Mapping   with fAIr",
     "section": "",
     "text": "Batch size"
@@ -679,24 +560,143 @@
     "text": "Conclusions\n\n\n\n\n\n\n\n\n4.8%\n7.7%\n\nooo\nooo\nIoU\n\n\n4.2%\n7.8%"
   },
   {
-    "objectID": "SoTM24/slides.html#section-35",
-    "href": "SoTM24/slides.html#section-35",
-    "title": "Mapping   with fAIr",
-    "section": "",
-    "text": "Banyuwangi\n[Indonesia]"
-  },
-  {
     "objectID": "SoTM24/slides.html#section-36",
     "href": "SoTM24/slides.html#section-36",
     "title": "Mapping   with fAIr",
     "section": "",
-    "text": "Pallaby, Dhaka\n[Bangladesh]"
+    "text": "Banyuwangi\n[Indonesia]"
   },
   {
     "objectID": "SoTM24/slides.html#section-37",
     "href": "SoTM24/slides.html#section-37",
     "title": "Mapping   with fAIr",
     "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-38",
+    "href": "SoTM24/slides.html#section-38",
+    "title": "Mapping   with fAIr",
+    "section": "",
     "text": "Future\n \n\n Models    Features"
+  },
+  {
+    "objectID": "mapathon_Jan2024/slides.html#useful-links",
+    "href": "mapathon_Jan2024/slides.html#useful-links",
+    "title": "Creating labels for fAir",
+    "section": "Useful links",
+    "text": "Useful links\n\nLink to fAIr website\nLink to OpenAerialMap OAM\nLink to Openstreetmap OSM"
+  },
+  {
+    "objectID": "mapathon_Jan2024/slides.html#workflow-live-demo",
+    "href": "mapathon_Jan2024/slides.html#workflow-live-demo",
+    "title": "Creating labels for fAir",
+    "section": "Workflow (live demo):",
+    "text": "Workflow (live demo):\n\nchoose imagery in OAM\ncompare with OSM data availability\nget TMS link from OAM to be used in the fAIr website\ngenerate new training dataset in fAIr\nmap map map!"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section",
+    "href": "team_call_Dec2023_fAIr/slides.html#section",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Presenting HOT and fAIr\n Demo\n On computer Vision\n  Current status of the project"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-2",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-2",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "https://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-5",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-5",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "https://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-7",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-7",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Computer Vision \n\nSource: Towardsdatascience"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-8",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-8",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Source: Hoeser et al. 2020"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-9",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-9",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Source: GitHub"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#challenges",
+    "href": "team_call_Dec2023_fAIr/slides.html#challenges",
+    "title": "Mapping buildings  with AI",
+    "section": " Challenges",
+    "text": "Challenges\n\n    Models availability   https://github.com/satellite-image-deep-learning/techniques"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-10",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-10",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Data availability   Maxar   open data program"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-11",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-11",
+    "title": "Mapping buildings  with AI",
+    "section": "",
+    "text": "Data availability  Open Aerial Map"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-12",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-12",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "Assess the current performance  metric\n\n\n\n\n  Code in GitHub\n\n\n\n\n Cloud computation  Azure"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-13",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-13",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "2 epochs"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-14",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-14",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "3 epochs"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-15",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-15",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "4 epochs"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-16",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-16",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "A name? \n\nGroundwork \nFooting \nGrounds \nBuifoot"
+  },
+  {
+    "objectID": "team_call_Dec2023_fAIr/slides.html#section-17",
+    "href": "team_call_Dec2023_fAIr/slides.html#section-17",
+    "title": "Mapping buildings  with AI",
+    "section": " ",
+    "text": "Links \nGitHub fork from HOT’s fair-utilities link  HackMD notes link  This presentation link"
   }
 ]
