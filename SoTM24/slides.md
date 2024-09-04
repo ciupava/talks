@@ -51,7 +51,7 @@ css: style.scss
 
 Omran (Germany)
 
-**Product owner**
+**AI Product owner**
 
 :::
 
@@ -85,7 +85,7 @@ Kshitij (Nepal)
 [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 
 
-## <i class="fas fa-map"></i>{background-image="../images/MLmethod2.png" background-size="1300px"}
+## <i class="fas fa-map"></i>{background-image="../images/MLmethod3.png" background-size="1300px"}
 
 
 ## <i class="fas fa-map"></i>{background-image="../images/oam_morewebpage.png" background-size="800px"  background-color="black"}
@@ -145,9 +145,7 @@ in different conditions?
 
 
 ## <i class="fas fa-search"></i>{background-image="../images/metrics2.png" background-size="1200px"}
-
 <i class="fas fa-chart-line"></i> Metrics
-
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/>
 
@@ -157,21 +155,15 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 
 
 ## <i class="fas fa-search"></i>{background-image="../images/metrics3.png" background-size="1200px"}
-
 <i class="fas fa-chart-line"></i> Metrics
-
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/>
 
-
 Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
-
-
-
 
 # <i class="fas fa-globe-africa"></i> Dataset
 
-## <i class="fas fa-globe-africa"></i> Dataset
+## <i class="fas fa-globe-africa"></i>
 
 |[]()    |        |
 |--------|--------|
