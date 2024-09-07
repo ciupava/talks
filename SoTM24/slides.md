@@ -14,7 +14,7 @@ format:
 title-slide-attributes:
   data-background-image: "../images/black_background6.png"
   data-background-size: contain
-  data-background-opacity: "0.9"
+  data-background-opacity: "0.2"
 date: "09/08/2024"
 date-format: long
 author:
@@ -23,9 +23,6 @@ institute:
   - "The Alan Turing Institute"
   - "HOT Humanitarian OpenStreetMap Team"
 css: style.scss
-# include-in-header: 
-#   text: |
-#     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 ---
 
