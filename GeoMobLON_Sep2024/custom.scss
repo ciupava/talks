@@ -1,0 +1,19 @@
+
+/*-- scss:defaults --*/
+
+$fa-font-path: "bower/font-awesome/fonts";
+@import "bower/font-awesome/scss/variables";
+@import "bower/font-awesome/scss/mixins";
+@import "bower/font-awesome/scss/path";
+@import "bower/font-awesome/scss/spinning";
+
+.reveal {
+  @import "bower/font-awesome/scss/core";
+  @import "bower/font-awesome/scss/larger";
+  @import "bower/font-awesome/scss/fixed-width";
+  @import "bower/font-awesome/scss/list";
+  @import "bower/font-awesome/scss/bordered-pulled";
+  @import "bower/font-awesome/scss/rotated-flipped";
+  @import "bower/font-awesome/scss/stacked";
+  @import "bower/font-awesome/scss/icons";
+}
