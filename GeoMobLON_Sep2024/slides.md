@@ -10,7 +10,7 @@ format:
     # width: 1280
     # height: 720
     theme: [default, style.scss] #solarized # custom.scss # simple # serif
-    footer: "These slides at <https://ciupava.github.io/talks/SoTM24/slides.html>"
+    footer: "These slides at <https://ciupava.github.io/talks/GeoMobLON_Sep2024/slides.html>"
 title-slide-attributes:
   data-background-image: "../images/black_background6.png"
   data-background-size: contain
@@ -26,12 +26,11 @@ css: style.scss
 
 ---
 
-
 # <i class='fa fa-map'></i> Introduction
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+## <i class='fa fa-map'></i>
 
-## <i class='fa fa-map'></i>{background-image="../images/Intro_sotm.png" background-size="1200px"}
+Image of HOT and ATI logo, about me
 
 ## <i class='fa fa-map'></i>
 :::: {.columns}
@@ -102,24 +101,6 @@ Kshitij (Nepal)
 
 <!-- # <i class="fas fa-graduation-cap"></i> Semantic segmentation -->
 
-## <i class="fas fa-map"></i>{background-image="../images/ramp_morewebpage.png" background-size="800px" background-color="black"}
-<i class='fa fa-server'></i> ML engine
-
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/>
-
-[https://rampml.global/](https://rampml.global/)
-
-## <i class="fas fa-map"></i>{background-image="../images/ramp_effunet_morewebpage2.png" background-size="600px"}
-
-
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-[2020 paper by Baheti et al.](https://rampml.global/ramp-model-card/)
-
-# <i class="fas fa-search"></i> Methods
 
 ## <i class='fa fa-search'></i>{background-image="../images/fair_sample1.png" background-size="1200px"}
 <i class="fas fa-lightbulb"></i> Reason for research
@@ -278,7 +259,7 @@ Quincy
 
 # <i class='fa fa-chart-bar'></i> Results
 
-## <i class="fas fa-chart-bar"></i>
+<!-- ## <i class="fas fa-chart-bar"></i>
 <i class="fas fa-hourglass-half"></i> Training
 
 |[]()    |        |
@@ -287,14 +268,10 @@ Quincy
 | **N. of epochs**  | 20   |
 | **Batch sizes**    |      4 <br> (2, 4, 8, 16) | 
 | **Accuracy metrics**   | 5 <br>Categorical accuracy, Precision,<br>Recall, F1 Score, IoU  |
-|[]()    |        |
+|[]()    |        | -->
 
 
-## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_sample.png" background-size="900px"}
-
-## <i class='fa fa-chart-bar'></i>{background-image="../images/graph_with_circle2.png" background-size="900px"}
-
-## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_map_density2.png" background-size="800px"}
+## <i class='fa fa-chart-bar'></i>Results{background-image="../images/plot_map_density2.png" background-size="800px"}
 ~~<i class='fa fa-university'></i> Urbanity~~
 
 ~~<i class='fas fa-shapes'></i> Roof type~~
@@ -302,102 +279,13 @@ Quincy
 <i class='fa fa-th'></i> Density
 
 
-## <i class='fa fa-chart-bar'></i>{background-image="../images/plot_box_all4.png" background-size="800px"}
-<i class='fa fa-puzzle-piece'></i>
 
-~~Batch size~~
+## <i class='fa fa-chart-bar'></i>Results{background-image="../images/plot_map_density2.png" background-size="800px"}
 
+<br/><br/><br/><br/>
+SAME IMAGE WITH NUMBERS ON TOP
 
-# <i class="fas fa-hand-point-down"></i> Conclusions
-
-## <i class="fas fa-hand-point-down"></i> Conclusions
-
-<br/><br/>
-
-:::: {.columns}
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="15%"}
-
-<i class='fa fa-th'></i>
-
-:::
-
-::: {.column width="25%"}
-
-<i class="fas fa-border-all"></i>
-
-<em>4.8%</em>
-
-:::
-
-::: {.column width="15%"}
-
-:::
-
-::: {.column width="40%"}
-
-<i class="fas fa-braille"></i>
-
-<em>4.2%</em>
-
-:::
-
-::::
-
-<!-- ::: -->
-
-## <i class="fas fa-hand-point-down"></i> Conclusions
-<br/><br/>
-
-:::: {.columns}
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="15%"}
-
-<i class='fa fa-th'></i>
-
-:::
-
-::: {.column width="25%"}
-
-<i class="fas fa-border-all"></i>
-
-<em>[4.8%]{style="color:#bfbfbf;"}</em>
-
-<em>7.7%</em>
-
-:::
-
-::: {.column width="15%"}
-
-[ooo]{style="color:white"}
-
-<em>[ooo]{style="color:white"}</em>
-
-<em>IoU</em>
-
-:::
-
-::: {.column width="40%"}
-
-<i class="fas fa-braille"></i>
-
-<em>[4.2%]{style="color:#bfbfbf;"}</em>
-
-<em>7.8%</em>
-
-:::
-
-::::
-
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/banyuwangi_batch16.png" background-size="1100px"}
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/Banyuwangi1.png" background-size="1100px"}
 <i class="fas fa-map-marked-alt"></i>
 
 <br/>
@@ -405,7 +293,32 @@ Banyuwangi
 
 [Indonesia]
 
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/pallabi_batch16.png" background-size="1100px"}
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/Banyuwangi1_pred.png" background-size="1100px"}
+<i class="fas fa-map-marked-alt"></i>
+
+<br/>
+Banyuwangi
+
+[Indonesia]
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/Banyuwangi2.png" background-size="1100px"}
+<i class="fas fa-map-marked-alt"></i>
+
+<br/>
+Banyuwangi
+
+[Indonesia]
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/Banyuwangi2_pred.png" background-size="1100px"}
+<i class="fas fa-map-marked-alt"></i>
+
+<br/>
+Banyuwangi
+
+[Indonesia]
+
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/Pallabi1.png" background-size="1100px"}
 <i class="fas fa-map-marked-alt"></i>
 
 <br/>
@@ -413,16 +326,29 @@ Pallaby, Dhaka
 
 [Bangladesh]
 
-## <i class="fas fa-hand-point-down"></i>
-<i class="fas fa-rocket"></i> Future
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/Pallabi1_pred.png" background-size="1100px"}
+<i class="fas fa-map-marked-alt"></i>
 
 <br/>
+Pallaby, Dhaka
+
+[Bangladesh]
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/Pallabi2.png" background-size="1100px"}
+<i class="fas fa-map-marked-alt"></i>
+
 <br/>
+Pallaby, Dhaka
 
-:::{.r-stack}
-<i class="fas fa-cogs"></i>  Models <br> <br><i class="fas fa-tree"></i> <i class="fas fa-water"></i>  Features
-:::
+[Bangladesh]
 
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/Pallabi2_pred.png" background-size="1100px"}
+<i class="fas fa-map-marked-alt"></i>
+
+<br/>
+Pallaby, Dhaka
+
+[Bangladesh]
 
 # <i class="fas fa-praying-hands"></i> THANK YOU {background-image="../images/black_background.jpg" background-color="black"}
 
