@@ -1,6 +1,5 @@
 ---
-title: "Mapping <i class='far fa-building'></i> <i class='fas fa-shoe-prints'></i>  with fAIr"
-subtitle: "Assessing the performance of AI-assisted mapping of building footprints for OSM"
+title: "AI-assisted \nmapping of <i class='far fa-building'></i> <i class='fas fa-shoe-prints'></i> \nfor OSM"
 format: 
   revealjs: 
     slide-number: true
@@ -15,65 +14,45 @@ title-slide-attributes:
   data-background-image: "../images/black_background6.png"
   data-background-size: contain
   data-background-opacity: "0.9"
-date: "09/08/2024"
+date: "09/18/2024"
 date-format: long
 author:
-  - "*Anna Zanchetta, Omran Najjar, Kshitij Sharma*"
+  - "*Anna Zanchetta*"
 institute:
   - "The Alan Turing Institute"
-  - "HOT Humanitarian OpenStreetMap Team"
 css: style.scss
 
 ---
 
 # <i class='fa fa-map'></i> Introduction
 
-## <i class='fa fa-map'></i>
-
-Image of HOT and ATI logo, about me
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 ## <i class='fa fa-map'></i>
+
 :::: {.columns}
 
 ::: {.column width="15%"}
-
 ::: 
 
 ::: {.column width="30%"}
-
-![](../images/pic_omran_square.png)
-
-::: {style="font-size: 50%;"}
-
-Omran (Germany)
-
-**AI Product owner**
-
-:::
-
-
+<br/><br/>
+![](../images/TURINGlogo.png)
 :::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="30%"}
-
-![](../images/pic_kshitij_square.png)
-
-::: {style="font-size: 50%;"}
-
-Kshitij (Nepal)
-
-**Backend developer**
-
+<br/><br/><br/>
+![](../images/HOTlogoWHITE.png)
 :::
 
-:::
 
 ::::
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_morewebpage.png" background-size="800px"}
+
+## <i class='fa fa-map'></i>{background-image="../images/fair_morewebpage.png" background-size="900px"}
 <i class='fa fa-compass'></i> fAIr
 
 <br/><br/><br/><br/>
@@ -82,7 +61,7 @@ Kshitij (Nepal)
 [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 
 
-## <i class="fas fa-map"></i>{background-image="../images/MLmethod3.png" background-size="1300px"}
+## <i class="fas fa-map"></i>{background-image="../images/MLmethod3.png" background-size="1250px"}
 
 
 ## <i class="fas fa-map"></i>{background-image="../images/oam_morewebpage.png" background-size="800px"  background-color="black"}
@@ -95,26 +74,26 @@ Kshitij (Nepal)
 <i class="fas fa-home"></i> Labels from OSM
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/>
-[Preprocessing through fAIr website](https://fair-dev.hotosm.org/training-datasets)
+[Preprocessing fAIr website](https://fair-dev.hotosm.org/training-datasets)
 
 <!-- # <i class="fas fa-server"></i> ML engine -->
 
 <!-- # <i class="fas fa-graduation-cap"></i> Semantic segmentation -->
 
 
-## <i class='fa fa-search'></i>{background-image="../images/fair_sample1.png" background-size="1200px"}
-<i class="fas fa-lightbulb"></i> Reason for research
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample1.png" background-size="1200px"}
+<i class="fas fa-lightbulb"></i>
 
-## <i class='fa fa-search'></i>{background-image="../images/fair_sample1_pred.png" background-size="1200px"}
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample1_pred.png" background-size="1200px"}
 <i class="fas fa-lightbulb"></i> 
 
-## <i class='fa fa-search'></i>{background-image="../images/fair_sample2.png" background-size="1200px" background-color="black"}
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample2.png" background-size="1200px" background-color="black"}
 <i class="fas fa-lightbulb"></i> 
 
-## <i class='fa fa-search'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
 <i class="fas fa-lightbulb"></i> 
 
-## <i class='fa fa-search'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
 <i class="fas fa-lightbulb"></i> 
 <br/><br/><br/>
 
@@ -123,7 +102,7 @@ How accurate is fAIr in detecting buildings
 in different conditions?
 
 
-## <i class="fas fa-search"></i>{background-image="../images/metrics2.png" background-size="1200px"}
+## <i class='fa fa-map'></i>{background-image="../images/metrics2.png" background-size="1200px"}
 <i class="fas fa-chart-line"></i> Metrics
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/>
@@ -133,7 +112,7 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 
 
 
-## <i class="fas fa-search"></i>{background-image="../images/metrics3.png" background-size="1200px"}
+## <i class='fa fa-map'></i>{background-image="../images/metrics3.png" background-size="1200px"}
 <i class="fas fa-chart-line"></i> Metrics
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/>
@@ -142,7 +121,7 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 
 # <i class="fas fa-globe-africa"></i> Dataset
 
-## <i class="fas fa-globe-africa"></i>
+<!-- ## <i class="fas fa-globe-africa"></i>
 
 |[]()    |        |
 |--------|--------|
@@ -152,7 +131,7 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 | **N. images**   | 8400 <br> (~350 per region)  |
 | **Images size** | 256x256 |
 | **Resolution**  | cm |
-|[]()    |        |
+|[]()    |        | -->
 
 <!-- :  {tbl-colwidths="[70,30]"} -->
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/world_map_citieslocations.png"}
@@ -257,7 +236,8 @@ Quincy
 [USA]
 
 
-# <i class='fa fa-chart-bar'></i> Results
+# <i class="fas fa-hand-point-down"></i> Results
+<!-- # <i class='fa fa-chart-bar'></i> Results -->
 
 <!-- ## <i class="fas fa-chart-bar"></i>
 <i class="fas fa-hourglass-half"></i> Training
@@ -271,46 +251,35 @@ Quincy
 |[]()    |        | -->
 
 
-## <i class='fa fa-chart-bar'></i>Results{background-image="../images/plot_map_density2.png" background-size="800px"}
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2.png" background-size="800px"}
 ~~<i class='fa fa-university'></i> Urbanity~~
 
 ~~<i class='fas fa-shapes'></i> Roof type~~
 
 <i class='fa fa-th'></i> Density
 
-
-
-## <i class='fa fa-chart-bar'></i>Results{background-image="../images/plot_map_density2.png" background-size="800px"}
-
-<br/><br/><br/><br/>
-SAME IMAGE WITH NUMBERS ON TOP
-
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/Banyuwangi1.png" background-size="1100px"}
-<i class="fas fa-map-marked-alt"></i>
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi1.png" background-size="1400px"}
 
 <br/>
 Banyuwangi
 
 [Indonesia]
 
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/Banyuwangi1_pred.png" background-size="1100px"}
-<i class="fas fa-map-marked-alt"></i>
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi1_pred.png" background-size="1400px"}
 
 <br/>
 Banyuwangi
 
 [Indonesia]
 
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/Banyuwangi2.png" background-size="1100px"}
-<i class="fas fa-map-marked-alt"></i>
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi2.png" background-size="1400px"}
 
 <br/>
 Banyuwangi
 
 [Indonesia]
 
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/Banyuwangi2_pred.png" background-size="1100px"}
-<i class="fas fa-map-marked-alt"></i>
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi2_pred.png" background-size="1400px"}
 
 <br/>
 Banyuwangi
@@ -318,37 +287,76 @@ Banyuwangi
 [Indonesia]
 
 
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/Pallabi1.png" background-size="1100px"}
-<i class="fas fa-map-marked-alt"></i>
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby1.png" background-size="1400px"}
 
 <br/>
 Pallaby, Dhaka
 
 [Bangladesh]
 
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/Pallabi1_pred.png" background-size="1100px"}
-<i class="fas fa-map-marked-alt"></i>
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby1_pred.png" background-size="1400px"}
 
 <br/>
 Pallaby, Dhaka
 
 [Bangladesh]
 
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/Pallabi2.png" background-size="1100px"}
-<i class="fas fa-map-marked-alt"></i>
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby3.png" background-size="1400px"}
 
 <br/>
 Pallaby, Dhaka
 
 [Bangladesh]
 
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/Pallabi2_pred.png" background-size="1100px"}
-<i class="fas fa-map-marked-alt"></i>
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby3_pred.png" background-size="1400px"}
 
 <br/>
 Pallaby, Dhaka
 
 [Bangladesh]
+
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Denver_pred.png" background-size="1400px"}
+
+<br/>
+Denver
+
+[USA]
+
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Denver.png" background-size="1400px"}
+
+<br/>
+Denver
+
+[USA]
+
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Pergamino.png" background-size="1400px"}
+
+<br/>
+Pergamino
+
+[Argentina]
+
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Pergamino_pred.png" background-size="1400px"}
+
+<br/>
+Pergamino
+
+[Argentina]
+
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Kakuma.png" background-size="1400px"}
+
+<br/>
+Kakuma
+
+[Kenya]
+
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Kakuma_pred.png" background-size="1400px"}
+
+<br/>
+Kakuma
+
+[Kenya]
+
 
 # <i class="fas fa-praying-hands"></i> THANK YOU {background-image="../images/black_background.jpg" background-color="black"}
 
