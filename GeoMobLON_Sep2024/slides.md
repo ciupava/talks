@@ -20,6 +20,7 @@ author:
   - "*Anna Zanchetta*"
 institute:
   - "The Alan Turing Institute"
+  - "HOT Humanitarian OpenStreetMap Team"
 css: style.scss
 
 ---
@@ -237,19 +238,6 @@ Quincy
 
 
 # <i class="fas fa-hand-point-down"></i> Results
-<!-- # <i class='fa fa-chart-bar'></i> Results -->
-
-<!-- ## <i class="fas fa-chart-bar"></i>
-<i class="fas fa-hourglass-half"></i> Training
-
-|[]()    |        |
-|--------|--------|
-| **Urban regions**  | all (25) |
-| **N. of epochs**  | 20   |
-| **Batch sizes**    |      4 <br> (2, 4, 8, 16) | 
-| **Accuracy metrics**   | 5 <br>Categorical accuracy, Precision,<br>Recall, F1 Score, IoU  |
-|[]()    |        | -->
-
 
 ## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2.png" background-size="800px"}
 ~~<i class='fa fa-university'></i> Urbanity~~
@@ -258,28 +246,28 @@ Quincy
 
 <i class='fa fa-th'></i> Density
 
-## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi1.png" background-size="1400px"}
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi1.png" background-size="1200px"}
 
 <br/>
 Banyuwangi
 
 [Indonesia]
 
-## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi1_pred.png" background-size="1400px"}
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi1_pred.png" background-size="1200px"}
 
 <br/>
 Banyuwangi
 
 [Indonesia]
 
-## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi2.png" background-size="1400px"}
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi2.png" background-size="1200px"}
 
 <br/>
 Banyuwangi
 
 [Indonesia]
 
-## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi2_pred.png" background-size="1400px"}
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi2_pred.png" background-size="1200px"}
 
 <br/>
 Banyuwangi
@@ -287,70 +275,70 @@ Banyuwangi
 [Indonesia]
 
 
-## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby1.png" background-size="1400px"}
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby1.png" background-size="1200px"}
 
 <br/>
 Pallaby, Dhaka
 
 [Bangladesh]
 
-## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby1_pred.png" background-size="1400px"}
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby1_pred.png" background-size="1200px"}
 
 <br/>
 Pallaby, Dhaka
 
 [Bangladesh]
 
-## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby3.png" background-size="1400px"}
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby3.png" background-size="1200px"}
 
 <br/>
 Pallaby, Dhaka
 
 [Bangladesh]
 
-## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby3_pred.png" background-size="1400px"}
+## <i class="far fa-thumbs-down"></i>{background-image="../images/Pallaby3_pred.png" background-size="1200px"}
 
 <br/>
 Pallaby, Dhaka
 
 [Bangladesh]
 
-## <i class="far fa-thumbs-up"></i>{background-image="../images/Denver_pred.png" background-size="1400px"}
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Denver_pred.png" background-size="1200px"}
 
 <br/>
 Denver
 
 [USA]
 
-## <i class="far fa-thumbs-up"></i>{background-image="../images/Denver.png" background-size="1400px"}
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Denver.png" background-size="1200px"}
 
 <br/>
 Denver
 
 [USA]
 
-## <i class="far fa-thumbs-up"></i>{background-image="../images/Pergamino.png" background-size="1400px"}
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Pergamino.png" background-size="1200px"}
 
 <br/>
 Pergamino
 
 [Argentina]
 
-## <i class="far fa-thumbs-up"></i>{background-image="../images/Pergamino_pred.png" background-size="1400px"}
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Pergamino_pred.png" background-size="1200px"}
 
 <br/>
 Pergamino
 
 [Argentina]
 
-## <i class="far fa-thumbs-up"></i>{background-image="../images/Kakuma.png" background-size="1400px"}
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Kakuma.png" background-size="1200px"}
 
 <br/>
 Kakuma
 
 [Kenya]
 
-## <i class="far fa-thumbs-up"></i>{background-image="../images/Kakuma_pred.png" background-size="1400px"}
+## <i class="far fa-thumbs-up"></i>{background-image="../images/Kakuma_pred.png" background-size="1200px"}
 
 <br/>
 Kakuma
