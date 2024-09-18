@@ -698,5 +698,257 @@
     "title": "Mapping buildings  with AI",
     "section": " ",
     "text": "Links \nGitHub fork from HOT’s fair-utilities link  HackMD notes link  This presentation link"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-1",
+    "href": "GeoMobLON_Sep2024/slides.html#section-1",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "fAIr\n \nhttps://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-3",
+    "href": "GeoMobLON_Sep2024/slides.html#section-3",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "RGB from OAM   Open Aerial Map"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-4",
+    "href": "GeoMobLON_Sep2024/slides.html#section-4",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Labels from OSM   Preprocessing fAIr website"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-9",
+    "href": "GeoMobLON_Sep2024/slides.html#section-9",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "How accurate is fAIr in detecting buildings\nin different conditions?"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-10",
+    "href": "GeoMobLON_Sep2024/slides.html#section-10",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-11",
+    "href": "GeoMobLON_Sep2024/slides.html#section-11",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-12",
+    "href": "GeoMobLON_Sep2024/slides.html#section-12",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Locations"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-13",
+    "href": "GeoMobLON_Sep2024/slides.html#section-13",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Degree of urbanity"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-14",
+    "href": "GeoMobLON_Sep2024/slides.html#section-14",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Rural\n Desa Kulaba\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-15",
+    "href": "GeoMobLON_Sep2024/slides.html#section-15",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Peri-urban\n Ggaba\n[Uganda]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-16",
+    "href": "GeoMobLON_Sep2024/slides.html#section-16",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Urban\n Bogota\n[Colombia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-17",
+    "href": "GeoMobLON_Sep2024/slides.html#section-17",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Refugee camp\n Kakuma\n[Kenya]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-18",
+    "href": "GeoMobLON_Sep2024/slides.html#section-18",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Roof cover type"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-19",
+    "href": "GeoMobLON_Sep2024/slides.html#section-19",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Shingles\n Silvania\n[Brasil]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-20",
+    "href": "GeoMobLON_Sep2024/slides.html#section-20",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Metal\n Ngaoundere\n[Cameroon]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-21",
+    "href": "GeoMobLON_Sep2024/slides.html#section-21",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Cement\n Melbourne\n[Australia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-22",
+    "href": "GeoMobLON_Sep2024/slides.html#section-22",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Mixed\n Kutupalong\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-23",
+    "href": "GeoMobLON_Sep2024/slides.html#section-23",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Urban density"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-24",
+    "href": "GeoMobLON_Sep2024/slides.html#section-24",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Dense\n Montevideo\n[Uruguay]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-25",
+    "href": "GeoMobLON_Sep2024/slides.html#section-25",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Sparse\n Gornja Rijeka\n[Croatia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-26",
+    "href": "GeoMobLON_Sep2024/slides.html#section-26",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Grid\n Quincy\n[USA]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-27",
+    "href": "GeoMobLON_Sep2024/slides.html#section-27",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Urbanity\n Roof type\n Density"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-28",
+    "href": "GeoMobLON_Sep2024/slides.html#section-28",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Banyuwangi\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-29",
+    "href": "GeoMobLON_Sep2024/slides.html#section-29",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Banyuwangi\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-30",
+    "href": "GeoMobLON_Sep2024/slides.html#section-30",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Banyuwangi\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-31",
+    "href": "GeoMobLON_Sep2024/slides.html#section-31",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Banyuwangi\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-32",
+    "href": "GeoMobLON_Sep2024/slides.html#section-32",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-33",
+    "href": "GeoMobLON_Sep2024/slides.html#section-33",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-34",
+    "href": "GeoMobLON_Sep2024/slides.html#section-34",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-35",
+    "href": "GeoMobLON_Sep2024/slides.html#section-35",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-36",
+    "href": "GeoMobLON_Sep2024/slides.html#section-36",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Denver\n[USA]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-37",
+    "href": "GeoMobLON_Sep2024/slides.html#section-37",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Denver\n[USA]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-38",
+    "href": "GeoMobLON_Sep2024/slides.html#section-38",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pergamino\n[Argentina]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-39",
+    "href": "GeoMobLON_Sep2024/slides.html#section-39",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pergamino\n[Argentina]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-40",
+    "href": "GeoMobLON_Sep2024/slides.html#section-40",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Kakuma\n[Kenya]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-41",
+    "href": "GeoMobLON_Sep2024/slides.html#section-41",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Kakuma\n[Kenya]"
   }
 ]

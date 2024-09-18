@@ -2,9 +2,9 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.4">
-  <meta name="author" content="Anna Zanchetta, Omran Najjar, Kshitij Sharma">
-  <meta name="dcterms.date" content="2024-09-08">
-  <title>Mapping   with fAIr</title>
+  <meta name="author" content="Anna Zanchetta">
+  <meta name="dcterms.date" content="2024-09-18">
+  <title>AI-assisted mapping of   for OSM</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -332,12 +332,11 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="../images/black_background6.png" data-background-opacity="0.9" data-background-size="contain" class="center">
-  <h1 class="title">Mapping <i class="far fa-building"></i> <i class="fas fa-shoe-prints"></i> with fAIr</h1>
-  <p class="subtitle">Assessing the performance of AI-assisted mapping of building footprints for OSM</p>
-  <p class="author"><em>Anna Zanchetta, Omran Najjar, Kshitij Sharma</em></p>
+  <h1 class="title">AI-assisted mapping of <i class="far fa-building"></i> <i class="fas fa-shoe-prints"></i> for OSM</h1>
+  <p class="author"><em>Anna Zanchetta</em></p>
   <p class="institute">The Alan Turing Institute</p>
   <p class="institute">HOT Humanitarian OpenStreetMap Team</p>
-  <p class="date">09/08/2024</p>
+  <p class="date">09/18/2024</p>
 </section>
 
 <section>
@@ -345,222 +344,164 @@
 <h1><i class="fa fa-map"></i> Introduction</h1>
 <p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></p>
 </section>
-<section id="section" class="slide level2" data-background-image="../images/Intro_sotm.png" data-background-size="1200px">
-<h2><i class="fa fa-map"></i></h2>
-</section>
-<section id="section-1" class="slide level2">
+<section id="section" class="slide level2">
 <h2><i class="fa fa-map"></i></h2>
 <div class="columns">
 <div class="column" style="width:15%;">
 
 </div><div class="column" style="width:30%;">
-<p><img data-src="../images/pic_omran_square.png"></p>
-<div style="font-size: 50%;">
-<p>Omran (Germany)</p>
-<p><strong>AI Product owner</strong></p>
-</div>
+<p><br><br> <img data-src="../images/TURINGlogo.png"></p>
 </div><div class="column" style="width:10%;">
 
 </div><div class="column" style="width:30%;">
-<p><img data-src="../images/pic_kshitij_square.png"></p>
-<div style="font-size: 50%;">
-<p>Kshitij (Nepal)</p>
-<p><strong>Backend developer</strong></p>
-</div>
+<p><br><br><br> <img data-src="../images/HOTlogoWHITE.png"></p>
 </div>
 </div>
 </section>
-<section id="section-2" class="slide level2" data-background-image="../images/fair_morewebpage.png" data-background-size="800px">
+<section id="section-1" class="slide level2" data-background-image="../images/fair_morewebpage.png" data-background-size="900px">
 <h2><i class="fa fa-map"></i></h2>
 <p><i class="fa fa-compass"></i> fAIr</p>
 <p><br><br><br><br> <br><br><br></p>
 <p><a href="https://fair-dev.hotosm.org/">https://fair-dev.hotosm.org/</a></p>
 </section>
-<section id="section-3" class="slide level2" data-background-image="../images/MLmethod3.png" data-background-size="1300px">
+<section id="section-2" class="slide level2" data-background-image="../images/MLmethod3.png" data-background-size="1250px">
 <h2><i class="fas fa-map"></i></h2>
 </section>
-<section id="section-4" class="slide level2" data-background-image="../images/oam_morewebpage.png" data-background-size="800px" data-background-color="black">
+<section id="section-3" class="slide level2" data-background-image="../images/oam_morewebpage.png" data-background-size="800px" data-background-color="black">
 <h2><i class="fas fa-map"></i></h2>
 <p><i class="far fa-images"></i> RGB from OAM <br><br><br><br><br><br> <br><br><br> <a href="https://openaerialmap.org/">Open Aerial Map</a></p>
 </section>
-<section id="section-5" class="slide level2" data-background-image="../images/labels_fair.png" data-background-size="1200px">
+<section id="section-4" class="slide level2" data-background-image="../images/labels_fair.png" data-background-size="1200px">
 <h2><i class="fas fa-map"></i></h2>
-<p><i class="fas fa-home"></i> Labels from OSM <br><br><br><br><br><br> <br><br><br> <a href="https://fair-dev.hotosm.org/training-datasets">Preprocessing through fAIr website</a></p>
+<p><i class="fas fa-home"></i> Labels from OSM <br><br><br><br><br><br> <br><br><br> <a href="https://fair-dev.hotosm.org/training-datasets">Preprocessing fAIr website</a></p>
 <!-- # <i class="fas fa-server"></i> ML engine -->
 <!-- # <i class="fas fa-graduation-cap"></i> Semantic segmentation -->
 </section>
-<section id="section-6" class="slide level2" data-background-image="../images/ramp_morewebpage.png" data-background-size="800px" data-background-color="black">
-<h2><i class="fas fa-map"></i></h2>
-<p><i class="fa fa-server"></i> ML engine</p>
-<p><br><br><br><br><br><br> <br><br><br></p>
-<p><a href="https://rampml.global/">https://rampml.global/</a></p>
-</section>
-<section id="section-7" class="slide level2" data-background-image="../images/ramp_effunet_morewebpage2.png" data-background-size="600px">
-<h2><i class="fas fa-map"></i></h2>
-<p><br><br><br><br><br><br> <br><br><br><br></p>
-<p><a href="https://rampml.global/ramp-model-card/">2020 paper by Baheti et al.</a></p>
-</section></section>
-<section>
-<section id="methods" class="title-slide slide level1 center">
-<h1><i class="fas fa-search"></i> Methods</h1>
-
-</section>
-<section id="section-8" class="slide level2" data-background-image="../images/fair_sample1.png" data-background-size="1200px">
-<h2><i class="fa fa-search"></i></h2>
-<p><i class="fas fa-lightbulb"></i> Reason for research</p>
-</section>
-<section id="section-9" class="slide level2" data-background-image="../images/fair_sample1_pred.png" data-background-size="1200px">
-<h2><i class="fa fa-search"></i></h2>
+<section id="section-5" class="slide level2" data-background-image="../images/fair_sample1.png" data-background-size="1200px">
+<h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-lightbulb"></i></p>
 </section>
-<section id="section-10" class="slide level2" data-background-image="../images/fair_sample2.png" data-background-size="1200px" data-background-color="black">
-<h2><i class="fa fa-search"></i></h2>
+<section id="section-6" class="slide level2" data-background-image="../images/fair_sample1_pred.png" data-background-size="1200px">
+<h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-lightbulb"></i></p>
 </section>
-<section id="section-11" class="slide level2" data-background-image="../images/fair_sample2_pred.png" data-background-size="1200px" data-background-color="black">
-<h2><i class="fa fa-search"></i></h2>
+<section id="section-7" class="slide level2" data-background-image="../images/fair_sample2.png" data-background-size="1200px" data-background-color="black">
+<h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-lightbulb"></i></p>
 </section>
-<section id="section-12" class="slide level2" data-background-image="../images/fair_sample2_pred.png" data-background-size="1200px" data-background-color="black">
-<h2><i class="fa fa-search"></i></h2>
+<section id="section-8" class="slide level2" data-background-image="../images/fair_sample2_pred.png" data-background-size="1200px" data-background-color="black">
+<h2><i class="fa fa-map"></i></h2>
+<p><i class="fas fa-lightbulb"></i></p>
+</section>
+<section id="section-9" class="slide level2" data-background-image="../images/fair_sample2_pred.png" data-background-size="1200px" data-background-color="black">
+<h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-lightbulb"></i> <br><br><br></p>
 <p>How accurate is fAIr in detecting buildings</p>
 <p>in different conditions?</p>
 </section>
-<section id="section-13" class="slide level2" data-background-image="../images/metrics2.png" data-background-size="1200px">
-<h2><i class="fas fa-search"></i></h2>
+<section id="section-10" class="slide level2" data-background-image="../images/metrics2.png" data-background-size="1200px">
+<h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-chart-line"></i> Metrics <br><br><br><br><br><br> <br><br><br><br></p>
 <p>Source: <a href="Metric%20reloaded,%20Reinke%20et%20al.">https://metrics-reloaded.dkfz.de/metric-library</a></p>
 </section>
-<section id="section-14" class="slide level2" data-background-image="../images/metrics3.png" data-background-size="1200px">
-<h2><i class="fas fa-search"></i></h2>
+<section id="section-11" class="slide level2" data-background-image="../images/metrics3.png" data-background-size="1200px">
+<h2><i class="fa fa-map"></i></h2>
 <p><i class="fas fa-chart-line"></i> Metrics <br><br><br><br><br><br> <br><br><br><br></p>
 <p>Source: <a href="Metric%20reloaded,%20Reinke%20et%20al.">https://metrics-reloaded.dkfz.de/metric-library</a></p>
 </section></section>
 <section>
 <section id="dataset" class="title-slide slide level1 center">
 <h1><i class="fas fa-globe-africa"></i> Dataset</h1>
+<!-- ## <i class="fas fa-globe-africa"></i>
 
-</section>
-<section id="section-15" class="slide level2">
-<h2><i class="fas fa-globe-africa"></i></h2>
-<table>
-<thead>
-<tr class="header">
-<th><a href=""></a></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Urban regions</strong></td>
-<td>25</td>
-</tr>
-<tr class="even">
-<td><strong>Countries</strong></td>
-<td>21</td>
-</tr>
-<tr class="odd">
-<td><strong>Zoom levels</strong></td>
-<td>19, 20, 21</td>
-</tr>
-<tr class="even">
-<td><strong>N. images</strong></td>
-<td>8400 <br> (~350 per region)</td>
-</tr>
-<tr class="odd">
-<td><strong>Images size</strong></td>
-<td>256x256</td>
-</tr>
-<tr class="even">
-<td><strong>Resolution</strong></td>
-<td>cm</td>
-</tr>
-<tr class="odd">
-<td><a href=""></a></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+|[]()    |        |
+|--------|--------|
+| **Urban regions**  | 25   |
+| **Countries**  | 21   |
+| **Zoom levels**    |  19, 20, 21 | 
+| **N. images**   | 8400 <br> (~350 per region)  |
+| **Images size** | 256x256 |
+| **Resolution**  | cm |
+|[]()    |        | -->
 <!-- :  {tbl-colwidths="[70,30]"} -->
 </section>
-<section id="section-16" class="slide level2" data-background-image="../images/world_map_citieslocations.png">
+<section id="section-12" class="slide level2" data-background-image="../images/world_map_citieslocations.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-map-marker-alt"></i> Locations</p>
 </section>
-<section id="section-17" class="slide level2" data-background-image="../images/world_map_byurbantype.png">
+<section id="section-13" class="slide level2" data-background-image="../images/world_map_byurbantype.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-list"></i> Degree of urbanity</p>
 </section>
-<section id="section-18" class="slide level2" data-background-image="../images/urban1.png" data-background-color="black">
+<section id="section-14" class="slide level2" data-background-image="../images/urban1.png" data-background-color="black">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-university"></i> Rural</p>
 <p><br> Desa Kulaba</p>
 <p>[Indonesia]</p>
 </section>
-<section id="section-19" class="slide level2" data-background-image="../images/urban2.png">
+<section id="section-15" class="slide level2" data-background-image="../images/urban2.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-university"></i> Peri-urban</p>
 <p><br> Ggaba</p>
 <p>[Uganda]</p>
 </section>
-<section id="section-20" class="slide level2" data-background-image="../images/urban4.png" data-background-color="black">
+<section id="section-16" class="slide level2" data-background-image="../images/urban4.png" data-background-color="black">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-university"></i> Urban</p>
 <p><br> Bogota</p>
 <p>[Colombia]</p>
 </section>
-<section id="section-21" class="slide level2" data-background-image="../images/urban3.png" data-background-color="black">
+<section id="section-17" class="slide level2" data-background-image="../images/urban3.png" data-background-color="black">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-university"></i> Refugee camp</p>
 <p><br> Kakuma</p>
 <p>[Kenya]</p>
 </section>
-<section id="section-22" class="slide level2" data-background-image="../images/world_map_bycovertype.png">
+<section id="section-18" class="slide level2" data-background-image="../images/world_map_bycovertype.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-list"></i> Roof cover type</p>
 </section>
-<section id="section-23" class="slide level2" data-background-image="../images/cover1.png">
+<section id="section-19" class="slide level2" data-background-image="../images/cover1.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-shapes"></i> Shingles</p>
 <p><br> Silvania</p>
 <p>[Brasil]</p>
 </section>
-<section id="section-24" class="slide level2" data-background-image="../images/cover2.png" data-background-color="black">
+<section id="section-20" class="slide level2" data-background-image="../images/cover2.png" data-background-color="black">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-shapes"></i> Metal</p>
 <p><br> Ngaoundere</p>
 <p>[Cameroon]</p>
 </section>
-<section id="section-25" class="slide level2" data-background-image="../images/cover3.png">
+<section id="section-21" class="slide level2" data-background-image="../images/cover3.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-shapes"></i> Cement</p>
 <p><br> Melbourne</p>
 <p>[Australia]</p>
 </section>
-<section id="section-26" class="slide level2" data-background-image="../images/cover4.png">
+<section id="section-22" class="slide level2" data-background-image="../images/cover4.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-shapes"></i> Mixed</p>
 <p><br> Kutupalong</p>
 <p>[Bangladesh]</p>
 </section>
-<section id="section-27" class="slide level2" data-background-image="../images/world_map_bydensity.png">
+<section id="section-23" class="slide level2" data-background-image="../images/world_map_bydensity.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fas fa-list"></i> Urban density</p>
 </section>
-<section id="section-28" class="slide level2" data-background-image="../images/density1.png" data-background-color="black">
+<section id="section-24" class="slide level2" data-background-image="../images/density1.png" data-background-color="black">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-th"></i> Dense</p>
 <p><br> Montevideo</p>
 <p>[Uruguay]</p>
 </section>
-<section id="section-29" class="slide level2" data-background-image="../images/density3.png">
+<section id="section-25" class="slide level2" data-background-image="../images/density3.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-th"></i> Sparse</p>
 <p><br> Gornja Rijeka</p>
 <p>[Croatia]</p>
 </section>
-<section id="section-30" class="slide level2" data-background-image="../images/density2.png">
+<section id="section-26" class="slide level2" data-background-image="../images/density2.png">
 <h2><i class="fas fa-globe-africa"></i></h2>
 <p><i class="fa fa-th"></i> Grid</p>
 <p><br> Quincy</p>
@@ -568,134 +509,91 @@
 </section></section>
 <section>
 <section id="results" class="title-slide slide level1 center">
-<h1><i class="fa fa-chart-bar"></i> Results</h1>
+<h1><i class="fas fa-hand-point-down"></i> Results</h1>
 
 </section>
-<section id="section-31" class="slide level2">
-<h2><i class="fas fa-chart-bar"></i></h2>
-<p><i class="fas fa-hourglass-half"></i> Training</p>
-<table>
-<thead>
-<tr class="header">
-<th><a href=""></a></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Urban regions</strong></td>
-<td>all (25)</td>
-</tr>
-<tr class="even">
-<td><strong>N. of epochs</strong></td>
-<td>20</td>
-</tr>
-<tr class="odd">
-<td><strong>Batch sizes</strong></td>
-<td>4 <br> (2, 4, 8, 16)</td>
-</tr>
-<tr class="even">
-<td><strong>Accuracy metrics</strong></td>
-<td>5 <br>Categorical accuracy, Precision,<br>Recall, F1 Score, IoU</td>
-</tr>
-<tr class="odd">
-<td><a href=""></a></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="section-32" class="slide level2" data-background-image="../images/graph_sample.png" data-background-size="900px">
-<h2><i class="fa fa-chart-bar"></i></h2>
-</section>
-<section id="section-33" class="slide level2" data-background-image="../images/graph_with_circle2.png" data-background-size="900px">
-<h2><i class="fa fa-chart-bar"></i></h2>
-</section>
-<section id="section-34" class="slide level2" data-background-image="../images/plot_map_density2.png" data-background-size="800px">
-<h2><i class="fa fa-chart-bar"></i></h2>
+<section id="section-27" class="slide level2" data-background-image="../images/plot_map_density2.png" data-background-size="800px">
+<h2><i class="fas fa-hand-point-down"></i></h2>
 <p><del><i class="fa fa-university"></i> Urbanity</del></p>
 <p><del><i class="fas fa-shapes"></i> Roof type</del></p>
 <p><i class="fa fa-th"></i> Density</p>
 </section>
-<section id="section-35" class="slide level2" data-background-image="../images/plot_box_all4.png" data-background-size="800px">
-<h2><i class="fa fa-chart-bar"></i></h2>
-<p><i class="fa fa-puzzle-piece"></i></p>
-<p><del>Batch size</del></p>
-</section></section>
-<section>
-<section id="conclusions" class="title-slide slide level1 center">
-<h1><i class="fas fa-hand-point-down"></i> Conclusions</h1>
-
-</section>
-<section id="conclusions-1" class="slide level2">
-<h2><i class="fas fa-hand-point-down"></i> Conclusions</h2>
-<p><br><br></p>
-<div class="columns">
-<div class="column" style="width:5%;">
-
-</div><div class="column" style="width:15%;">
-<p><i class="fa fa-th"></i></p>
-</div><div class="column" style="width:25%;">
-<p><i class="fas fa-border-all"></i></p>
-<p><em>4.8%</em></p>
-</div><div class="column" style="width:15%;">
-
-</div><div class="column" style="width:40%;">
-<p><i class="fas fa-braille"></i></p>
-<p><em>4.2%</em></p>
-</div>
-</div>
-<!-- ::: -->
-</section>
-<section id="conclusions-2" class="slide level2">
-<h2><i class="fas fa-hand-point-down"></i> Conclusions</h2>
-<p><br><br></p>
-<div class="columns">
-<div class="column" style="width:5%;">
-
-</div><div class="column" style="width:15%;">
-<p><i class="fa fa-th"></i></p>
-</div><div class="column" style="width:25%;">
-<p><i class="fas fa-border-all"></i></p>
-<p><em><span style="color:#bfbfbf;">4.8%</span></em></p>
-<p><em>7.7%</em></p>
-</div><div class="column" style="width:15%;">
-<p><span style="color:white">ooo</span></p>
-<p><em><span style="color:white">ooo</span></em></p>
-<p><em>IoU</em></p>
-</div><div class="column" style="width:40%;">
-<p><i class="fas fa-braille"></i></p>
-<p><em><span style="color:#bfbfbf;">4.2%</span></em></p>
-<p><em>7.8%</em></p>
-</div>
-</div>
-</section>
-<section id="section-36" class="slide level2" data-background-image="../images/banyuwangi_batch16.png" data-background-size="1100px">
-<h2><i class="fas fa-hand-point-down"></i></h2>
-<p><i class="fas fa-map-marked-alt"></i></p>
+<section id="section-28" class="slide level2" data-background-image="../images/Banyuwangi1.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-down"></i></h2>
 <p><br> Banyuwangi</p>
 <p>[Indonesia]</p>
 </section>
-<section id="section-37" class="slide level2" data-background-image="../images/pallabi_batch16.png" data-background-size="1100px">
-<h2><i class="fas fa-hand-point-down"></i></h2>
-<p><i class="fas fa-map-marked-alt"></i></p>
+<section id="section-29" class="slide level2" data-background-image="../images/Banyuwangi1_pred.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-down"></i></h2>
+<p><br> Banyuwangi</p>
+<p>[Indonesia]</p>
+</section>
+<section id="section-30" class="slide level2" data-background-image="../images/Banyuwangi2.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-down"></i></h2>
+<p><br> Banyuwangi</p>
+<p>[Indonesia]</p>
+</section>
+<section id="section-31" class="slide level2" data-background-image="../images/Banyuwangi2_pred.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-down"></i></h2>
+<p><br> Banyuwangi</p>
+<p>[Indonesia]</p>
+</section>
+<section id="section-32" class="slide level2" data-background-image="../images/Pallaby1.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-down"></i></h2>
 <p><br> Pallaby, Dhaka</p>
 <p>[Bangladesh]</p>
 </section>
-<section id="section-38" class="slide level2">
-<h2><i class="fas fa-hand-point-down"></i></h2>
-<p><i class="fas fa-rocket"></i> Future</p>
-<p><br> <br></p>
-<div class="r-stack">
-<p><i class="fas fa-cogs"></i> Models <br> <br><i class="fas fa-tree"></i> <i class="fas fa-water"></i> Features</p>
-</div>
+<section id="section-33" class="slide level2" data-background-image="../images/Pallaby1_pred.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-down"></i></h2>
+<p><br> Pallaby, Dhaka</p>
+<p>[Bangladesh]</p>
+</section>
+<section id="section-34" class="slide level2" data-background-image="../images/Pallaby3.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-down"></i></h2>
+<p><br> Pallaby, Dhaka</p>
+<p>[Bangladesh]</p>
+</section>
+<section id="section-35" class="slide level2" data-background-image="../images/Pallaby3_pred.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-down"></i></h2>
+<p><br> Pallaby, Dhaka</p>
+<p>[Bangladesh]</p>
+</section>
+<section id="section-36" class="slide level2" data-background-image="../images/Denver_pred.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-up"></i></h2>
+<p><br> Denver</p>
+<p>[USA]</p>
+</section>
+<section id="section-37" class="slide level2" data-background-image="../images/Denver.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-up"></i></h2>
+<p><br> Denver</p>
+<p>[USA]</p>
+</section>
+<section id="section-38" class="slide level2" data-background-image="../images/Pergamino.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-up"></i></h2>
+<p><br> Pergamino</p>
+<p>[Argentina]</p>
+</section>
+<section id="section-39" class="slide level2" data-background-image="../images/Pergamino_pred.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-up"></i></h2>
+<p><br> Pergamino</p>
+<p>[Argentina]</p>
+</section>
+<section id="section-40" class="slide level2" data-background-image="../images/Kakuma.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-up"></i></h2>
+<p><br> Kakuma</p>
+<p>[Kenya]</p>
+</section>
+<section id="section-41" class="slide level2" data-background-image="../images/Kakuma_pred.png" data-background-size="1200px">
+<h2><i class="far fa-thumbs-up"></i></h2>
+<p><br> Kakuma</p>
+<p>[Kenya]</p>
 </section></section>
 <section id="thank-you" class="title-slide slide level1 center" data-background-image="../images/black_background.jpg" data-background-color="black">
 <h1><i class="fas fa-praying-hands"></i> THANK YOU</h1>
 <p><br><br><br><br> <i class="fa fa-at"></i> <br> Code <a href="https://github.com/ciupava/fAIr-utilities">https://github.com/ciupava/fAIr-utilities</a> <br> fAIr website <a href="https://fair.hotosm.org/">https://fair.hotosm.org/</a> <br> Link to this presentation <i class="fas fa-angle-down"></i></p>
 
 <div class="footer footer-default">
-<p>These slides at <a href="https://ciupava.github.io/talks/SoTM24/slides.html" class="uri">https://ciupava.github.io/talks/SoTM24/slides.html</a></p>
+<p>These slides at <a href="https://ciupava.github.io/talks/GeoMobLON_Sep2024/slides.html" class="uri">https://ciupava.github.io/talks/GeoMobLON_Sep2024/slides.html</a></p>
 </div>
 </section>
     </div>
