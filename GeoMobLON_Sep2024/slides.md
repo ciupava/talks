@@ -122,19 +122,6 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 
 # <i class="fas fa-globe-africa"></i> Dataset
 
-<!-- ## <i class="fas fa-globe-africa"></i>
-
-|[]()    |        |
-|--------|--------|
-| **Urban regions**  | 25   |
-| **Countries**  | 21   |
-| **Zoom levels**    |  19, 20, 21 | 
-| **N. images**   | 8400 <br> (~350 per region)  |
-| **Images size** | 256x256 |
-| **Resolution**  | cm |
-|[]()    |        | -->
-
-<!-- :  {tbl-colwidths="[70,30]"} -->
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/world_map_citieslocations.png"}
 <i class="fas fa-map-marker-alt"></i> Locations
 
@@ -239,12 +226,33 @@ Quincy
 
 # <i class="fas fa-hand-point-down"></i> Results
 
+## <i class="fas fa-hand-point-down"></i>
+
+:::: {.columns}
+
+::: {.column width="35%"}
+::: 
+
+::: {.column width="50%"}
+<br/><br/>
+
+<i class="far fa-square"></i> Urbanity
+
+<i class="far fa-square"></i> Roof type
+
+<i class="far fa-check-square"></i> Density
+
+:::
+
+::: {.column width="15%"}
+:::
+
+::::
+
+
 ## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2.png" background-size="800px"}
-~~<i class='fa fa-university'></i> Urbanity~~
 
-~~<i class='fas fa-shapes'></i> Roof type~~
-
-<i class='fa fa-th'></i> Density
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2_withscore.png" background-size="800px"}
 
 ## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi1.png" background-size="1200px"}
 
