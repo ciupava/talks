@@ -1,6 +1,6 @@
 This repo contains a link to the presentations and talks I have given more or less recently.
 
-# List of presentation slides given, with link
+# List of presentation given, with link to slides
 
 - Presenting at GeoMob in London _(September 2024)_ [slides](https://ciupava.github.io/talks/GeoMobLON_Sep2024/slides.html)
 
