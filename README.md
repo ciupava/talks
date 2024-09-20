@@ -1,12 +1,12 @@
 This repo contains a link to the presentations and talks I have given more or less recently.
 
-# List of presentation given, with link to slides
+# List of presentations given, with link to slides
 
 - Presenting at GeoMob in London _(September 2024)_ [slides](https://ciupava.github.io/talks/GeoMobLON_Sep2024/slides.html)
 
 - Presenting at State of The Map 2024, in Nairobi, Kenya _(September 2024)_ [slides](https://ciupava.github.io/talks/SoTM24/slides.html)
 
-- Oral presentation at ML4EO 2024, Exeter (UK) _(June 2024)_ [slides](https://ciupava.github.io/talks/ml4eo24/slides.html)
+- Oral presentation at ML4EO 2024 (Machine Learning for Earth Observation), Exeter (UK) _(June 2024)_ [slides](https://ciupava.github.io/talks/ml4eo24/slides.html)
 
 - Mapathon at Urban Analytics team Monthly meeting _(January 2024)_ [slides](https://ciupava.github.io/talks/mapathon_Jan2024/slides.html)
 
