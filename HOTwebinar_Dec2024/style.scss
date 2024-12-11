@@ -6,16 +6,18 @@
   }
 
   .author {
-    font-size: 25px;
-    font-style: normal;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(82, 79, 79);
   }
   
   .institute {
-      font-size: 30px !important;
+      font-size: 35px !important;
+      color: gray;
   }
 
   .date {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 

@@ -8,23 +8,20 @@ format:
     # preview-links: auto
     # width: 1280
     # height: 720
-    theme: [simple] #[default, style.scss] #solarized # custom.scss # simple # serif
+    theme: [default, style.scss] #[default, style.scss] #solarized # custom.scss # simple # serif
     footer: "These slides at <https://ciupava.github.io/talks/HOTwebinar_Dec2024/slides.html>"
-title-slide-attributes:
-  # data-background-image: "../images/black_background6.png"
-  data-background-size: contain
-  # data-background-opacity: "0.9"
+# title-slide-attributes:
+#   # data-background-image: "../images/black_background6.png"
+#   data-background-size: contain
+#   # data-background-opacity: "0.9"
 date: "12/13/2024"
 date-format: long
-author:
-  - "*Anna Zanchetta*"
 institute:
-  - Open Mapping Hub Asia-Pacific
-  - "AI for Open Data Mapping: Trends & Innovation."
-
-
-# css: style.scss
-
+  - Open Mapping Hub <i class="fas fa-globe-asia"></i> Asia-Pacific
+  - WEBINAR
+author:
+  - "Anna Zanchetta"
+css: style.scss
 ---
 
 # <i class='fa fa-map'></i> Introduction
@@ -63,6 +60,38 @@ institute:
 
 [https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
 
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample2.png" background-size="1200px" background-color="black"}
+
+
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
+
+
+
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample1.png" background-size="1200px"}
+
+
+## <i class='fa fa-map'></i>{background-image="../images/fair_sample1_pred.png" background-size="1200px"}
+
+
+##
+
+:::: {.columns}
+
+::: {.column width="35%"}
+::: 
+
+::: {.column width="50%"}
+<br/><br/>
+<br/><br/>
+<i class="fas fa-question"></i>
+
+:::
+
+::: {.column width="15%"}
+:::
+
+::::
+
 
 ## <i class="fas fa-map"></i>{background-image="../images/MLmethod3.png" background-size="1250px"}
 
@@ -84,25 +113,6 @@ institute:
 <!-- # <i class="fas fa-graduation-cap"></i> Semantic segmentation -->
 
 
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample1.png" background-size="1200px"}
-<i class="fas fa-lightbulb"></i>
-
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample1_pred.png" background-size="1200px"}
-<i class="fas fa-lightbulb"></i> 
-
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample2.png" background-size="1200px" background-color="black"}
-<i class="fas fa-lightbulb"></i> 
-
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
-<i class="fas fa-lightbulb"></i> 
-
-## <i class='fa fa-map'></i>{background-image="../images/fair_sample2_pred.png" background-size="1200px" background-color="black"}
-<i class="fas fa-lightbulb"></i> 
-<br/><br/><br/>
-
-How accurate is fAIr in detecting buildings
-
-in different conditions?
 
 
 ## <i class='fa fa-map'></i>{background-image="../images/metrics2.png" background-size="1200px"}
@@ -123,6 +133,18 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
 
 # <i class="fas fa-globe-africa"></i> Dataset
+
+## <i class="fas fa-globe-africa"></i>
+
+|[]()    |        |
+|--------|--------|
+| **Urban regions**  | 25   |
+| **Countries**  | 21   |
+| **Zoom levels**    |  19, 20, 21 | 
+| **N. images**   | 8400 <br> (~350 per region)  |
+| **Images size** | 256x256 |
+| **Resolution**  | cm |
+|[]()    |        |
 
 ## <i class="fas fa-globe-africa"></i>{background-image="../images/world_map_citieslocations.png"}
 <i class="fas fa-map-marker-alt"></i> Locations
@@ -356,12 +378,12 @@ Kakuma
 [Kenya]
 
 
-# <i class="fas fa-praying-hands"></i> THANK YOU {background-image="../images/black_background.jpg"}
+# <i class="fas fa-praying-hands"></i> THANK YOU
 
 <br/><br/><br/><br/>
 <i class='fa fa-at'></i>
 <br/>
-Code [https://github.com/ciupava/fAIr-utilities](https://github.com/ciupava/fAIr-utilities)
+Code [https://github.com/hotosm/fAIr-utilities](https://github.com/hotosm/fAIr-utilities)
 <br/>
 fAIr website [https://fair.hotosm.org/](https://fair.hotosm.org/)
 <br/>
