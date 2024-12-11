@@ -8,7 +8,7 @@ format:
     # preview-links: auto
     # width: 1280
     # height: 720
-    # theme: [simple, style.scss] #[default, style.scss] #solarized # custom.scss # simple # serif
+    theme: [simple] #[default, style.scss] #solarized # custom.scss # simple # serif
     footer: "These slides at <https://ciupava.github.io/talks/HOTwebinar_Dec2024/slides.html>"
 title-slide-attributes:
   # data-background-image: "../images/black_background6.png"
