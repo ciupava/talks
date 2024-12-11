@@ -2,6 +2,8 @@ This repo contains a link to the presentations and talks I have given more or le
 
 # List of presentations given, with link to slides
 
+- Slides for the talk at HOTOSM Webinar _(December 2024)_ [slides](https://ciupava.github.io/talks/HOTwebinar_Dec2024/slides.html)
+
 - Presenting at GeoMob in London _(September 2024)_ [slides](https://ciupava.github.io/talks/GeoMobLON_Sep2024/slides.html)
 
 - Presenting at State of The Map 2024, in Nairobi, Kenya _(September 2024)_ [slides](https://ciupava.github.io/talks/SoTM24/slides.html)
