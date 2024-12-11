@@ -73,7 +73,7 @@ css: style.scss
 ## <i class='fa fa-map'></i>{background-image="../images/fair_sample1_pred.png" background-size="1200px"}
 
 
-##
+## <i class='fa fa-map'></i>
 
 :::: {.columns}
 
@@ -83,7 +83,7 @@ css: style.scss
 ::: {.column width="50%"}
 <br/><br/>
 <br/><br/>
-<i class="fas fa-question"></i>
+<i class="fas fa-question-circle"></i> Accuracy?
 
 :::
 
@@ -106,7 +106,7 @@ css: style.scss
 <i class="fas fa-home"></i> Labels from OSM
 <br/><br/><br/><br/><br/><br/>
 <br/><br/><br/>
-[Preprocessing fAIr website](https://fair-dev.hotosm.org/training-datasets)
+[Preprocessing in fAIr](https://fair-dev.hotosm.org/training-datasets)
 
 <!-- # <i class="fas fa-server"></i> ML engine -->
 
@@ -264,6 +264,29 @@ Quincy
 
 <i class="far fa-square"></i> Roof type
 
+<i class="far fa-square"></i> Density
+
+:::
+
+::: {.column width="15%"}
+:::
+
+::::
+
+## <i class="fas fa-hand-point-down"></i>
+
+:::: {.columns}
+
+::: {.column width="35%"}
+::: 
+
+::: {.column width="50%"}
+<br/><br/>
+
+<i class="far fa-square"></i> Urbanity
+
+<i class="far fa-square"></i> Roof type
+
 <i class="far fa-check-square"></i> Density
 
 :::
@@ -381,10 +404,12 @@ Kakuma
 # <i class="fas fa-praying-hands"></i> THANK YOU
 
 <br/><br/><br/><br/>
-<i class='fa fa-at'></i>
+
 <br/>
-Code [https://github.com/hotosm/fAIr-utilities](https://github.com/hotosm/fAIr-utilities)
+<i class='fa fa-at'></i> [fair.hotosm.org/](https://fair.hotosm.org/)
 <br/>
-fAIr website [https://fair.hotosm.org/](https://fair.hotosm.org/)
+<i class="fab fa-github"></i> [github.com/hotosm/fAIr-utilities](https://github.com/hotosm/fAIr-utilities)
 <br/>
-Link to this presentation <i class="fas fa-angle-down"></i>
+<i class="fas fa-pencil-alt"></i> [en.osm.town/@ciupava](https://en.osm.town/@ciupava)
+<!-- <br/>
+Link to this presentation <i class="fas fa-angle-down"></i> -->
