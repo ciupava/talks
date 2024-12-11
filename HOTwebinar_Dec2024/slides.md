@@ -8,26 +8,28 @@ format:
     # preview-links: auto
     # width: 1280
     # height: 720
-    theme: [default] #[default, style.scss] #solarized # custom.scss # simple # serif
+    theme: [simple] #[default, style.scss] #solarized # custom.scss # simple # serif
     footer: "These slides at <https://ciupava.github.io/talks/HOTwebinar_Dec2024/slides.html>"
 title-slide-attributes:
-  data-background-image: "../images/black_background6.png"
+  # data-background-image: "../images/black_background6.png"
   data-background-size: contain
-  data-background-opacity: "0.9"
+  # data-background-opacity: "0.9"
 date: "12/13/2024"
 date-format: long
 author:
   - "*Anna Zanchetta*"
 institute:
-  - "The Alan Turing Institute"
-  - "HOT Humanitarian OpenStreetMap Team"
+  - Open Mapping Hub Asia-Pacific
+  - "AI for Open Data Mapping: Trends & Innovation."
+
+
 # css: style.scss
 
 ---
 
 # <i class='fa fa-map'></i> Introduction
 
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 ## <i class='fa fa-map'></i>
 
