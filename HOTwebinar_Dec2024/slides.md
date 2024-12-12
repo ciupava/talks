@@ -1,5 +1,5 @@
 ---
-title: "AI-assisted \nmapping of <i class='far fa-building'></i> <i class='fas fa-shoe-prints'></i> \nfor OSM"
+title: "AI-assisted mapping \nof <i class='far fa-building'></i> <i class='fas fa-shoe-prints'></i> for OSM"
 format: 
   revealjs: 
     slide-number: true
@@ -73,7 +73,7 @@ css: style.scss
 ## <i class='fa fa-map'></i>{background-image="../images/fair_sample1_pred.png" background-size="1200px"}
 
 
-## <i class='fa fa-map'></i>
+## <i class="fas fa-question-circle"></i>
 
 :::: {.columns}
 
@@ -83,7 +83,7 @@ css: style.scss
 ::: {.column width="50%"}
 <br/><br/>
 <br/><br/>
-<i class="fas fa-question-circle"></i> Accuracy?
+ What is affecting fAIr performance?
 
 :::
 
@@ -112,25 +112,6 @@ css: style.scss
 
 <!-- # <i class="fas fa-graduation-cap"></i> Semantic segmentation -->
 
-
-
-
-## <i class='fa fa-map'></i>{background-image="../images/metrics2.png" background-size="1200px"}
-<i class="fas fa-chart-line"></i> Metrics
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-
-Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
-
-
-
-## <i class='fa fa-map'></i>{background-image="../images/metrics3.png" background-size="1200px"}
-<i class="fas fa-chart-line"></i> Metrics
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
-
-Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
 
 # <i class="fas fa-globe-africa"></i> Dataset
 
@@ -248,30 +229,50 @@ Quincy
 [USA]
 
 
-# <i class="fas fa-hand-point-down"></i> Results
+# <i class="fas fa-hand-point-down"></i> Analysis & Results
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/metrics2.png" background-size="1200px"}
+<i class="fas fa-chart-line"></i> Metrics
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/metrics3.png" background-size="1200px"}
+<i class="fas fa-chart-line"></i> Metrics
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reinke et al.)
 
 ## <i class="fas fa-hand-point-down"></i>
 
-:::: {.columns}
+<i class="fas fa-hourglass-half"></i> Training
 
-::: {.column width="35%"}
-::: 
+|[]()    |        |
+|--------|--------|
+| **Urban regions**  | all (25) |
+| **N. of epochs**  | 20   |
+| **Batch sizes**    |      4 <br> (2, 4, 8, 16) | 
+| **Accuracy metrics**   | 5 <br>Categorical accuracy, Precision,<br>Recall, F1 Score, IoU  |
+|[]()    |        |
 
-::: {.column width="50%"}
-<br/><br/>
 
-<i class="far fa-square"></i> Urbanity
+## <i class="fas fa-hand-point-down"></i> </i>{background-image="../images/graph_sample.png" background-size="900px"}
 
-<i class="far fa-square"></i> Roof type
+<i class='fa fa-chart-bar'></i>
 
-<i class="far fa-square"></i> Density
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/graph_with_circle2.png" background-size="900px"}
 
-:::
+<i class='fa fa-chart-bar'></i>
 
-::: {.column width="15%"}
-:::
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2.png" background-size="800px"}
 
-::::
+<i class='fa fa-chart-bar'></i>
+
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2_withscore.png" background-size="800px"}
+
+<i class='fa fa-chart-bar'></i>
 
 ## <i class="fas fa-hand-point-down"></i>
 
@@ -296,10 +297,6 @@ Quincy
 
 ::::
 
-
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2.png" background-size="800px"}
-
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2_withscore.png" background-size="800px"}
 
 ## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi1.png" background-size="1200px"}
 
@@ -399,6 +396,18 @@ Kakuma
 Kakuma
 
 [Kenya]
+
+## <i class="fas fa-hand-point-down"></i>
+
+<i class="far fa-paper-plane"></i> Future
+
+<br/>
+<br/>
+
+:::{.r-stack}
+<i class="fas fa-cogs"></i> Alternative models <br> <br><i class="fas fa-tree"></i> <i class="fas fa-water"></i>  Other features
+:::
+
 
 
 # <i class="fas fa-praying-hands"></i> THANK YOU
