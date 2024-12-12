@@ -11,7 +11,7 @@
     "href": "HOTwebinar_Dec2024/slides.html#section-6",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Accuracy?"
+    "text": "What is affecting fAIr performance?"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-8",
@@ -32,154 +32,140 @@
     "href": "HOTwebinar_Dec2024/slides.html#section-10",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+    "text": "Urban regions\n25\n\n\nCountries\n21\n\n\nZoom levels\n19, 20, 21\n\n\nN. images\n8400  (~350 per region)\n\n\nImages size\n256x256\n\n\nResolution\ncm"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-11",
     "href": "HOTwebinar_Dec2024/slides.html#section-11",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+    "text": "Locations"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-12",
     "href": "HOTwebinar_Dec2024/slides.html#section-12",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Urban regions\n25\n\n\nCountries\n21\n\n\nZoom levels\n19, 20, 21\n\n\nN. images\n8400  (~350 per region)\n\n\nImages size\n256x256\n\n\nResolution\ncm"
+    "text": "Degree of urbanity"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-13",
     "href": "HOTwebinar_Dec2024/slides.html#section-13",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Locations"
+    "text": "Rural\n Desa Kulaba\n[Indonesia]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-14",
     "href": "HOTwebinar_Dec2024/slides.html#section-14",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Degree of urbanity"
+    "text": "Peri-urban\n Ggaba\n[Uganda]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-15",
     "href": "HOTwebinar_Dec2024/slides.html#section-15",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Rural\n Desa Kulaba\n[Indonesia]"
+    "text": "Urban\n Bogota\n[Colombia]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-16",
     "href": "HOTwebinar_Dec2024/slides.html#section-16",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Peri-urban\n Ggaba\n[Uganda]"
+    "text": "Refugee camp\n Kakuma\n[Kenya]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-17",
     "href": "HOTwebinar_Dec2024/slides.html#section-17",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Urban\n Bogota\n[Colombia]"
+    "text": "Roof cover type"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-18",
     "href": "HOTwebinar_Dec2024/slides.html#section-18",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Refugee camp\n Kakuma\n[Kenya]"
+    "text": "Shingles\n Silvania\n[Brasil]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-19",
     "href": "HOTwebinar_Dec2024/slides.html#section-19",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Roof cover type"
+    "text": "Metal\n Ngaoundere\n[Cameroon]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-20",
     "href": "HOTwebinar_Dec2024/slides.html#section-20",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Shingles\n Silvania\n[Brasil]"
+    "text": "Cement\n Melbourne\n[Australia]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-21",
     "href": "HOTwebinar_Dec2024/slides.html#section-21",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Metal\n Ngaoundere\n[Cameroon]"
+    "text": "Mixed\n Kutupalong\n[Bangladesh]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-22",
     "href": "HOTwebinar_Dec2024/slides.html#section-22",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Cement\n Melbourne\n[Australia]"
+    "text": "Urban density"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-23",
     "href": "HOTwebinar_Dec2024/slides.html#section-23",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Mixed\n Kutupalong\n[Bangladesh]"
+    "text": "Dense\n Montevideo\n[Uruguay]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-24",
     "href": "HOTwebinar_Dec2024/slides.html#section-24",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Urban density"
+    "text": "Sparse\n Gornja Rijeka\n[Croatia]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-25",
     "href": "HOTwebinar_Dec2024/slides.html#section-25",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Dense\n Montevideo\n[Uruguay]"
+    "text": "Grid\n Quincy\n[USA]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-26",
     "href": "HOTwebinar_Dec2024/slides.html#section-26",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Sparse\n Gornja Rijeka\n[Croatia]"
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-27",
     "href": "HOTwebinar_Dec2024/slides.html#section-27",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Grid\n Quincy\n[USA]"
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-28",
     "href": "HOTwebinar_Dec2024/slides.html#section-28",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Urbanity\n Roof type\n Density"
-  },
-  {
-    "objectID": "HOTwebinar_Dec2024/slides.html#section-29",
-    "href": "HOTwebinar_Dec2024/slides.html#section-29",
-    "title": "AI-assisted mapping of   for OSM",
-    "section": "",
-    "text": "Urbanity\n Roof type\n Density"
-  },
-  {
-    "objectID": "HOTwebinar_Dec2024/slides.html#section-32",
-    "href": "HOTwebinar_Dec2024/slides.html#section-32",
-    "title": "AI-assisted mapping of   for OSM",
-    "section": "",
-    "text": "Banyuwangi\n[Indonesia]"
+    "text": "Training\n\n\n\n\n\n\n\n\n\nUrban regions\nall (25)\n\n\nN. of epochs\n20\n\n\nBatch sizes\n4  (2, 4, 8, 16)\n\n\nAccuracy metrics\n5 Categorical accuracy, Precision,Recall, F1 Score, IoU"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-33",
     "href": "HOTwebinar_Dec2024/slides.html#section-33",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Banyuwangi\n[Indonesia]"
+    "text": "Urbanity\n Roof type\n Density"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-34",
@@ -200,14 +186,14 @@
     "href": "HOTwebinar_Dec2024/slides.html#section-36",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Pallaby, Dhaka\n[Bangladesh]"
+    "text": "Banyuwangi\n[Indonesia]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-37",
     "href": "HOTwebinar_Dec2024/slides.html#section-37",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Pallaby, Dhaka\n[Bangladesh]"
+    "text": "Banyuwangi\n[Indonesia]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-38",
@@ -228,41 +214,62 @@
     "href": "HOTwebinar_Dec2024/slides.html#section-40",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Denver\n[USA]"
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-41",
     "href": "HOTwebinar_Dec2024/slides.html#section-41",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Denver\n[USA]"
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-42",
     "href": "HOTwebinar_Dec2024/slides.html#section-42",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Pergamino\n[Argentina]"
+    "text": "Denver\n[USA]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-43",
     "href": "HOTwebinar_Dec2024/slides.html#section-43",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Pergamino\n[Argentina]"
+    "text": "Denver\n[USA]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-44",
     "href": "HOTwebinar_Dec2024/slides.html#section-44",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "Kakuma\n[Kenya]"
+    "text": "Pergamino\n[Argentina]"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-45",
     "href": "HOTwebinar_Dec2024/slides.html#section-45",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
+    "text": "Pergamino\n[Argentina]"
+  },
+  {
+    "objectID": "HOTwebinar_Dec2024/slides.html#section-46",
+    "href": "HOTwebinar_Dec2024/slides.html#section-46",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
     "text": "Kakuma\n[Kenya]"
+  },
+  {
+    "objectID": "HOTwebinar_Dec2024/slides.html#section-47",
+    "href": "HOTwebinar_Dec2024/slides.html#section-47",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Kakuma\n[Kenya]"
+  },
+  {
+    "objectID": "HOTwebinar_Dec2024/slides.html#section-48",
+    "href": "HOTwebinar_Dec2024/slides.html#section-48",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Future\n \n\n Alternative models    Other features"
   }
 ]
