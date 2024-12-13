@@ -11,7 +11,7 @@
     "href": "HOTwebinar_Dec2024/slides.html#section-6",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
-    "text": "What is affecting fAIr performance?"
+    "text": "What is affecting fAIr’s performance?"
   },
   {
     "objectID": "HOTwebinar_Dec2024/slides.html#section-8",
@@ -161,8 +161,8 @@
     "text": "Training\n\n\n\n\n\n\n\n\n\nUrban regions\nall (25)\n\n\nN. of epochs\n20\n\n\nBatch sizes\n4  (2, 4, 8, 16)\n\n\nAccuracy metrics\n5 Categorical accuracy, Precision,Recall, F1 Score, IoU"
   },
   {
-    "objectID": "HOTwebinar_Dec2024/slides.html#section-33",
-    "href": "HOTwebinar_Dec2024/slides.html#section-33",
+    "objectID": "HOTwebinar_Dec2024/slides.html#section-32",
+    "href": "HOTwebinar_Dec2024/slides.html#section-32",
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
     "text": "Urbanity\n Roof type\n Density"
