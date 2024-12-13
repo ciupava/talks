@@ -58,7 +58,7 @@ css: style.scss
 <br/><br/><br/><br/>
 <br/><br/><br/>
 
-[https://fair-dev.hotosm.org/](https://fair.hotosm.org/)
+[https://fair.hotosm.org/](https://fair.hotosm.org/)
 
 ## <i class='fa fa-map'></i>{background-image="../images/fair_sample2.png" background-size="1200px" background-color="black"}
 
