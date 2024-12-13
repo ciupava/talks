@@ -58,7 +58,7 @@ css: style.scss
 <br/><br/><br/><br/>
 <br/><br/><br/>
 
-[https://fair-dev.hotosm.org/](https://fair-dev.hotosm.org/)
+[https://fair-dev.hotosm.org/](https://fair.hotosm.org/)
 
 ## <i class='fa fa-map'></i>{background-image="../images/fair_sample2.png" background-size="1200px" background-color="black"}
 
@@ -83,7 +83,7 @@ css: style.scss
 ::: {.column width="50%"}
 <br/><br/>
 <br/><br/>
- What is affecting fAIr performance?
+ What is affecting fAIr's performance?
 
 :::
 
@@ -270,10 +270,6 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 
 <i class='fa fa-chart-bar'></i>
 
-## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2_withscore.png" background-size="800px"}
-
-<i class='fa fa-chart-bar'></i>
-
 ## <i class="fas fa-hand-point-down"></i>
 
 :::: {.columns}
@@ -297,6 +293,9 @@ Source: [https://metrics-reloaded.dkfz.de/metric-library](Metric reloaded, Reink
 
 ::::
 
+## <i class="fas fa-hand-point-down"></i>{background-image="../images/plot_map_density2_withscore.png" background-size="800px"}
+
+<i class='fa fa-chart-bar'></i>
 
 ## <i class="far fa-thumbs-down"></i>{background-image="../images/Banyuwangi1.png" background-size="1200px"}
 
