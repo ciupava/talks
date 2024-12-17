@@ -271,5 +271,852 @@
     "title": "AI-assisted mapping of   for OSM",
     "section": "",
     "text": "Future\n \n\n Alternative models    Other features"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-1",
+    "href": "GeoMobLON_Sep2024/slides.html#section-1",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "fAIr\n \nhttps://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-3",
+    "href": "GeoMobLON_Sep2024/slides.html#section-3",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "RGB from OAM   Open Aerial Map"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-4",
+    "href": "GeoMobLON_Sep2024/slides.html#section-4",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Labels from OSM   Preprocessing fAIr website"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-9",
+    "href": "GeoMobLON_Sep2024/slides.html#section-9",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "How accurate is fAIr in detecting buildings\nin different conditions?"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-10",
+    "href": "GeoMobLON_Sep2024/slides.html#section-10",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-11",
+    "href": "GeoMobLON_Sep2024/slides.html#section-11",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-12",
+    "href": "GeoMobLON_Sep2024/slides.html#section-12",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Locations"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-13",
+    "href": "GeoMobLON_Sep2024/slides.html#section-13",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Degree of urbanity"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-14",
+    "href": "GeoMobLON_Sep2024/slides.html#section-14",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Rural\n Desa Kulaba\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-15",
+    "href": "GeoMobLON_Sep2024/slides.html#section-15",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Peri-urban\n Ggaba\n[Uganda]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-16",
+    "href": "GeoMobLON_Sep2024/slides.html#section-16",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Urban\n Bogota\n[Colombia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-17",
+    "href": "GeoMobLON_Sep2024/slides.html#section-17",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Refugee camp\n Kakuma\n[Kenya]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-18",
+    "href": "GeoMobLON_Sep2024/slides.html#section-18",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Roof cover type"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-19",
+    "href": "GeoMobLON_Sep2024/slides.html#section-19",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Shingles\n Silvania\n[Brasil]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-20",
+    "href": "GeoMobLON_Sep2024/slides.html#section-20",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Metal\n Ngaoundere\n[Cameroon]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-21",
+    "href": "GeoMobLON_Sep2024/slides.html#section-21",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Cement\n Melbourne\n[Australia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-22",
+    "href": "GeoMobLON_Sep2024/slides.html#section-22",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Mixed\n Kutupalong\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-23",
+    "href": "GeoMobLON_Sep2024/slides.html#section-23",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Urban density"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-24",
+    "href": "GeoMobLON_Sep2024/slides.html#section-24",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Dense\n Montevideo\n[Uruguay]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-25",
+    "href": "GeoMobLON_Sep2024/slides.html#section-25",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Sparse\n Gornja Rijeka\n[Croatia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-26",
+    "href": "GeoMobLON_Sep2024/slides.html#section-26",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Grid\n Quincy\n[USA]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-27",
+    "href": "GeoMobLON_Sep2024/slides.html#section-27",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Urbanity\n Roof type\n Density"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-30",
+    "href": "GeoMobLON_Sep2024/slides.html#section-30",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Banyuwangi\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-31",
+    "href": "GeoMobLON_Sep2024/slides.html#section-31",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Banyuwangi\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-32",
+    "href": "GeoMobLON_Sep2024/slides.html#section-32",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Banyuwangi\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-33",
+    "href": "GeoMobLON_Sep2024/slides.html#section-33",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Banyuwangi\n[Indonesia]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-34",
+    "href": "GeoMobLON_Sep2024/slides.html#section-34",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-35",
+    "href": "GeoMobLON_Sep2024/slides.html#section-35",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-36",
+    "href": "GeoMobLON_Sep2024/slides.html#section-36",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-37",
+    "href": "GeoMobLON_Sep2024/slides.html#section-37",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-38",
+    "href": "GeoMobLON_Sep2024/slides.html#section-38",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Denver\n[USA]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-39",
+    "href": "GeoMobLON_Sep2024/slides.html#section-39",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Denver\n[USA]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-40",
+    "href": "GeoMobLON_Sep2024/slides.html#section-40",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pergamino\n[Argentina]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-41",
+    "href": "GeoMobLON_Sep2024/slides.html#section-41",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Pergamino\n[Argentina]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-42",
+    "href": "GeoMobLON_Sep2024/slides.html#section-42",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Kakuma\n[Kenya]"
+  },
+  {
+    "objectID": "GeoMobLON_Sep2024/slides.html#section-43",
+    "href": "GeoMobLON_Sep2024/slides.html#section-43",
+    "title": "AI-assisted mapping of   for OSM",
+    "section": "",
+    "text": "Kakuma\n[Kenya]"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section",
+    "href": "ml4eo24/slides.html#section",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "HOT"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-1",
+    "href": "ml4eo24/slides.html#section-1",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "fAIr \n \nhttps://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-2",
+    "href": "ml4eo24/slides.html#section-2",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "ML engine\n \nhttps://rampml.global/"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-3",
+    "href": "ml4eo24/slides.html#section-3",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "ML engine\n \n2020 paper by Baheti et al."
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-4",
+    "href": "ml4eo24/slides.html#section-4",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Reason for research"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-8",
+    "href": "ml4eo24/slides.html#section-8",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "How accurate is fAIr in detecting buildings\nin different conditions?"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-9",
+    "href": "ml4eo24/slides.html#section-9",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Data"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-10",
+    "href": "ml4eo24/slides.html#section-10",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "RGB from OAM   Open Aerial Map"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-11",
+    "href": "ml4eo24/slides.html#section-11",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Labels from OSM   Preprocessing through fAIr website"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-12",
+    "href": "ml4eo24/slides.html#section-12",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Dataset\n\n\n\n\n\n\n\n\n\nUrban regions\n25\n\n\nCountries\n21\n\n\nZoom levels\n19, 20, 21\n\n\nN. images\n8400  (~350 per region)\n\n\nImages size\n256x256\n\n\nResolution\ncm"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-13",
+    "href": "ml4eo24/slides.html#section-13",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Locations"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-14",
+    "href": "ml4eo24/slides.html#section-14",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Categories"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-15",
+    "href": "ml4eo24/slides.html#section-15",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Rural\nDesa Kulaba"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-16",
+    "href": "ml4eo24/slides.html#section-16",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Peri-urban\nGgaba"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-17",
+    "href": "ml4eo24/slides.html#section-17",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Urban\nBogota"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-18",
+    "href": "ml4eo24/slides.html#section-18",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Refugee camp\nKakuma"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-19",
+    "href": "ml4eo24/slides.html#section-19",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Categories"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-20",
+    "href": "ml4eo24/slides.html#section-20",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Shingles\nSilvania"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-21",
+    "href": "ml4eo24/slides.html#section-21",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Metal\nNgaoundere"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-22",
+    "href": "ml4eo24/slides.html#section-22",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Cement\nMelbourne"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-23",
+    "href": "ml4eo24/slides.html#section-23",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Mixed\nKutupalong"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-24",
+    "href": "ml4eo24/slides.html#section-24",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Categories"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-25",
+    "href": "ml4eo24/slides.html#section-25",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Dense\nMontevideo dense"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-26",
+    "href": "ml4eo24/slides.html#section-26",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Sparse\nGornja Rijeka"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-27",
+    "href": "ml4eo24/slides.html#section-27",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Grid\nQuincy"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-28",
+    "href": "ml4eo24/slides.html#section-28",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Training\n\n\n\n\n\n\n\n\n\nUrban regions\nall (25)\n\n\nN. of epochs\n20\n\n\nBatch sizes\n4  (2, 4, 8, 16)\n\n\nAccuracy metrics\n5 Categorical accuracy, Precision,Recall, F1 Score, IoU"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-31",
+    "href": "ml4eo24/slides.html#section-31",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Urbanity\n Roof type\n Density"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-32",
+    "href": "ml4eo24/slides.html#section-32",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Batch size"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#conclusions-1",
+    "href": "ml4eo24/slides.html#conclusions-1",
+    "title": "Mapping   with fAIr",
+    "section": " Conclusions",
+    "text": "Conclusions\n\n\n\n\n\n\n\n\n\n\n4.8%\n\n\n\n\n4.2%"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#conclusions-2",
+    "href": "ml4eo24/slides.html#conclusions-2",
+    "title": "Mapping   with fAIr",
+    "section": " Conclusions",
+    "text": "Conclusions\n\n\n\n\n\n\n\n\n4.8%\n7.7%\n\nooo\nooo\nIoU\n\n\n4.2%\n7.8%"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-33",
+    "href": "ml4eo24/slides.html#section-33",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Banyuwangi"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-34",
+    "href": "ml4eo24/slides.html#section-34",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Pallaby Dhaka"
+  },
+  {
+    "objectID": "ml4eo24/slides.html#section-35",
+    "href": "ml4eo24/slides.html#section-35",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Future\n\n \n\n Models    Features"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-1",
+    "href": "SoTM24/slides.html#section-1",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Omran (Germany)\nAI Product owner\n\n\n\n\n\n\nKshitij (Nepal)\nBackend developer"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-2",
+    "href": "SoTM24/slides.html#section-2",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "fAIr\n \nhttps://fair-dev.hotosm.org/"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-4",
+    "href": "SoTM24/slides.html#section-4",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "RGB from OAM   Open Aerial Map"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-5",
+    "href": "SoTM24/slides.html#section-5",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Labels from OSM   Preprocessing through fAIr website"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-6",
+    "href": "SoTM24/slides.html#section-6",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "ML engine\n \nhttps://rampml.global/"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-7",
+    "href": "SoTM24/slides.html#section-7",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "2020 paper by Baheti et al."
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-8",
+    "href": "SoTM24/slides.html#section-8",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Reason for research"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-12",
+    "href": "SoTM24/slides.html#section-12",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "How accurate is fAIr in detecting buildings\nin different conditions?"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-13",
+    "href": "SoTM24/slides.html#section-13",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-14",
+    "href": "SoTM24/slides.html#section-14",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Metrics  \nSource: https://metrics-reloaded.dkfz.de/metric-library"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-15",
+    "href": "SoTM24/slides.html#section-15",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Urban regions\n25\n\n\nCountries\n21\n\n\nZoom levels\n19, 20, 21\n\n\nN. images\n8400  (~350 per region)\n\n\nImages size\n256x256\n\n\nResolution\ncm"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-16",
+    "href": "SoTM24/slides.html#section-16",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Locations"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-17",
+    "href": "SoTM24/slides.html#section-17",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Degree of urbanity"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-18",
+    "href": "SoTM24/slides.html#section-18",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Rural\n Desa Kulaba\n[Indonesia]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-19",
+    "href": "SoTM24/slides.html#section-19",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Peri-urban\n Ggaba\n[Uganda]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-20",
+    "href": "SoTM24/slides.html#section-20",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Urban\n Bogota\n[Colombia]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-21",
+    "href": "SoTM24/slides.html#section-21",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Refugee camp\n Kakuma\n[Kenya]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-22",
+    "href": "SoTM24/slides.html#section-22",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Roof cover type"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-23",
+    "href": "SoTM24/slides.html#section-23",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Shingles\n Silvania\n[Brasil]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-24",
+    "href": "SoTM24/slides.html#section-24",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Metal\n Ngaoundere\n[Cameroon]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-25",
+    "href": "SoTM24/slides.html#section-25",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Cement\n Melbourne\n[Australia]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-26",
+    "href": "SoTM24/slides.html#section-26",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Mixed\n Kutupalong\n[Bangladesh]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-27",
+    "href": "SoTM24/slides.html#section-27",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Urban density"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-28",
+    "href": "SoTM24/slides.html#section-28",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Dense\n Montevideo\n[Uruguay]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-29",
+    "href": "SoTM24/slides.html#section-29",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Sparse\n Gornja Rijeka\n[Croatia]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-30",
+    "href": "SoTM24/slides.html#section-30",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Grid\n Quincy\n[USA]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-31",
+    "href": "SoTM24/slides.html#section-31",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Training\n\n\n\n\n\n\n\n\n\nUrban regions\nall (25)\n\n\nN. of epochs\n20\n\n\nBatch sizes\n4  (2, 4, 8, 16)\n\n\nAccuracy metrics\n5 Categorical accuracy, Precision,Recall, F1 Score, IoU"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-34",
+    "href": "SoTM24/slides.html#section-34",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Urbanity\n Roof type\n Density"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-35",
+    "href": "SoTM24/slides.html#section-35",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Batch size"
+  },
+  {
+    "objectID": "SoTM24/slides.html#conclusions-1",
+    "href": "SoTM24/slides.html#conclusions-1",
+    "title": "Mapping   with fAIr",
+    "section": " Conclusions",
+    "text": "Conclusions\n\n\n\n\n\n\n\n\n4.8%\n\n\n\n\n4.2%"
+  },
+  {
+    "objectID": "SoTM24/slides.html#conclusions-2",
+    "href": "SoTM24/slides.html#conclusions-2",
+    "title": "Mapping   with fAIr",
+    "section": " Conclusions",
+    "text": "Conclusions\n\n\n\n\n\n\n\n\n4.8%\n7.7%\n\nooo\nooo\nIoU\n\n\n4.2%\n7.8%"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-36",
+    "href": "SoTM24/slides.html#section-36",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Banyuwangi\n[Indonesia]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-37",
+    "href": "SoTM24/slides.html#section-37",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Pallaby, Dhaka\n[Bangladesh]"
+  },
+  {
+    "objectID": "SoTM24/slides.html#section-38",
+    "href": "SoTM24/slides.html#section-38",
+    "title": "Mapping   with fAIr",
+    "section": "",
+    "text": "Future\n \n\n Models    Features"
+  },
+  {
+    "objectID": "mapathon_Jan2024/slides.html#useful-links",
+    "href": "mapathon_Jan2024/slides.html#useful-links",
+    "title": "Creating labels for fAir",
+    "section": "Useful links",
+    "text": "Useful links\n\nLink to fAIr website\nLink to OpenAerialMap OAM\nLink to Openstreetmap OSM"
+  },
+  {
+    "objectID": "mapathon_Jan2024/slides.html#workflow-live-demo",
+    "href": "mapathon_Jan2024/slides.html#workflow-live-demo",
+    "title": "Creating labels for fAir",
+    "section": "Workflow (live demo):",
+    "text": "Workflow (live demo):\n\nchoose imagery in OAM\ncompare with OSM data availability\nget TMS link from OAM to be used in the fAIr website\ngenerate new training dataset in fAIr\nmap map map!"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#intro-1",
+    "href": "UA20_Liverpool/slides.html#intro-1",
+    "title": "Land Use Demonstrator",
+    "section": "Intro",
+    "text": "Intro\n\n\n\n\n\n\n\n\nObjective\nmodelling system to quantify features of land use in 🏢 environment\n\n\n\n\n\n\n\n\n\n\n\n\nOutput\nMap for 🇬🇧 urban areas (MSOA level)"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#intro-2",
+    "href": "UA20_Liverpool/slides.html#intro-2",
+    "title": "Land Use Demonstrator",
+    "section": "Intro",
+    "text": "Intro\n\n\n\n\n\n\n\n\nObjective\nmodelling system to quantify features of land use in 🏢 environment\n\n\n\n\n\n\n\n\n\n\n\nOutput\nMap for 🇬🇧 urban areas (MSOA level)\n\n\n\n\n\n\n\n\n\n\n\nHow\nBuilding several 🔑 indicators"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#indicators-1",
+    "href": "UA20_Liverpool/slides.html#indicators-1",
+    "title": "Land Use Demonstrator",
+    "section": "Indicators",
+    "text": "Indicators\n\n\n\nbase scenario \n\n\nfuture scenario"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#indicators-2",
+    "href": "UA20_Liverpool/slides.html#indicators-2",
+    "title": "Land Use Demonstrator",
+    "section": "Indicators",
+    "text": "Indicators\n\n\n\nbase scenario \n\n\nfuture scenario"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#indicators-3",
+    "href": "UA20_Liverpool/slides.html#indicators-3",
+    "title": "Land Use Demonstrator",
+    "section": "Indicators",
+    "text": "Indicators\n\n\n\nbase scenario \n\n\nfuture scenario"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#indicators-4",
+    "href": "UA20_Liverpool/slides.html#indicators-4",
+    "title": "Land Use Demonstrator",
+    "section": "Indicators",
+    "text": "Indicators\n\n\n\nbase scenario \n\n\nfuture scenario"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#base-scenario",
+    "href": "UA20_Liverpool/slides.html#base-scenario",
+    "title": "Land Use Demonstrator",
+    "section": "Base scenario",
+    "text": "Base scenario\n\n\n\n\n\n\nLand Use Regression         👇   land use as explanatory variables"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#base-scenario-1",
+    "href": "UA20_Liverpool/slides.html#base-scenario-1",
+    "title": "Land Use Demonstrator",
+    "section": "Base scenario",
+    "text": "Base scenario\n\n\n\n\n\n\n4 indicators  ▫️ GHG emissions 💨 ▫️ Green space       accessibility 🌳 ▫️ Jobs accessibility 👷 ▫️ House prices 🏠 💰"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#base-scenario-2",
+    "href": "UA20_Liverpool/slides.html#base-scenario-2",
+    "title": "Land Use Demonstrator",
+    "section": "Base scenario",
+    "text": "Base scenario\n\n\n\n      \n\n\n4 indicators  ▫️ GHG emissions 💨 ▫️ Green space       accessibility 🌳 ▫️ Jobs accessibility 👷 ▫️ House prices 🏠 💰"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#base-scenario-3",
+    "href": "UA20_Liverpool/slides.html#base-scenario-3",
+    "title": "Land Use Demonstrator",
+    "section": "Base scenario",
+    "text": "Base scenario\n\n\n\n Indicator  GHG emissions 💨\n\n\n Land use variables  • n. of trips  • mode of transport    🚲 🚗 🚌 🚀  • distance travelled"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#futures-scenarios",
+    "href": "UA20_Liverpool/slides.html#futures-scenarios",
+    "title": "Land Use Demonstrator",
+    "section": "Futures scenarios",
+    "text": "Futures scenarios"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#futures-scenarios-1",
+    "href": "UA20_Liverpool/slides.html#futures-scenarios-1",
+    "title": "Land Use Demonstrator",
+    "section": "Futures scenarios",
+    "text": "Futures scenarios\n\n\n\n     \n\n\n effects of targeted intervention on land use"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#futures-scenarios-2",
+    "href": "UA20_Liverpool/slides.html#futures-scenarios-2",
+    "title": "Land Use Demonstrator",
+    "section": "Futures scenarios",
+    "text": "Futures scenarios\n\n\n\n   \n\n\n AI scenario builder tool"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#conclusions-1",
+    "href": "UA20_Liverpool/slides.html#conclusions-1",
+    "title": "Land Use Demonstrator",
+    "section": "Conclusions",
+    "text": "Conclusions\n\n\n\n                👀 👂"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#conclusions-2",
+    "href": "UA20_Liverpool/slides.html#conclusions-2",
+    "title": "Land Use Demonstrator",
+    "section": "Conclusions",
+    "text": "Conclusions\n\n\n\n                👀 👂\n\n\n project name 💬"
+  },
+  {
+    "objectID": "UA20_Liverpool/slides.html#conclusions-3",
+    "href": "UA20_Liverpool/slides.html#conclusions-3",
+    "title": "Land Use Demonstrator",
+    "section": "Conclusions",
+    "text": "Conclusions\n\n\n\n                👀 👂\n\n\nData (MSOA level)  ▫️ GHG emissions 💨 ☑️  Green space       accessibility 🌳 ▫️ Jobs accessibility 👷 ▫️ House prices 🏠 💰"
   }
 ]
