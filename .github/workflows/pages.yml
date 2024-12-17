@@ -23,7 +23,7 @@ jobs:
     - name: Render
       run: |
         mkdir -p dist
-        for x in HOTwebinar_Dec2024; do
+        for x in HOTwebinar_Dec2024 GeoMobLON_Sep2024 ml4eo24 SoTM24 mapathon_Jan2024 UA20_Liverpool; do
           cd $x
           quarto render slides.md
           cd ..
