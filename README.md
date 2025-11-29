@@ -1,6 +1,8 @@
-This repo contains a link to the presentations and talks I have given more or less recently.
+This repo contains a link to the presentations and talks I have given in the last years.
 
 # List of presentations given, with link to slides
+
+- Two talks given at SOTM Europe 2025, Dundee UK _(November 2025)_ [Maptcha](https://github.com/ciupava/talks/blob/main/SoTMEU25_Maptcha.pdf) and [fAIr research](https://github.com/ciupava/talks/blob/main/SoTMEU25_fAIrResearch.pdf)
 
 - Slides for the talk at HOTOSM Webinar _(December 2024)_ [slides](https://ciupava.github.io/talks/HOTwebinar_Dec2024/slides.html)
 
